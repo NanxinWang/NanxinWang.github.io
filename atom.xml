@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-15T05:26:33.220Z</updated>
+    <updated>2020-10-15T08:21:42.252Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[Python 的第一次成功应用]]></title>
+        <id>https://NanxinWang.github.io/post/KG3Ldkp9R/</id>
+        <link href="https://NanxinWang.github.io/post/KG3Ldkp9R/">
+        </link>
+        <updated>2020-10-15T08:20:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Python 的第一次成功应用</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Python 的第一次成功应用</p>
+<!--more-->
+<p>生活远远不止是翻译。因为对技术的无限制崇拜，自己也研究了些许编程语言。接触 Python 大约是一年前，不过也仅仅是学了学基础的概念，做了些课堂即可完成的小项目（比如设定一个 random 参数，然后自娱自乐之类的）。之后，或许是学业上的压力（主要是指论文），或许是觉得性价比不高（目的性太弱），自己对于 Python 其实一直没有太过于重视，其地位大约就相当于一个伪足球爱好者眼中的欧冠一样——虽然我知道这东西很牛，但是要让我凌晨三点起床看球，难度不小（09 年之前的我，或许凭借热情，还可以做到）。至于 Python 的自动化办公处理以及爬虫等等，只远观，未实操。</p>
+<p>不过转念一想，似乎通过对 Python 的学习，自己对于计算机的理解却在逐渐加深。</p>
+<p>大约是第二次实习的时候，迫于实习要求，需要每天下载 500 篇文献，交给上级...（这个实习单位的弯弯肠子，嗯，不提也罢）</p>
+<p>第一天我老老实实地复制名字、下载，保存和重命名....大约用了 6 个小时；同期实习的另一位小伙伴大概比我时间久些。</p>
+<p>第二天，大概下载了 100 篇之后，我觉得我的生命正在被这种毫无价值（于我而言）的事情蹉跎。即便我熟练度再高，也不过是节约个把小时，我不甘心。</p>
+<p>然后我就没有下载了，转身去找别人的代码，然后自己改改，尝试自动化处理。</p>
+<p>当然了，由于自己没有太多的代码基础，最后，大约也只是实现了 1-2 分钟下载一篇的功能（不得不说，论文下载网站，比如 CxxI，他们对我这级别的小打小闹，毫不在意）...由于每天工作 8 小时，每次自动化下载，按最快速度，也就是 480 篇。最终 Python 并没有完全帮到我——当然了，也减轻了我的负担——比如我在吃饭的时候，还是可以跑一跑的...）</p>
+<p>之后，就忙着写论文，做翻译实践，似乎 Python 再次离我远去了...</p>
+<p>今天，似乎又有了些许转机。花花的大姐因为工作需要，不得不下载主流视频网站的视频。然而因为视频商的各种保护措施，都很难实现视频的完全下载（即完整视频、通用格式）。</p>
+<p>一开始，我尝试了所谓的缓存法（F12-审查元素），发现非程序员但不惧怕看代码的我，都嫌弃其步骤的琐碎。后来又跟着官方教程，下载视频程序，却发现下载的视频，是别人的独有格式，无法实现通用播放。</p>
+<p>是时候展现真正的技术了！</p>
+<p><strong>搜索能力先行</strong></p>
+<p>首先，我测试了脚本法（油猴和 Chrome 自带的应用），全军覆没。</p>
+<p>然后，我找到了 http://www.downfi.com/video/ ，一个小视频下载网站。暂时可以解决问题。不过，经测试，有些视频查不到，且无法下载长视频。</p>
+<p>我的心中，突然出现一句话：“<strong>要不，试试 Python 吧</strong>，毕竟爬虫界的 No.1。”</p>
+<p>搜索之后，发现有一个 you-get 的工具，似乎符合我的要求。</p>
+<p>立马打开我的 Visual Studio Code，pip3 install you-get，然后按照教程，you-get (url)。</p>
+<p>我的天啊！</p>
+<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5Csteve%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1560915451697.png" alt="1560915451697" loading="lazy"></figure>
+<p>连自动合并都帮我处理好了。我的 Python 之旅，似乎才刚刚开始。</p>
+<p>作者简介：</p>
+<p><strong>英语专业八级</strong></p>
+<p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
+<p><strong>人事部三级英语口译资格证书持证</strong></p>
+<p>四川外国语大学成都学院翻译系英语（翻译方向）专业</p>
+<p>重庆医科大学外国语学院英语笔译专业</p>
+<p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
+<p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
+<p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
+<p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
+<p>工作邮箱：wnxcn@foxmail.com</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[校对随笔-20190612]]></title>
         <id>https://NanxinWang.github.io/post/eW4aGhHSJ/</id>
