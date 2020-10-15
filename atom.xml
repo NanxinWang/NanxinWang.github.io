@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Gridea</title>
-    <updated>2020-10-15T01:35:04.094Z</updated>
+    <updated>2020-10-15T01:36:43.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,4 +10,21 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[自我介绍]]></title>
+        <id>https://NanxinWang.github.io/post/self_intro/</id>
+        <link href="https://NanxinWang.github.io/post/self_intro/">
+        </link>
+        <updated>2020-10-15T01:31:59.000Z</updated>
+        <content type="html"><![CDATA[<p>你好，很高兴能够在这里遇见你。为了更好的交流，我先行在此自我介绍。</p>
+<p>我，常住四川成都。本科的时候醉心于志愿服务，浑浑噩噩，压线过了专四专八。大四猛然惊醒，分析一番后，决定走上翻译路。</p>
+<p>然基础不足，第一次考研几分惜败。后工作于文思海辉，五音不全的我成了QQ音乐歌词翻译。加班成瘾后，又成了年度新人。</p>
+<p>不过，还是想趁年轻拼一把。二战川大，一分惜败。感谢重医收留，也给了翻译新方向，医学。</p>
+<p>读研期间，基概临概，医学词汇、文献阅读、翻译，各科倒也逐步深入。同期也过了人事部的三级、二级英语笔译和三级英语口译。</p>
+<p>翻译愈久，对翻译爱愈深。</p>
+<p>先后实习于重庆润泽、成都ECI，都是医学翻译；庆幸重医资源，也得不少口译机会。</p>
+<p>感谢生活，我们一同进步。</p>
+<p>工作邮箱：wnxcn@foxmail.com</p>
+]]></content>
+    </entry>
 </feed>
