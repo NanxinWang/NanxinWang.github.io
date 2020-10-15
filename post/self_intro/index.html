@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>自我介绍 | Gridea</title>
+<link rel="shortcut icon" href="https://NanxinWang.github.io/favicon.ico?v=1602725698349">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://NanxinWang.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="自我介绍 | Gridea - Atom Feed" href="https://NanxinWang.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="你好，很高兴能够在这里遇见你。为了更好的交流，我先行在此自我介绍。
+我，常住四川成都。本科的时候醉心于志愿服务，浑浑噩噩，压线过了专四专八。大四猛然惊醒，分析一番后，决定走上翻译路。
+然基础不足，第一次考研几分惜败。后工作于文思海辉，五音不..." />
+    <meta name="keywords" content="杂" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://NanxinWang.github.io">
+  <img class="avatar" src="https://NanxinWang.github.io/images/avatar.png?v=1602725698349" alt="">
+  </a>
+  <h1 class="site-title">
+    Gridea
+  </h1>
+  <p class="site-description">
+    温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              自我介绍
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-10-15
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://NanxinWang.github.io/tag/lmlKEmybp/" class="post-tag">
+                  # 杂
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>你好，很高兴能够在这里遇见你。为了更好的交流，我先行在此自我介绍。</p>
+<p>我，常住四川成都。本科的时候醉心于志愿服务，浑浑噩噩，压线过了专四专八。大四猛然惊醒，分析一番后，决定走上翻译路。</p>
+<p>然基础不足，第一次考研几分惜败。后工作于文思海辉，五音不全的我成了QQ音乐歌词翻译。加班成瘾后，又成了年度新人。</p>
+<p>不过，还是想趁年轻拼一把。二战川大，一分惜败。感谢重医收留，也给了翻译新方向，医学。</p>
+<p>读研期间，基概临概，医学词汇、文献阅读、翻译，各科倒也逐步深入。同期也过了人事部的三级、二级英语笔译和三级英语口译。</p>
+<p>翻译愈久，对翻译爱愈深。</p>
+<p>先后实习于重庆润泽、成都ECI，都是医学翻译；庆幸重医资源，也得不少口译机会。</p>
+<p>感谢生活，我们一同进步。</p>
+<p>工作邮箱：wnxcn@foxmail.com</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://NanxinWang.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
