@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-16T03:01:13.030Z</updated>
+    <updated>2020-10-16T03:01:57.961Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,73 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[医学翻译学习-近期发生心房颤动患者的早期或延迟复律]]></title>
+        <id>https://NanxinWang.github.io/post/nwldCj9_A/</id>
+        <link href="https://NanxinWang.github.io/post/nwldCj9_A/">
+        </link>
+        <updated>2020-10-16T03:01:20.000Z</updated>
+        <summary type="html"><![CDATA[<p>关于“近期发生心房颤动患者的早期或延迟复律”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1900353?query=nejmyxqy">Early or Delayed Cardioversion in Recent-Onset Atrial Fibrillation </a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>关于“近期发生心房颤动患者的早期或延迟复律”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1900353?query=nejmyxqy">Early or Delayed Cardioversion in Recent-Onset Atrial Fibrillation </a></p>
+<!--more-->
+<hr>
+<blockquote>
+<p><strong>背景</strong></p>
+<p>近期发生心房颤动的患者通常通过药物复律或电复律的方式立即恢复窦性心律。然而，窦性心律是否需要立即恢复尚不清楚，因为心房颤动往往会自行终止。</p>
+<p>BACKGROUND</p>
+<p>Patients with recent-onset atrial fibrillation commonly undergo immediate restoration of sinus rhythm by pharmacologic or electrical cardioversion. However, whether immediate restoration of sinus rhythm is necessary is not known, since atrial fibrillation often terminates spontaneously.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>recent-onset	近期发生</li>
+<li>sinus rhythm	窦性心律</li>
+<li>pharmacologic cardioversion	药物复律</li>
+<li>electrical cardioversion	电复律</li>
+<li>第二句的逻辑还是觉得先因后果，比较符合中文习惯</li>
+</ul>
+<p><strong>方法</strong></p>
+<blockquote>
+<p>在一项多中心、随机、开放标签、非劣效性试验中，我们将血流动力学稳定、近期发生（＜36小时）有症状心房颤动的急诊患者随机分组，分别接受观察等待疗法（延迟复律组）或早期复律。观察等待疗法指的是仅使用心率控制药物进行初步治疗，如果心房颤动在48小时内未缓解，则采用延迟复律。主要终点是4周时的窦性心律。如果主要终点组间差异的95%置信区间下限大于－10个百分点，则证实非劣效性。</p>
+<p>METHODS</p>
+<p>In a multicenter, randomized, open-label, noninferiority trial, we randomly assigned patients with hemodynamically stable, recent-onset (&lt;36 hours), symptomatic atrial fibrillation in the emergency department to be treated with a wait-and-see approach (delayed-cardioversion group) or early cardioversion. The wait-and-see approach involved initial treatment with rate-control medication only and delayed cardioversion if the atrial fibrillation did not resolve within 48 hours. The primary end point was the presence of sinus rhythm at 4 weeks. Noninferiority would be shown if the lower limit of the 95% confidence interval for the between-group difference in the primary end point in percentage points was more than −10.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>wait and see approach	观察等待疗法</li>
+<li>第一句话是经典的套路，in a trail, we assigned patients with ... to be treated with A or B</li>
+<li>rate-control medication	心律控制药物</li>
+<li>第二句的involve中文处理为了“指”，有点意思</li>
+<li>the presence of sth.	经典短语</li>
+<li>difference <strong>in</strong></li>
+<li>第三句的中文翻译“如果，则”，没有拘泥于原文，很不错</li>
+</ul>
+<blockquote>
+<p><strong>结果</strong></p>
+<p>4周时，延迟复律组212例患者中的193例（91%）和早期复律组215例患者中的202例（94%）为窦性心律（组间差异，－2.9个百分点；95%置信区间[<em>CI</em>]，－8.2～2.2；对于非劣效性，<em>P</em>=0.005）。在延迟复律组中，218例患者中的150例（69%）在48小时内自发转复为窦性心律，61例（28%）在延迟复律后转复为窦性心律。在早期复律组中，219例患者中的36例（16%）在开始复律前转复为窦性心律，171例（78%）在复律后转复为窦性心律。在4周随访期间完成远程监测的患者中，延迟复律组164例患者中的49例（30%）和早期复律组171例患者中的50例（29%）有心房颤动复发。在随机分组后4周内，两组分别有10例患者和8例患者出现了心血管并发症。</p>
+<p>RESULTS</p>
+<p>The presence of sinus rhythm at 4 weeks <strong>occurred</strong> in 193 of 212 patients (91%) in the delayed-cardioversion group and in 202 of 215 (94%) in the early-cardioversion group (between-group difference, −2.9 percentage points; 95% confidence interval [CI], −8.2 to 2.2; P=0.005 <strong>for</strong> noninferiority). In the delayed-cardioversion group, conversion to sinus rhythm within 48 hours <strong>occurred</strong> spontaneously in 150 of 218 patients (69%) and after delayed cardioversion in 61 patients (28%). In the early-cardioversion group, conversion to sinus rhythm <strong>occurred</strong> spontaneously before the initiation of cardioversion in 36 of 219 patients (16%) and after cardioversion in 171 patients (78%). Among the patients who completed remote monitoring during 4 weeks of follow-up, a recurrence of atrial fibrillation <strong>occurred</strong> in 49 of 164 patients (30%) in the delayed-cardioversion group and in 50 of 171 (29%) in the early-cardioversion group. Within 4 weeks after randomization, cardiovascular complications <strong>occurred</strong> in 10 patients and 8 patients, respectively.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>the presence of sth. occurred in A of B in X group	常见结构</li>
+<li>occur大放异彩</li>
+<li>整体除了术语，没什么难点</li>
+</ul>
+<p><strong>结论</strong></p>
+<blockquote>
+<p>在近期发生有症状心房颤动的急诊患者中，在4周时恢复窦性心律方面，观察等待疗法不劣于早期复律（由荷兰健康研究和开发组织[Netherlands Organization for Health Research and Development]等资助；RACE 7 ACWAS在ClinicalTrials.gov注册号为NCT02248753）。</p>
+<p>CONCLUSIONS</p>
+<p>In patients presenting to the emergency department with recent-onset, symptomatic atrial fibrillation, a wait-and-see approach was noninferior to early cardioversion in achieving a return to sinus rhythm at 4 weeks. (Funded by the Netherlands Organization for Health Research and Development and others; RACE 7 ACWAS ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02248753">NCT02248753</a>.)</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>be noninferior to	不劣于</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[医学翻译学习-近期发生心房颤动患者的早期或延迟复律-讨论]]></title>
         <id>https://NanxinWang.github.io/post/6QB4P8anp/</id>
@@ -2067,94 +2134,6 @@ syndrome remains undetermined.</p>
 <p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
 <p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
 <p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
-<p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
-<p>工作邮箱：wnxcn@foxmail.com</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新的平台]]></title>
-        <id>https://NanxinWang.github.io/post/pIY5GW3mz/</id>
-        <link href="https://NanxinWang.github.io/post/pIY5GW3mz/">
-        </link>
-        <updated>2020-10-15T03:14:12.000Z</updated>
-        <summary type="html"><![CDATA[<p>新的平台，新的记录。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>新的平台，新的记录。</p>
-<!--more-->
-<p>现在主要使用Gridea，原文发于2019-02-26</p>
-<hr>
-<p>上一周看到了有一位TW（technical writer)分享了一篇关于github配合hugo建设个人博客的教程。一瞬间仿佛时间倒流，想起了自己曾经在godaddy买域名，找vps，最后弄了个WordPress的故事....</p>
-<p>虽然毫无疑问，随着域名过期....网站废弃...</p>
-<p>这次看到建设难度不大，就又来试试了。</p>
-<p>在建站的过程中，因为教程基于mac...从一开始就是各种搜索，当然，最后还是成功了。</p>
-<p>这次的坑包括但不限于：</p>
-<ul>
-<li>Github个人仓库前缀建议与自己的username一致</li>
-<li>Github远程仓库与本地仓库连接前，需要SSH公钥，还需要一个token，这个token在开发者选项里才能看到</li>
-<li>theme本地预览正常，推到库里不正常的话，直接把相应theme复制到网页根文件夹即可</li>
-<li>远程库包括本地库其他内容时，Bug没看懂...最后换了个账号....</li>
-</ul>
-<p>还没有踩但是之后应该会遇到的坑，包括但不限于：</p>
-<ul>
-<li>
-<p>个人url指向和DNS设置</p>
-</li>
-<li>
-<p>github库被wall了怎么办</p>
-</li>
-<li>
-<p><s>赞赏码设置问题</s></p>
-<p>（该问题已解决，借助cloudinary即可）</p>
-</li>
-<li>
-<p><s>自动推送设置问题（毕竟每次都要弄下面的代码还是好麻烦啊.....）</s></p>
-</li>
-</ul>
-<pre><code>hugo
-cd public
-git status
-git add .
-git commit -m&quot;&quot;
-git push -u origin master
-</code></pre>
-<p>（该问题已解决，本地写了脚本，然后授权，只用输入一行代码即可）</p>
-<p>脚本名称是deploy.sh，网站根目录，第9行代码中的jane为主题名称，脚本内容如下</p>
-<pre><code>#!/bin/bash
-
-echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-then msg=&quot;$1&quot;
-fi
-
-hugo -t=jane -D
-
-cd public
-git add -A
-git commit -m &quot;$msg&quot;
-git push --force -u origin master
-
-cd ../
-</code></pre>
-<p>一行代码为</p>
-<pre><code>./deploy.sh
-</code></pre>
-<ul>
-<li>
-<p><s>七牛云外链设置</s></p>
-<p>（问题已解决，对比后采用了cloudinary，直接分享链接即可）</p>
-</li>
-</ul>
-<hr>
-<p>作者简介：</p>
-<p>四川外国语大学成都学院翻译系英语（翻译方向）专业</p>
-<p>重庆医科大学外国语学院英语笔译专业</p>
-<p><strong>英语专业八级</strong></p>
-<p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
-<p><strong>人事部三级英语口译资格证书持证</strong></p>
-<p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
-<p>重庆润泽医药有限公司    <strong>医学翻译</strong>实习生（翻译、数据整理）</p>
-<p>成都创思立信信息技术有限公司    医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
 <p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
 <p>工作邮箱：wnxcn@foxmail.com</p>
 ]]></content>
