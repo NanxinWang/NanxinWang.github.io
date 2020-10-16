@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-16T04:37:59.275Z</updated>
+    <updated>2020-10-16T04:41:10.592Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,162 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[校对随笔-20190605]]></title>
+        <id>https://NanxinWang.github.io/post/yG2v7YcSd/</id>
+        <link href="https://NanxinWang.github.io/post/yG2v7YcSd/">
+        </link>
+        <updated>2020-10-16T04:40:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>校对随笔 - 20190605</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>校对随笔 - 20190605</p>
+<!--more-->
+<p>这两天，虽然距离到公司坐班还有些日子，但是任务量已经逐步发展至了全职的任务量。昨天加班到深夜，也就没有单独发文章。</p>
+<p>今天校对相对轻松一些，有些许感受，记录于此。</p>
+<p>今天的主题如下：</p>
+<p><strong>不会用 Google，职业道路变窄不止一点</strong></p>
+<p>在笔译这个行当里，我初窥门道而已。英文的材料，浩瀚无边。如果我们能够合理利用，其实，帮助不止一点点。</p>
+<p>今天校对时遇到一个例子，分享给大家：</p>
+<blockquote>
+<p>外周血淋巴细胞亚群分布</p>
+</blockquote>
+<p>这个词，没有太多医学背景的朋友，其实是有点瘆的。可能直接就处理为</p>
+<ul>
+<li>peripheral blood lymphocyte subsets distribution</li>
+</ul>
+<p>放进谷歌看一下，10 条结果。不得不说，用的人少，就是错的。接着大概看看，似乎 subsets 是复数，可以优化下。</p>
+<ul>
+<li>peripheral <strong>blood</strong> <strong>lymphocyte</strong> <strong>subset</strong> <strong>distribution</strong></li>
+</ul>
+<p>再看，3100 条结果。很好。经常，我们或许就挺在这一步了。但是，上面的翻译，从翻译角度看，其实是属于Noun cluster。再说简单点，名词堆砌，死译，硬译。如果，还想坚持的话，试试 Google 的 filetype:pdf （检索功能），不足十条！</p>
+<p>所以，想凭借这样的翻译躲过 GNMT 的追击，很悬。</p>
+<p><strong>那么怎么办呢？</strong></p>
+<p>逻辑是个好东西，我们来分析下原文</p>
+<ol>
+<li>外周血淋巴细胞亚群分布</li>
+<li>淋巴细胞亚群分布<strong>在</strong>外周血<strong>内</strong></li>
+</ol>
+<p>我们很容易就可以将原文处理为</p>
+<p>lymphocyte subset distribution in peripheral blood</p>
+<p>但是谷歌的结果数，似乎并不支持这样的修改。</p>
+<p>要不，再改改。</p>
+<p>distribution of lymphocyte subsets in peripheral blood</p>
+<p>谷歌结果 6w+，pdf 格式相关文本 6k+。似乎明显比之前的初始版本好些了。</p>
+<p><strong>如何更进一步呢？</strong></p>
+<p>鉴于商业化的译文注定要在绝对质量和绝对时间之间妥协，所以，暂时没有。或许，之后会突然有灵感呢。</p>
+<p>注：文内所有检索时间均为 2019 年 6 月 5 日</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trados 的智能与不智能，全看你 - 调教标点 - 1]]></title>
+        <id>https://NanxinWang.github.io/post/0gGWk_8Kb/</id>
+        <link href="https://NanxinWang.github.io/post/0gGWk_8Kb/">
+        </link>
+        <updated>2020-10-16T04:39:38.000Z</updated>
+        <summary type="html"><![CDATA[<p>关于标点的设置</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>关于标点的设置</p>
+<!--more-->
+<p>Trados 大名鼎鼎，在进行笔译实践的过程中，意义非凡。在大部分时间内，我们都会利用到其核心组件——不是记忆库和术语库（虽然这也是 Trados 的核心组件）——编辑界面。</p>
+<p>有很多同学，在大致了解了 Trados 的逻辑线之后，便迫不及待地开始进行翻译实践。然，常言道，磨刀不误砍柴工。</p>
+<p>今天与大家分享一个有关 Trados 编辑界面中，常见而隐蔽的设置。</p>
+<p>不知道大家是否有过这样的经历：在进行汉英翻译的时候，一旦需要标双引号或单引号，总是有些绝望。因为 Trados 会智能进行更换。最常见的，就是英文引号被直接替换为了中文引号。如果校对别人的稿件，而别人恰巧没有注意这一点。其中酸爽，一言难尽。</p>
+<p>很明显，如果译者、校对没有及时修订，那么一个译文错误就出现了。而这，根本无关译者、校对的中英文水平，而是与译者、校对对 Trados 的熟悉程度息息相关。</p>
+<p>在实际操作的过程中，虽然借助 Xbench，可以找出标点（诸如《》、（）、以及“”等）不完整的情况。但是，直接使用中文引号的情况仍然无法避免。在懂得 Trados 相关设置之前，最有效的办法，可能是在相关翻译、校对任务结束时，用审校栏内的筛选功能，进行逐一筛查。</p>
+<p>但是，这不是我们想要的。<strong>我们辛辛苦苦使用 Trados，是让软件为我们服务的。</strong></p>
+<p>那么，今天的主角即将闪亮登场！</p>
+<p>打开 Trados 后，依次打开“选项” - “编辑器” - “自动更正”。在“自动更正”界面，有一个功能叫做”‘直引号’替换为智能引号“。</p>
+<p>没错，关掉这个功能。</p>
+<p>回到编辑界面，尝试一下。世界美好些了，不是么？</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[做翻译，这是我用的软件（9款）]]></title>
+        <id>https://NanxinWang.github.io/post/eWbMAuCrQ/</id>
+        <link href="https://NanxinWang.github.io/post/eWbMAuCrQ/">
+        </link>
+        <updated>2020-10-16T04:38:52.000Z</updated>
+        <summary type="html"><![CDATA[<p>这是我用的软件，你还有推荐么？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这是我用的软件，你还有推荐么？</p>
+<!--more-->
+<h2 id="序">序</h2>
+<p>一直以来，周围的朋友都觉得我利用电脑做翻译的水平还可以（或许也仅仅是因为周遭对电脑不感兴趣而已）。</p>
+<p>今天，趁着有空，决定对自己工作的常用软件进行一个梳理；进而分享给大家，希望对大家有所帮助。</p>
+<h2 id="no1-trados-2nd-latest-version">No.1 Trados (2nd latest version)</h2>
+<p>在实际进行翻译实践的过程中，我学习了解使用了很多同类<strong>商业</strong>软件，包括但不限于trados (2011、2014、2015、2017，和2019）、memoq （大约是三版，版本号不太清楚）、雪人（学校买的，入门还行，但是界面简陋）、wordfast （在线版和本地版）、Deja vu （仅试用）、smartcat（延迟太高），和YiCat（bug有点多）。最终选择了trados 2019，原因大概有以下几个。</p>
+<ul>
+<li>
+<p>整体功能最为全面<br>
+毕竟属于最早做这一行的公司，所有功能都很能打。</p>
+</li>
+<li>
+<p>适用性最强<br>
+目前接触过的相关企业，一般会用trados，就不会再让你用其他的了（这句话不适用于10年以前开始维护的项目和软件本地化项目）。</p>
+</li>
+</ul>
+<p>而且，会了trados，其他软件就是个界面问题。大家的深层逻辑都是一样的。</p>
+<p>缺点只有两个。</p>
+<ul>
+<li>难学<br>
+当然了，所谓的难学，是相较于其他软件而言的。大约用上个半个月，配合Google，上手就没什么问题了。如果在公司，只做翻译的话，三天足矣。</li>
+<li>贵<br>
+这个没什么好解释的...几大千一款的软件。个人购买，还是要有些积蓄。建议优先体验试用版，然后做出决定。</li>
+</ul>
+<h2 id="no2-xbench">No.2 Xbench</h2>
+<p>不一致，拼写错误，错别字，作为翻译或者校对，我们都非常害怕，因为去观察这些错误既困难又耗时。</p>
+<p>而这一款软件就是一个质量保证软件，根据需求可以调整设置，生成报告。</p>
+<p>而且事实上，我们仅凭借一个邮箱就可以享受为期一个月的正版体验。</p>
+<h2 id="no3-grammarly">No.3 Grammarly</h2>
+<p>实话实说，这一款软件是我在写毕业论文的时候，同学推荐的。而我们实际上说，经常使用的是一款插件。</p>
+<p>这款软件的插件可以内嵌在计算机的word之中，大概只需要十多秒钟的时间，就可以迅速地找到，以美国英语为基础的相关错误，包括但不限于拼写、断句，和基本语法等等。</p>
+<h2 id="no4-坚果云">No.4 坚果云</h2>
+<p>在现实生活当中熟悉我的朋友应该都知道，每当涉及文件保存的时候，我都会推荐这一款软件。</p>
+<p>在使用这款软件之前，我也用过许多同类的商业化软件。当然了，很明显，国外的软件，在国内的主要限制因素是网速；而国内的软件主要的限制因素是开发者的底线。</p>
+<p>最终我选择了坚果云这一款软件，实际上，这款软件也为我带来了很多帮助。</p>
+<h2 id="no5-欧路词典">No.5 欧路词典</h2>
+<p>在知道欧路词典之前，我曾经经常用的有灵格斯和金山词霸。</p>
+<p>然而随着翻译学习的深入，我逐渐发现在实际的翻译工作当中，我经常需要同时查询多本词典。虽然灵格斯也能够满足我的需求，但是这款软件在多平台的适用方面是远远不如欧路词典的。</p>
+<p>在这款词典当中，自己可以添加几十本词典，供翻译所需。唯一限制的条件可能就是对电脑配置的要求了。</p>
+<h2 id="no6-glossary-converter">No.6 Glossary Converter</h2>
+<p>最初知道这款软件，是在四川外国语大学上CAT课时，李老师告知的。</p>
+<p>之后就一直在使用。在实际使用过程当中，我可以很快地将所需要的数据格式，进行转换。</p>
+<h2 id="no7-filelocator">No.7 FileLocator</h2>
+<p>这一款软件我在前两天公众号里也曾经推荐过。</p>
+<p>他最好用的地方在于，如果我存有大量的单语或双语的文本文档，我可以很快地对数据进行检索，进而在不需要网络连接的情况下，获得资料。</p>
+<p>当然限制条件就是首先需要储存大量的文本。</p>
+<h2 id="no8-google-chrome">No.8 Google Chrome</h2>
+<p>这是一款浏览器。大家可能会觉得我这是在滥竽充数，实则不然。</p>
+<p>TamperMonkey、AdBlock、Grammarly、Panel Tabs，和 The Great Suspender等等，都在为你展现一个全新的世界。</p>
+<p>当然了，有一款软件，名字不断改变，目的只有一个（看全英文的世界）。</p>
+<p>这款软件，出于众所周知的原因，不参与记录。但是，属于翻译人电脑基础建设不可分割的一部分。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[校对随笔-20190530]]></title>
+        <id>https://NanxinWang.github.io/post/_Ty77y292/</id>
+        <link href="https://NanxinWang.github.io/post/_Ty77y292/">
+        </link>
+        <updated>2020-10-16T04:38:12.000Z</updated>
+        <summary type="html"><![CDATA[<p>所谓细节决定成败，在翻译中尤为如此。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>所谓细节决定成败，在翻译中尤为如此。</p>
+<!--more-->
+<p>这几天开始接校对稿了。因为全是急件，所以这两天公众号进度也就拉下了。不过因为在岗，也就有了一些体会。在此，给大家分享些个。</p>
+<h2 id="细节-国家局">细节 - 国家局</h2>
+<p>这个关键词，其实是老生常谈。甚至是在本公众号，之前也有所介绍。大家目前较为常见的是CFDA和NMPA。这两个缩略语，其实前者已于2018年9月弃用，转而使用后者。</p>
+<p>译者在翻译或校对时，看到CFDA时，一定要谨慎。看好文件生效时间，再处理。（处理后，切记与客户进行沟通）</p>
+<h2 id="技巧-本地文本搜索">技巧 - 本地文本搜索</h2>
+<p>本地文件名搜索，其实可以用 everything.exe 或者腾讯桌面的搜索功能。然而在搜索文件内文字时，可以考虑一款名为 FileLocator 的软件。（找个注册表，可以每个月更新一次）</p>
+<h2 id="技巧-xbench-正版体验">技巧 - xbench 正版体验</h2>
+<p>xbench，本地化行业如雷贯耳，不用介绍。那么一个月的免费正版体验，不容错过。</p>
+<h2 id="短语-按时间顺序如何处理">短语 - 按时间顺序，如何处理</h2>
+<p>in chronological order，注意没有 a</p>
+<blockquote>
+<p>If things are described or shown in chronological order, they are described or shown in the order in which they happened.</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机辅助翻译概论笔记（全）]]></title>
         <id>https://NanxinWang.github.io/post/CVlzNfezA/</id>
@@ -1439,501 +1595,6 @@ Acemoglu, Daron, 1999. “Patterns of Skill Premia” NBER Working Paper No. 701
 <ul>
 <li>not的处理与否定转移有关</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医学翻译学习-复合微创食管切除术治疗食管癌]]></title>
-        <id>https://NanxinWang.github.io/post/vhbMGpn81/</id>
-        <link href="https://NanxinWang.github.io/post/vhbMGpn81/">
-        </link>
-        <updated>2020-10-16T04:27:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>关于“复合微创食管切除术治疗食管癌”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1805101?query=nejmyxqy">Hybrid Minimally Invasive Esophagectomy for Esophageal Cancer</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>关于“复合微创食管切除术治疗食管癌”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1805101?query=nejmyxqy">Hybrid Minimally Invasive Esophagectomy for Esophageal Cancer</a></p>
-<!--more-->
-<hr>
-<blockquote>
-<p><strong>摘要</strong></p>
-<p><strong>Abstract</strong></p>
-<hr>
-<p><strong>背景</strong></p>
-<p><strong>BACKGROUND</strong></p>
-<p>因食管癌接受开放食管切除术的患者有一半以上会出现术后并发症，尤其是肺部并发症。目前尚不明确复合微创食管切除术与开放食管切除术相比可否降低并发症发病率。</p>
-<p>Postoperative complications, especially pulmonary complications, affect more than half the patients who undergo open esophagectomy for esophageal cancer. Whether hybrid minimally invasive esophagectomy results in lower morbidity than open esophagectomy is unclear.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>背景介绍简单明了</li>
-</ul>
-<blockquote>
-<p><strong>方法</strong></p>
-<p><strong>METHODS</strong></p>
-<p>我们开展了一项多中心、开放标签的随机对照试验，纳入患可切除的食管中段癌或下段癌，年龄18～75岁的患者。患者被随机分组，分别接受经胸开放食管切除术（开放手术）或复合微创食管切除术（复合手术）。通过鉴定外科医师资质、标准化操作和监测表现三种方式保证外科手术质量。复合手术包括胸腹二野手术（也称为Ivor-Lewis手术），即腹腔镜胃游离术和右侧开胸术。主要终点是术中或术后30日内根据Clavien-Dindo分级系统判定的Ⅱ级或更高级别并发症（表示需要干预的主要并发症）。根据意向治疗原则进行分析。</p>
-<p>We <strong>performed</strong> a multicenter, open-label, randomized, controlled <strong>trial</strong> <strong>involving</strong> patients 18 to 75 years of age <strong>with</strong> resectable cancer of the middle or lower third of the esophagus. Patients were randomly assigned to undergo transthoracic open esophagectomy (open procedure) or hybrid minimally invasive esophagectomy (hybrid procedure). Surgical quality assurance was implemented by the credentialing of surgeons, standardization of technique, and monitoring of performance. Hybrid surgery comprised a two-field abdominal–thoracic operation (also called an Ivor–Lewis procedure) <strong>with</strong> laparoscopic gastric mobilization and open right thoracotomy. The primary end point was intraoperative or postoperative complication of grade II or higher according to the Clavien–Dindo classification (indicating major complication leading to intervention) within 30 days. <strong>Analyses were done</strong> according to the intention-to-treat principle.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>第一、二句是论文经典句型</li>
-<li>个人倾向第三句处理为“外科手术质量通过ABC保证”</li>
-<li>第三句中with在中文的处理值得学习</li>
-<li>最后一句的analyses were done有点意思</li>
-</ul>
-<blockquote>
-<p><strong>结果</strong></p>
-<p><strong>RESULTS</strong></p>
-<p>从2009年10月至2012年4月，我们将103例患者随机分配到复合手术组，将104例患者随机分配到开放手术组。根据记录，110例患者共发生312起严重不良事件。复合手术组共有37例患者（36%）发生术中或术后主要并发症，而开放手术组为67例（64%）（比值比，0.31；95%置信区间[<em>CI</em>]，0.18～0.55；<em>P</em>＜0.001）。复合手术组102例患者中共有18例（18%）发生肺部主要并发症，而开放手术组103例患者中有31例（30%）。3年时，复合手术组的总生存率为67%（95% <em>CI</em>，57%～75%），而开放手术组为55%（95% <em>CI</em>，45%～64%）；无病生存率分别为57%（95% <em>CI</em>，47%～66%）和48%（95% <em>CI</em>，38%～57%）。</p>
-<p>From October 2009 through April 2012, we randomly assigned 103 patients to the hybrid-procedure group and 104 to the open-procedure group. A total of 312 serious adverse events <strong>were recorded</strong> in 110 patients. A total of 37 patients (36%) in the hybrid-procedure group had a major intraoperative or postoperative complication, as compared with 67 (64%) in the open-procedure group (odds ratio, 0.31; 95% confidence interval [CI], 0.18 to 0.55; P&lt;0.001). A total of 18 of 102 patients (18%) in the hybrid-procedure group had a major pulmonary complication, as compared with 31 of 103 (30%) in the open-procedure group. At 3 years, overall survival was 67% (95% CI, 57 to 75) in the hybrid-procedure group, as compared with 55% (95% CI, 45 to 64) in the open-procedure group; <strong>disease-free survival</strong> was 57% (95% CI, 47 to 66) and 48% (95% CI, 38 to 57), respectively.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>from...through</li>
-<li>第二句的“根据记录”处理的很出彩</li>
-<li>disease-free survival	无病生存率</li>
-</ul>
-<blockquote>
-<p><strong>结论</strong></p>
-<p><strong>CONCLUSIONS</strong></p>
-<p>我们发现，与开放食管切除术相比，复合微创食管切除术降低了术中和术后主要并发症，尤其是肺部并发症的发生率，同时未影响3年期间的总生存率和无病生存率（由法国国家癌症研究所[National Cancer Institute]资助；在ClinicalTrials.gov注册号为NCT00937456）。</p>
-<p>We found that hybrid minimally invasive esophagectomy resulted in a lower incidence of intraoperative and postoperative major complications, specifically pulmonary complications, than open esophagectomy, without <strong>compromising</strong> overall and disease-free survival over a period of 3 years. (Funded by the French National Cancer Institute; ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT00937456">NCT00937456</a>.)</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>可以看出，英文带有情感色彩的compromising在中文中的变化</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医学翻译学习-利福平耐药结核的短疗程方案试验]]></title>
-        <id>https://NanxinWang.github.io/post/6RDMH2BHJ/</id>
-        <link href="https://NanxinWang.github.io/post/6RDMH2BHJ/">
-        </link>
-        <updated>2020-10-16T04:21:43.000Z</updated>
-        <summary type="html"><![CDATA[<p>关于“利福平耐药结核的短疗程方案试验”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1811867?query=nejmyxqy">A Trial of a Shorter Regimen for Rifampin-Resistant Tuberculosis</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>关于“利福平耐药结核的短疗程方案试验”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1811867?query=nejmyxqy">A Trial of a Shorter Regimen for Rifampin-Resistant Tuberculosis</a></p>
-<!--more-->
-<hr>
-<blockquote>
-<p><strong>背景</strong></p>
-<p>世界卫生组织（WHO）2011年对耐多药结核的治疗方案提出了建议，而孟加拉国队列研究表明，耐多药结核患者以比上述方案时间短的治疗方案接受现有药物治疗后，达到了很有前景的治愈率。</p>
-<p>BACKGROUND</p>
-<p><strong>Cohort studies</strong> in Bangladesh showed promising cure rates among patients with multidrug-resistant tuberculosis who received existing drugs in regimens shorter than that recommended by the World Health Organization (WHO) in 2011.</p>
-</blockquote>
-<p>本段笔记：</p>
-<ul>
-<li>队列研究	cohort study</li>
-<li>patients with xxx who xxx	经典结构</li>
-<li>中英文差异，中文先事实陈述，英文先表态度（promising cure rates）</li>
-</ul>
-<blockquote>
-<p><strong>方法</strong></p>
-<p>METHODS</p>
-</blockquote>
-<p>我们在对氟喹诺酮类药物和氨基糖苷类药物敏感的利福平耐药结核患者中开展了一项3期非劣效性试验。</p>
-<p>We conducted a phase 3 <strong>noninferiority trial</strong> in participants with rifampin-resistant tuberculosis that was susceptible to fluoroquinolones and aminoglycosides.</p>
-<p>笔记：</p>
-<blockquote>
-<p>noninferiority trial	非劣效性试验</p>
-<p>A that be susceptible to xxx	对xxx敏感的A</p>
-</blockquote>
-<blockquote>
-<p>以2∶1的比例将参与者随机分组，分别接受包含大剂量莫西沙星的短疗程方案（9～11个月）或遵循2011年WHO指南的长疗程方案（20个月）治疗。</p>
-<p>Participants were randomly assigned, <strong>in a 2:1 ratio</strong>, to receive a short regimen (9 to 11 months) that included high-dose moxifloxacin or a long regimen (20 months) that followed the 2011 WHO guidelines.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>in a n1:n2 ratio	以n1:n2的比例</li>
-</ul>
-<blockquote>
-<p>主要疗效结局是132周时的良好状态，良好状态的定义为132周及之前一次检测中结核分枝杆菌培养结果呈阴性，并且两次检测之间无阳性培养结果，之前也无不良结局。</p>
-<p>The primary efficacy outcome was a favorable status at 132 weeks, defined by cultures negative for <em>Mycobacterium tuberculosis</em> at 132 weeks and at a previous occasion, with no intervening positive culture or previous <strong>unfavorable outcome</strong>.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>unfavorable outcome	不良结局</li>
-<li>个人看法：关于本句良好状态的定义，或可单独成句，置于句尾。因在英文中，相关内容处于插入语结构，非作者强调内容。调整后，中文为”主要疗效结局是132周时的良好状态，且之前无不良结局（良好状态的定义为132周及之前一次检测中结核分枝杆菌培养结果呈阴性，并且两次检测之间无阳性培养结果）。“</li>
-</ul>
-<blockquote>
-<p>利用良好状态组间差异的95%置信区间上限≤10个百分点确定非劣效性。</p>
-<p>An upper 95% confidence limit for the between-group difference in favorable status that was 10 percentage points or less was used to determine noninferiority.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>关于大于小于号的处理</li>
-</ul>
-<blockquote>
-<p><strong>结果</strong></p>
-<p>RESULTS</p>
-</blockquote>
-<blockquote>
-<p>在被随机分组的424例参与者中，383例被纳入改良意向治疗人群。</p>
-<p>Of 424 participants who underwent randomization, 383 were included in <strong>the modified intention-to-treat population</strong>.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>改良意向治疗人群	 the modified intention-to-treat population</li>
-</ul>
-<blockquote>
-<p>长疗程方案组79.8%的参与者和短疗程方案组78.8%的参与者报告了良好状态，根据人类免疫缺陷病毒状态校正后的差异为1.0个百分点（95%置信区间[<em>CI</em>]，－7.5～9.5）（对于非劣效性，<em>P</em>=0.02）。</p>
-<p>Favorable status was reported in 79.8% of participants in the long-regimen group and in 78.8% of those in the short-regimen group — a difference, with adjustment for human immunodeficiency virus status, of 1.0 percentage point (95% confidence interval [CI], −7.5 to 9.5) (P=0.02 for noninferiority).</p>
-<p>在符合方案人群的321例参与者中，非劣效性结果一致（校正的差异，－0.7个百分点；95% <em>CI</em>，－10.5～9.1）。</p>
-<p>The results <strong>with respect to</strong> noninferiority were consistent among the 321 participants in the per-protocol population (adjusted difference, –0.7 percentage points; 95% CI, −10.5 to 9.1).</p>
-</blockquote>
-<blockquote>
-<p>长疗程方案组45.4%的参与者和短疗程方案组48.2%的参与者发生了3级或更高级别的不良事件。</p>
-<p>An adverse event of grade 3 or higher occurred in 45.4% of participants in the long-regimen group and in 48.2% in the short-regimen group.</p>
-</blockquote>
-<blockquote>
-<p>短疗程方案组11.0%参与者和长疗程方案组6.4%参与者的QT间期或校正QT间期（利用Fridericia公式计算）延长至500 ms（<em>P</em>=0.14）；由于短疗程方案组的发生率较高，因此我们对参与者进行了密切监测，并对一些参与者的用药进行了调整。</p>
-<p>Prolongation of either the QT interval or the corrected QT interval (calculated with Fridericia’s formula) to 500 msec occurred in 11.0% of participants in the short-regimen group, as compared with 6.4% in the long-regimen group (P=0.14); because of the greater incidence in the short-regimen group, participants were closely monitored and some received medication adjustments.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>
-<p>QT interval	QT间期</p>
-</li>
-<li>
-<p>corrected QT interval	校正QT间期</p>
-</li>
-<li>
-<p>msec	ms</p>
-</li>
-<li>
-<p>个人看法：关于冒号后面的译文，中文增补主语（即，我们），似乎与原文被动体现客观性相悖。</p>
-</li>
-</ul>
-<blockquote>
-<p>短疗程方案组8.5%的参与者和长疗程方案组6.4%的参与者死亡，两组分别有3.3%和2.3%的参与者对氟喹诺酮类药物或氨基糖苷类药物产生了获得性耐药。</p>
-<p>Death occurred in 8.5% of participants in the short-regimen group and in 6.4% in the long-regimen group, and acquired resistance to fluoroquinolones or aminoglycosides occurred in 3.3% and 2.3%, respectively.</p>
-</blockquote>
-<blockquote>
-<p><strong>结论</strong></p>
-<p>CONCLUSIONS</p>
-</blockquote>
-<blockquote>
-<p>在对氟喹诺酮类药物和氨基糖苷类药物敏感的利福平耐药性结核患者中，短疗程方案的主要疗效结局不劣于长疗程方案，安全性与长疗程方案相似（由美国国际开发署[U.S. Agency for International Development]等资助；在Current Controlled Trials注册号为ISRCTN78372190；在ClinicalTrials.gov注册号为NCT02409290）。</p>
-<p>In persons with rifampin-resistant tuberculosis that was susceptible to fluoroquinolones and aminoglycosides, a short regimen was noninferior to a long regimen with respect to the primary efficacy outcome and <strong>was similar to the long regimen in terms of safety</strong>. (Funded by the U.S. Agency for International Development and others; Current Controlled Trials number, <a href="http://www.controlled-trials.com/ISRCTN78372190">ISRCTN78372190</a>; ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02409290">NCT02409290</a>.)</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>be similar to xxx in terms of xxx.</li>
-</ul>
-<blockquote>
-<p>耐多药结核对结核的关键治疗药物异烟肼和利福平耐药<a href="http:/#1">1</a>。</p>
-<p>Multidrug-resistant tuberculosis is resistant to isoniazid and rifampin (also called rifampicin), key drugs used in the treatment of tuberculosis.1</p>
-</blockquote>
-<p>笔记：</p>
-<p>isoniazid	异烟肼</p>
-<blockquote>
-<p>全世界每年有近500,000例耐多药结核新患者，而耐多药结核远比药物敏感性结核难以治疗。</p>
-<p>The condition affects almost 500,000 new persons worldwide each year and is considerably more difficult to treat than drug-susceptible tuberculosis.</p>
-</blockquote>
-<blockquote>
-<p>有不到1/4的患者开始接受治疗，2012年<a href="http:/#2">2</a>和2017年<a href="http:/#1">1</a>的报告治疗成功率分别为48%和54%。</p>
-<p>Less than a quarter of patients start treatment, and the reported success rates were 48% in 20122 and 54% in 2017.1</p>
-</blockquote>
-<blockquote>
-<p>虽然这一问题严重，但目前却缺乏耐多药结核联合用药方案的3期随机试验数据。</p>
-<p>Despite <strong>the magnitude of</strong> the problem, data from phase 3 randomized trials of combination drug regimens for multidrug-resistant tuberculosis <strong>are lacking</strong>.</p>
-</blockquote>
-<blockquote>
-<p>WHO的耐多药结核治疗建议（2011年发布）是基于质量极低的证据，被称作有条件的建议（即“遵循建议带来的合意效果很可能超过不合意效果”）<a href="http:/#3">3</a>。</p>
-<p>Recommendations from the World Health Organization (WHO) for the treatment of multidrug-resistant tuberculosis (published in 2011) are based on evidence that was classified as very low quality and were described as conditional (i.e., “the desirable effects of adherence to a recommendation probably outweigh the undesirable effects”).3</p>
-</blockquote>
-<blockquote>
-<p>2011年WHO指南建议8个月的强化治疗期和20个月的总治疗期<a href="http:/#3">3</a>。</p>
-<p>The 2011 WHO guidelines recommended an intensive treatment phase of 8 months and a total treatment duration of 20 months.3</p>
-</blockquote>
-<blockquote>
-<p>由于缺乏适用于资源匮乏环境的有效标准化治疗方案，Van Deun和同事在孟加拉国开展了观察性队列研究，在既往未接受过二线药物治疗的患者中评估耐多药结核的数种治疗方案。</p>
-<p>In view of the lack of an effective standardized regimen that is appropriate for resource-poor settings, Van Deun and colleagues conducted observational cohort studies in Bangladesh to evaluate several regimens for multidrug-resistant tuberculosis in patients who had not received previous treatment with second-line drugs.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>in view of xxx</li>
-</ul>
-<blockquote>
-<p>对206例患者用药9～11个月的第六种治疗方案获得了令人鼓舞的结果，无复发治愈率为87.9%（95% <em>CI</em>，82.7～91.6）<a href="http:/#4">4</a>。</p>
-<p>The sixth regimen, administered to 206 participants for 9 to 11 months, yielded encouraging results, with relapse-free cure occurring in 87.9% (95% confidence interval [CI], 82.7 to 91.6).4</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>relapse-free	无复发的</li>
-</ul>
-<blockquote>
-<p>虽然这一方案与WHO建议的长疗程方案相比有相当大的优势，但我们认为需要随机试验来证明结果的再现性和普遍适用性，特别是因为在孟加拉国研究的参与者中，合并感染人类免疫缺陷病毒（HIV）和二线药物耐药的情况罕见。</p>
-<p>Although such a regimen could have considerable advantages over the much longer WHO-recommended regimen, we considered that a randomized trial would be necessary for reproducibility and generalizability of results, particularly because human immunodeficiency virus (HIV) coinfection and second-line drug resistance were rare among the participants in the Bangladesh study.</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医学翻译学习-挥发性麻醉药与全静脉麻醉用于心脏手术的比较]]></title>
-        <id>https://NanxinWang.github.io/post/7p5xdA4zA/</id>
-        <link href="https://NanxinWang.github.io/post/7p5xdA4zA/">
-        </link>
-        <updated>2020-10-16T03:18:46.000Z</updated>
-        <summary type="html"><![CDATA[<p>关于“挥发性麻醉药与全静脉麻醉用于心脏手术的比较”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1816476?query=nejmyxqy">Volatile Anesthetics versus Total Intravenous Anesthesia for Cardiac Surgery</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>关于“挥发性麻醉药与全静脉麻醉用于心脏手术的比较”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1816476?query=nejmyxqy">Volatile Anesthetics versus Total Intravenous Anesthesia for Cardiac Surgery</a></p>
-<!--more-->
-<hr>
-<blockquote>
-<p><strong>背景</strong></p>
-<p>BACKGROUND</p>
-<p>挥发性（吸入）麻醉药具有心肌保护作用，可能改善接受冠状动脉旁路移植术（CABG）患者的临床结局。</p>
-<p>Volatile (inhaled) anesthetic agents have cardioprotective effects, which might improve clinical outcomes in patients undergoing coronary-artery bypass grafting (CABG).</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>冠状动脉旁路移植术	coronary-artery bypass grafting (CABG)</li>
-</ul>
-<blockquote>
-<p><strong>方法</strong></p>
-<p>METHODS</p>
-</blockquote>
-<blockquote>
-<p>我们在13个国家36个研究中心开展了一项实用性、多中心、单盲、对照试验。</p>
-<p>We conducted a pragmatic, multicenter, single-blind, controlled trial at 36 centers in 13 countries.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>pragmatic	实用性</li>
-</ul>
-<blockquote>
-<p>计划接受择期CABG的患者被随机分组，分别采用包括一种挥发性麻醉药（地氟醚、异氟醚或七氟醚）的术中麻醉方案或采用全静脉麻醉。</p>
-<p>Patients scheduled to undergo elective CABG were randomly assigned to an intraoperative anesthetic regimen that included a volatile anesthetic (desflurane, isoflurane, or sevoflurane) or to total intravenous anesthesia.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>术中麻醉方案	intraoperative anesthetic regimen</li>
-<li>全静脉麻醉	total intravenous anesthesia</li>
-</ul>
-<blockquote>
-<p>主要结局是1年时的全因死亡。</p>
-<p>The primary outcome was death from any cause at 1 year.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li><strong>from</strong></li>
-</ul>
-<blockquote>
-<p><strong>结果</strong></p>
-<p>RESULTS</p>
-</blockquote>
-<blockquote>
-<p>共有5,400例患者被随机分组：2,709例被分配至挥发性麻醉药组，2,691例被分配至全静脉麻醉组。</p>
-<p>A total of 5400 patients were randomly assigned: 2709 to the volatile anesthetics group and 2691 to the total intravenous anesthesia group.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>to的位置，且英文使用了冒号而非With结构</li>
-</ul>
-<blockquote>
-<p>64%的患者接受了停跳CABG，体外循环的平均持续时间为79分钟。</p>
-<p>A On-pump CABG was performed in 64% of patients, with a mean duration of cardiopulmonary bypass of 79 minutes.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>停跳CABG	On-pump CABG</li>
-<li><strong>体外循环</strong>是利用一系列特殊人工装置将回心静脉血引流到<strong>体外</strong>，经人工方法进行气体交换，调节温度和过滤后，输回体内动脉系统的生命支持技术。 再<strong>体外循环</strong>过程中，由于人工装置取代了人体功能，因此也称心肺转流，<strong>体外循环</strong>机也称为人工心肺机。 （cardiopulmonary bypass）</li>
-</ul>
-<blockquote>
-<p>两组的基线人口统计学和临床特征、体外循环持续时间和桥血管数量相似。</p>
-<p>The two groups were similar with respect to demographic and clinical characteristics at baseline, the duration of cardiopulmonary bypass, and the number of grafts.</p>
-</blockquote>
-<blockquote>
-<p>第二次期中分析时，由于无效（futility），数据和安全监察委员会建议终止试验。</p>
-<p>At the time of the second interim analysis, the data and safety monitoring board advised that the trial should be stopped for futility.</p>
-</blockquote>
-<blockquote>
-<p>两组1年（有5,353例患者[99.1%]的数据可用；挥发性麻醉药组的全因死亡率2.8%，全静脉麻醉组3.0%；相对危险度，0.94；95%置信区间[<em>CI</em>]，0.69～1.29；<em>P</em>=0.71）和30日（有5,398例患者[99.9%]的数据可用；全因死亡率分别为1.4%和1.3%；相对危险度，1.11；95% <em>CI</em>，0.70～1.76）时的全因死亡率无显著差异。</p>
-<p>No significant difference between the groups with respect to deaths from any cause was seen at 1 year (2.8% in the volatile anesthetics group and 3.0% in the total intravenous anesthesia group; relative risk, 0.94; 95% confidence interval [CI], 0.69 to 1.29; P=0.71), with data available for 5353 patients (99.1%), or at 30 days (1.4% and 1.3%, respectively; relative risk, 1.11; 95% CI, 0.70 to 1.76), with data available for 5398 patients (99.9%).</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>全因死亡率	deaths from any cause</li>
-</ul>
-<blockquote>
-<p>两组的次要结局或预设不良事件（包括心肌梗死）发生率均无显著差异。</p>
-<p>There were no significant differences between the groups in any of the secondary outcomes or in the incidence of prespecified adverse events, including myocardial infarction.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>预设的	prespecified</li>
-<li>there be句型与上句句型交替使用</li>
-</ul>
-<blockquote>
-<p><strong>结论</strong></p>
-<p>CONCLUSIONS</p>
-</blockquote>
-<blockquote>
-<p>在接受择期CABG的患者中，与全静脉麻醉相比，采用挥发性麻醉药未显著减少1年时的患者死亡数量（由意大利卫生部[Italian Ministry of Health]资助；MYRIAD在ClinicalTrials.gov注册号为NCT02105610）。</p>
-<p>Among patients undergoing elective CABG, anesthesia with a volatile agent did not <strong>result in</strong> significantly fewer deaths at 1 year than total intravenous anesthesia. (Funded by the Italian Ministry of Health; MYRIAD ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02105610">NCT02105610</a>.)</p>
-</blockquote>
-<blockquote>
-<p>CABG是全球范围内最常实施的大手术<a href="http:/#1,2">1,2</a>。</p>
-<p>Coronary-artery bypass grafting (CABG) is the most common major surgical procedure performed worldwide.1,2</p>
-</blockquote>
-<blockquote>
-<p>仅美国每年就实施超过300,000例CABG手术<a href="http:/#3">3</a>，据报告1年死亡率为2%～3% <a href="http:/#4,5">4,5</a>。</p>
-<p>More than 300,000 CABG procedures are performed each year in the United States alone,3 with the incidence of death at 1 year reported to be 2 to 3%.4,5</p>
-</blockquote>
-<blockquote>
-<p>CABG期间的麻醉一般单纯使用静脉麻醉药（全静脉麻醉）诱导或联合使用挥发性（吸入）麻醉药和静脉麻醉药诱导。</p>
-<p>Anesthesia during CABG is typically induced with intravenous drugs only (total intravenous anesthesia) or with <strong>a combination of</strong> volatile (inhaled) and intravenous agents.</p>
-</blockquote>
-<blockquote>
-<p>在器官缺血之前、期间或之后给予挥发性麻醉药时，药物可通过多种机制发挥细胞保护作用。</p>
-<p>When volatile anesthetics are administered <strong>before, during, or after</strong> periods of organ ischemia, they exert cellprotective effects through multiple mechanisms.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>之前、期间或之后	相关英文处理值得学习</li>
-</ul>
-<blockquote>
-<p>这些机制包括调节G蛋白偶联受体、细胞内信号通路、基因表达、钾通道和线粒体功能<a href="http:/#6">6</a>。</p>
-<p>These mechanisms include modulation of G-protein–coupled receptors, intracellular signaling pathways, gene expression, potassium channels, and mitochondrial function.6</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>调节G蛋白偶联受体	modulation of G-protein–coupled receptors</li>
-<li>细胞内信号通路	intracellular signaling pathways</li>
-<li>基因表达	gene expression</li>
-<li>钾通道	potassium channels</li>
-<li>线粒体功能	mitochondrial function</li>
-</ul>
-<blockquote>
-<p>此外，在动物模型中，挥发性麻醉药可减小心肌梗死面积<a href="http:/#7">7</a>。</p>
-<p>Moreover, volatile anesthetics reduce myocardial infarct size in animal models.7</p>
-</blockquote>
-<blockquote>
-<p>数项随机对照试验表明，挥发性麻醉药可降低心肌损伤的生物标志物<a href="http:/#7,8">7,8</a>，即使麻醉药仅在缺血前短暂使用<a href="http:/#9">9</a>。</p>
-<p>Several randomized, controlled trials have shown that volatile anesthetics reduce biomarkers of myocardial injury,7,8 even if the anesthetics are administered for only a short duration before ischemia.9</p>
-</blockquote>
-<blockquote>
-<p>荟萃分析表明，使用挥发性麻醉药的CABG术后死亡率下降<a href="http:/#10-12">10-12</a>，这一发现与中等规模随机对照试验的观察结果一致<a href="http:/#13-15">13-15</a>。</p>
-<p>Meta-analyses have shown a reduction in mortality after CABG with volatile anesthetics,10-12 <strong>a finding that</strong> is consistent with observations from moderate-sized randomized, controlled trials.13-15</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>同位语详细说明</li>
-</ul>
-<blockquote>
-<p>两项国际共识会议确定，使用挥发性麻醉药是提高大手术患者生存率的关键非手术干预措施<a href="http:/#16,17">16,17</a>，这对于每年超过3亿例患者有潜在临床意义<a href="http:/#18">18</a>。</p>
-<p>Two international consensus conferences identified the use of volatile anesthetics as a key nonsurgical intervention to improve survival among patients undergoing major surgery,16,17 with potential clinical implications for more than 300 million patients each year.18</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>典型的多介词带结构</li>
-</ul>
-<blockquote>
-<p>最后，美国心脏病学会（American College of Cardiology）和美国心脏学会（American Heart Association）指南以及欧洲心胸外科学会（European Association for Cardiothoracic Surgery）指南建议将这些发现用于心脏手术患者的麻醉管理<a href="http:/#19,20">19,20</a>。</p>
-<p>Finally, the guidelines from the American College of Cardiology and American Heart Association and the guidelines from the European Association for Cardiothoracic Surgery have suggested that these findings should be applied to the management of anesthesia in patients undergoing cardiac surgery.19,20</p>
-</blockquote>
-<blockquote>
-<p>然而，其他随机、对照试验和荟萃分析未证实挥发性麻醉药有益<a href="http:/#8,21,22">8,21,22</a>，因此提示这一问题尚未最终解决。</p>
-<p>However, other randomized, controlled trials and meta-analyses did not confirm a benefit of volatile anesthetics,8,21,22 which suggests that this issue is not definitively resolved.</p>
-<p>我们设计并开展了一项大规模、多中心、多国、随机、对照试验，以检验以下假设，与全静脉麻醉相比，CABG术中使用挥发性麻醉药将减少患者死亡数量。</p>
-<p>We designed and conducted a large, multicenter, multinational, randomized, controlled trial to test the hypothesis that the use of volatile anesthetics during CABG would result in a lower number of deaths than total intravenous anesthesia.</p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医学翻译学习-andexanet alfa治疗因子Ⅹa抑制剂相关出血的完整研究报告]]></title>
-        <id>https://NanxinWang.github.io/post/E6FdM2dTp/</id>
-        <link href="https://NanxinWang.github.io/post/E6FdM2dTp/">
-        </link>
-        <updated>2020-10-16T03:17:58.000Z</updated>
-        <summary type="html"><![CDATA[<p>关于“andexanet alfa治疗因子Ⅹa抑制剂相关出血的完整研究报告”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1814051?query=nejmyxqy">Full Study Report of Andexanet Alfa for Bleeding Associated with Factor Xa Inhibitors</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>关于“andexanet alfa治疗因子Ⅹa抑制剂相关出血的完整研究报告”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1814051?query=nejmyxqy">Full Study Report of Andexanet Alfa for Bleeding Associated with Factor Xa Inhibitors</a></p>
-<!--more-->
-<hr>
-<blockquote>
-<p><strong>背景</strong></p>
-<p>BACKGROUND</p>
-</blockquote>
-<blockquote>
-<p>andexanet alfa是人凝血因子Ⅹa的重组改构非活性形式，开发用于逆转因子Ⅹa抑制剂的作用。</p>
-<p>Andexanet alfa is a modified recombinant inactive form of human factor Xa developed for reversal of factor Xa inhibitors.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>逗号之后，表述不够简明，过于贴原文</li>
-<li>reverasal中文处理为动词，是翻译的常见处理</li>
-</ul>
-<blockquote>
-<p><strong>方法</strong></p>
-<p>METHODS</p>
-</blockquote>
-<blockquote>
-<p>我们评价了在给予因子Ⅹa抑制剂后18小时内发生急性大出血的352例患者。</p>
-<p>We evaluated 352 patients who had acute major bleeding within 18 hours after administration of a factor Xa inhibitor.</p>
-</blockquote>
-<blockquote>
-<p>患者接受了andexanet推注，随后接受了2小时输入。</p>
-<p>The patients received a bolus of andexanet, followed by a 2-hour infusion.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>2小时输入	a 2-hour infusion</li>
-</ul>
-<blockquote>
-<p>共同主要结局为andexanet治疗后抗因子Ⅹa活性的变化百分比，以及在输入结束后12小时，止血效果根据预设标准被裁定为优秀或良好的患者百分比。</p>
-<p>The coprimary outcomes were the percent change in anti–factor Xa activity after andexanet treatment and the percentage of patients with excellent or good hemostatic efficacy at 12 hours after the end of the infusion, with hemostatic efficacy adjudicated on the basis of prespecified criteria.</p>
-</blockquote>
-<blockquote>
-<p>试验在被证实有大出血并且基线抗因子Ⅹa活性至少为75 ng/mL（对于接受依诺肝素治疗的患者为≥0.25 IU/mL）的患者亚组中评估了疗效。</p>
-<p>Efficacy was assessed in the subgroup of patients with confirmed major bleeding and baseline anti–factor Xa activity of at least 75 ng per milliliter (or ≥0.25 IU per milliliter for those receiving enoxaparin).</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>大于等于，之前很少见到英文原文中亦有使用</li>
-</ul>
-<blockquote>
-<p><strong>结果</strong></p>
-<p>RESULTS</p>
-<p>患者平均年龄为77岁，大多数患严重的心血管疾病。</p>
-<p>Patients had a mean age of 77 years, and most had <strong>substantial</strong> cardiovascular disease.</p>
-</blockquote>
-<blockquote>
-<p>出血主要为颅内出血（227例患者[64%]）或胃肠出血（90例患者[26%]）。</p>
-<p>Bleeding was predominantly intracranial (in 227 patients [64%]) or gastrointestinal (in 90 patients [26%]).</p>
-</blockquote>
-<blockquote>
-<p>在接受阿哌沙班治疗的患者中，中位抗因子Ⅹa活性从基线时的149.7 ng/mL降低至andexanet推注后的11.1 ng/mL（降低92%；95%置信区间[<em>CI</em>]，91%～93%）；在接受利伐沙班治疗的患者中，中位值从211.8 ng/mL降低至14.2 ng/mL（降低92%；95% <em>CI</em>，88%～94%）。</p>
-<p>In patients who had received apixaban, the median anti–factor Xa activity decreased from 149.7 ng per milliliter at baseline to 11.1 ng per milliliter after the andexanet bolus (92% reduction; 95% confidence interval [CI], 91 to 93); in patients who had received rivaroxaban, the median value decreased from 211.8 ng per milliliter to 14.2 ng per milliliter (92% reduction; 95% CI, 88 to 94).</p>
-</blockquote>
-<blockquote>
-<p>在可评价的249例患者中，204例（82%）达到了优秀或良好止血。</p>
-<p>Excellent or good hemostasis occurred in 204 of 249 patients (82%) who could be evaluated.</p>
-</blockquote>
-<p>笔记：</p>
-<ul>
-<li>句子强调的内容放于主语</li>
-</ul>
-<blockquote>
-<p>在30日内，49例患者（14%）死亡，34例（10%）发生了血栓性事件。</p>
-<p>Within 30 days, death occurred in 49 patients (14%) and a thrombotic event in 34 (10%).</p>
-</blockquote>
-<blockquote>
-<p>抗因子Ⅹa活性降低在总体患者中不能预测止血效果，但在颅内出血患者中能一定程度预测止血效果。</p>
-<p>Reduction in anti–factor Xa activity was not predictive of hemostatic efficacy overall but was modestly predictive in patients with intracranial hemorrhage.</p>
-</blockquote>
-<p>CONCLUSIONS</p>
-<p><strong>结论</strong></p>
-<blockquote>
-<p>In patients with acute major bleeding associated with the use of a factor Xa inhibitor, treatment with andexanet <strong>markedly</strong> reduced anti–factor Xa activity, and 82% of patients had excellent or good hemostatic efficacy at 12 hours, as adjudicated according to prespecified criteria. (Funded by Portola Pharmaceuticals; ANNEXA-4 ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02329327">NCT02329327</a>.)</p>
-<p>在发生因子Ⅹa抑制剂相关急性大出血的患者中，andexanet治疗显著降低了抗因子Ⅹa活性，并且根据预设标准，82%的患者在12小时达到优秀或良好的止血效果（由Portola Pharmaceuticals资助；ANNEXA-4在ClinicalTrials.gov注册号为NCT02329327）。</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
