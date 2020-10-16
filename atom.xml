@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-16T03:21:04.288Z</updated>
+    <updated>2020-10-16T04:22:39.163Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,172 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[医学翻译学习-利福平耐药结核的短疗程方案试验]]></title>
+        <id>https://NanxinWang.github.io/post/6RDMH2BHJ/</id>
+        <link href="https://NanxinWang.github.io/post/6RDMH2BHJ/">
+        </link>
+        <updated>2020-10-16T04:21:43.000Z</updated>
+        <summary type="html"><![CDATA[<p>关于“利福平耐药结核的短疗程方案试验”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1811867?query=nejmyxqy">A Trial of a Shorter Regimen for Rifampin-Resistant Tuberculosis</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>关于“利福平耐药结核的短疗程方案试验”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1811867?query=nejmyxqy">A Trial of a Shorter Regimen for Rifampin-Resistant Tuberculosis</a></p>
+<!--more-->
+<hr>
+<blockquote>
+<p><strong>背景</strong></p>
+<p>世界卫生组织（WHO）2011年对耐多药结核的治疗方案提出了建议，而孟加拉国队列研究表明，耐多药结核患者以比上述方案时间短的治疗方案接受现有药物治疗后，达到了很有前景的治愈率。</p>
+<p>BACKGROUND</p>
+<p><strong>Cohort studies</strong> in Bangladesh showed promising cure rates among patients with multidrug-resistant tuberculosis who received existing drugs in regimens shorter than that recommended by the World Health Organization (WHO) in 2011.</p>
+</blockquote>
+<p>本段笔记：</p>
+<ul>
+<li>队列研究	cohort study</li>
+<li>patients with xxx who xxx	经典结构</li>
+<li>中英文差异，中文先事实陈述，英文先表态度（promising cure rates）</li>
+</ul>
+<blockquote>
+<p><strong>方法</strong></p>
+<p>METHODS</p>
+</blockquote>
+<p>我们在对氟喹诺酮类药物和氨基糖苷类药物敏感的利福平耐药结核患者中开展了一项3期非劣效性试验。</p>
+<p>We conducted a phase 3 <strong>noninferiority trial</strong> in participants with rifampin-resistant tuberculosis that was susceptible to fluoroquinolones and aminoglycosides.</p>
+<p>笔记：</p>
+<blockquote>
+<p>noninferiority trial	非劣效性试验</p>
+<p>A that be susceptible to xxx	对xxx敏感的A</p>
+</blockquote>
+<blockquote>
+<p>以2∶1的比例将参与者随机分组，分别接受包含大剂量莫西沙星的短疗程方案（9～11个月）或遵循2011年WHO指南的长疗程方案（20个月）治疗。</p>
+<p>Participants were randomly assigned, <strong>in a 2:1 ratio</strong>, to receive a short regimen (9 to 11 months) that included high-dose moxifloxacin or a long regimen (20 months) that followed the 2011 WHO guidelines.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>in a n1:n2 ratio	以n1:n2的比例</li>
+</ul>
+<blockquote>
+<p>主要疗效结局是132周时的良好状态，良好状态的定义为132周及之前一次检测中结核分枝杆菌培养结果呈阴性，并且两次检测之间无阳性培养结果，之前也无不良结局。</p>
+<p>The primary efficacy outcome was a favorable status at 132 weeks, defined by cultures negative for <em>Mycobacterium tuberculosis</em> at 132 weeks and at a previous occasion, with no intervening positive culture or previous <strong>unfavorable outcome</strong>.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>unfavorable outcome	不良结局</li>
+<li>个人看法：关于本句良好状态的定义，或可单独成句，置于句尾。因在英文中，相关内容处于插入语结构，非作者强调内容。调整后，中文为”主要疗效结局是132周时的良好状态，且之前无不良结局（良好状态的定义为132周及之前一次检测中结核分枝杆菌培养结果呈阴性，并且两次检测之间无阳性培养结果）。“</li>
+</ul>
+<blockquote>
+<p>利用良好状态组间差异的95%置信区间上限≤10个百分点确定非劣效性。</p>
+<p>An upper 95% confidence limit for the between-group difference in favorable status that was 10 percentage points or less was used to determine noninferiority.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>关于大于小于号的处理</li>
+</ul>
+<blockquote>
+<p><strong>结果</strong></p>
+<p>RESULTS</p>
+</blockquote>
+<blockquote>
+<p>在被随机分组的424例参与者中，383例被纳入改良意向治疗人群。</p>
+<p>Of 424 participants who underwent randomization, 383 were included in <strong>the modified intention-to-treat population</strong>.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>改良意向治疗人群	 the modified intention-to-treat population</li>
+</ul>
+<blockquote>
+<p>长疗程方案组79.8%的参与者和短疗程方案组78.8%的参与者报告了良好状态，根据人类免疫缺陷病毒状态校正后的差异为1.0个百分点（95%置信区间[<em>CI</em>]，－7.5～9.5）（对于非劣效性，<em>P</em>=0.02）。</p>
+<p>Favorable status was reported in 79.8% of participants in the long-regimen group and in 78.8% of those in the short-regimen group — a difference, with adjustment for human immunodeficiency virus status, of 1.0 percentage point (95% confidence interval [CI], −7.5 to 9.5) (P=0.02 for noninferiority).</p>
+<p>在符合方案人群的321例参与者中，非劣效性结果一致（校正的差异，－0.7个百分点；95% <em>CI</em>，－10.5～9.1）。</p>
+<p>The results <strong>with respect to</strong> noninferiority were consistent among the 321 participants in the per-protocol population (adjusted difference, –0.7 percentage points; 95% CI, −10.5 to 9.1).</p>
+</blockquote>
+<blockquote>
+<p>长疗程方案组45.4%的参与者和短疗程方案组48.2%的参与者发生了3级或更高级别的不良事件。</p>
+<p>An adverse event of grade 3 or higher occurred in 45.4% of participants in the long-regimen group and in 48.2% in the short-regimen group.</p>
+</blockquote>
+<blockquote>
+<p>短疗程方案组11.0%参与者和长疗程方案组6.4%参与者的QT间期或校正QT间期（利用Fridericia公式计算）延长至500 ms（<em>P</em>=0.14）；由于短疗程方案组的发生率较高，因此我们对参与者进行了密切监测，并对一些参与者的用药进行了调整。</p>
+<p>Prolongation of either the QT interval or the corrected QT interval (calculated with Fridericia’s formula) to 500 msec occurred in 11.0% of participants in the short-regimen group, as compared with 6.4% in the long-regimen group (P=0.14); because of the greater incidence in the short-regimen group, participants were closely monitored and some received medication adjustments.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>
+<p>QT interval	QT间期</p>
+</li>
+<li>
+<p>corrected QT interval	校正QT间期</p>
+</li>
+<li>
+<p>msec	ms</p>
+</li>
+<li>
+<p>个人看法：关于冒号后面的译文，中文增补主语（即，我们），似乎与原文被动体现客观性相悖。</p>
+</li>
+</ul>
+<blockquote>
+<p>短疗程方案组8.5%的参与者和长疗程方案组6.4%的参与者死亡，两组分别有3.3%和2.3%的参与者对氟喹诺酮类药物或氨基糖苷类药物产生了获得性耐药。</p>
+<p>Death occurred in 8.5% of participants in the short-regimen group and in 6.4% in the long-regimen group, and acquired resistance to fluoroquinolones or aminoglycosides occurred in 3.3% and 2.3%, respectively.</p>
+</blockquote>
+<blockquote>
+<p><strong>结论</strong></p>
+<p>CONCLUSIONS</p>
+</blockquote>
+<blockquote>
+<p>在对氟喹诺酮类药物和氨基糖苷类药物敏感的利福平耐药性结核患者中，短疗程方案的主要疗效结局不劣于长疗程方案，安全性与长疗程方案相似（由美国国际开发署[U.S. Agency for International Development]等资助；在Current Controlled Trials注册号为ISRCTN78372190；在ClinicalTrials.gov注册号为NCT02409290）。</p>
+<p>In persons with rifampin-resistant tuberculosis that was susceptible to fluoroquinolones and aminoglycosides, a short regimen was noninferior to a long regimen with respect to the primary efficacy outcome and <strong>was similar to the long regimen in terms of safety</strong>. (Funded by the U.S. Agency for International Development and others; Current Controlled Trials number, <a href="http://www.controlled-trials.com/ISRCTN78372190">ISRCTN78372190</a>; ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02409290">NCT02409290</a>.)</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>be similar to xxx in terms of xxx.</li>
+</ul>
+<blockquote>
+<p>耐多药结核对结核的关键治疗药物异烟肼和利福平耐药<a href="http:/#1">1</a>。</p>
+<p>Multidrug-resistant tuberculosis is resistant to isoniazid and rifampin (also called rifampicin), key drugs used in the treatment of tuberculosis.1</p>
+</blockquote>
+<p>笔记：</p>
+<p>isoniazid	异烟肼</p>
+<blockquote>
+<p>全世界每年有近500,000例耐多药结核新患者，而耐多药结核远比药物敏感性结核难以治疗。</p>
+<p>The condition affects almost 500,000 new persons worldwide each year and is considerably more difficult to treat than drug-susceptible tuberculosis.</p>
+</blockquote>
+<blockquote>
+<p>有不到1/4的患者开始接受治疗，2012年<a href="http:/#2">2</a>和2017年<a href="http:/#1">1</a>的报告治疗成功率分别为48%和54%。</p>
+<p>Less than a quarter of patients start treatment, and the reported success rates were 48% in 20122 and 54% in 2017.1</p>
+</blockquote>
+<blockquote>
+<p>虽然这一问题严重，但目前却缺乏耐多药结核联合用药方案的3期随机试验数据。</p>
+<p>Despite <strong>the magnitude of</strong> the problem, data from phase 3 randomized trials of combination drug regimens for multidrug-resistant tuberculosis <strong>are lacking</strong>.</p>
+</blockquote>
+<blockquote>
+<p>WHO的耐多药结核治疗建议（2011年发布）是基于质量极低的证据，被称作有条件的建议（即“遵循建议带来的合意效果很可能超过不合意效果”）<a href="http:/#3">3</a>。</p>
+<p>Recommendations from the World Health Organization (WHO) for the treatment of multidrug-resistant tuberculosis (published in 2011) are based on evidence that was classified as very low quality and were described as conditional (i.e., “the desirable effects of adherence to a recommendation probably outweigh the undesirable effects”).3</p>
+</blockquote>
+<blockquote>
+<p>2011年WHO指南建议8个月的强化治疗期和20个月的总治疗期<a href="http:/#3">3</a>。</p>
+<p>The 2011 WHO guidelines recommended an intensive treatment phase of 8 months and a total treatment duration of 20 months.3</p>
+</blockquote>
+<blockquote>
+<p>由于缺乏适用于资源匮乏环境的有效标准化治疗方案，Van Deun和同事在孟加拉国开展了观察性队列研究，在既往未接受过二线药物治疗的患者中评估耐多药结核的数种治疗方案。</p>
+<p>In view of the lack of an effective standardized regimen that is appropriate for resource-poor settings, Van Deun and colleagues conducted observational cohort studies in Bangladesh to evaluate several regimens for multidrug-resistant tuberculosis in patients who had not received previous treatment with second-line drugs.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>in view of xxx</li>
+</ul>
+<blockquote>
+<p>对206例患者用药9～11个月的第六种治疗方案获得了令人鼓舞的结果，无复发治愈率为87.9%（95% <em>CI</em>，82.7～91.6）<a href="http:/#4">4</a>。</p>
+<p>The sixth regimen, administered to 206 participants for 9 to 11 months, yielded encouraging results, with relapse-free cure occurring in 87.9% (95% confidence interval [CI], 82.7 to 91.6).4</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>relapse-free	无复发的</li>
+</ul>
+<blockquote>
+<p>虽然这一方案与WHO建议的长疗程方案相比有相当大的优势，但我们认为需要随机试验来证明结果的再现性和普遍适用性，特别是因为在孟加拉国研究的参与者中，合并感染人类免疫缺陷病毒（HIV）和二线药物耐药的情况罕见。</p>
+<p>Although such a regimen could have considerable advantages over the much longer WHO-recommended regimen, we considered that a randomized trial would be necessary for reproducibility and generalizability of results, particularly because human immunodeficiency virus (HIV) coinfection and second-line drug resistance were rare among the participants in the Bangladesh study.</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[医学翻译学习-挥发性麻醉药与全静脉麻醉用于心脏手术的比较]]></title>
         <id>https://NanxinWang.github.io/post/7p5xdA4zA/</id>
@@ -3387,49 +3553,6 @@ septal ablation as a selective alternative) for permanent reversal of heart fail
 <p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
 <p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
 <p>成都创思立信信息技术有限公司    医学翻译（<strong>中英翻译、校对、导师</strong>）</p>
-<p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
-<p>工作邮箱：wnxcn@foxmail.com</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python 的第一次成功应用]]></title>
-        <id>https://NanxinWang.github.io/post/KG3Ldkp9R/</id>
-        <link href="https://NanxinWang.github.io/post/KG3Ldkp9R/">
-        </link>
-        <updated>2020-10-15T08:20:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Python 的第一次成功应用</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Python 的第一次成功应用</p>
-<!--more-->
-<p>生活远远不止是翻译。因为对技术的无限制崇拜，自己也研究了些许编程语言。接触 Python 大约是一年前，不过也仅仅是学了学基础的概念，做了些课堂即可完成的小项目（比如设定一个 random 参数，然后自娱自乐之类的）。之后，或许是学业上的压力（主要是指论文），或许是觉得性价比不高（目的性太弱），自己对于 Python 其实一直没有太过于重视，其地位大约就相当于一个伪足球爱好者眼中的欧冠一样——虽然我知道这东西很牛，但是要让我凌晨三点起床看球，难度不小（09 年之前的我，或许凭借热情，还可以做到）。至于 Python 的自动化办公处理以及爬虫等等，只远观，未实操。</p>
-<p>不过转念一想，似乎通过对 Python 的学习，自己对于计算机的理解却在逐渐加深。</p>
-<p>大约是第二次实习的时候，迫于实习要求，需要每天下载 500 篇文献，交给上级...（这个实习单位的弯弯肠子，嗯，不提也罢）</p>
-<p>第一天我老老实实地复制名字、下载，保存和重命名....大约用了 6 个小时；同期实习的另一位小伙伴大概比我时间久些。</p>
-<p>第二天，大概下载了 100 篇之后，我觉得我的生命正在被这种毫无价值（于我而言）的事情蹉跎。即便我熟练度再高，也不过是节约个把小时，我不甘心。</p>
-<p>然后我就没有下载了，转身去找别人的代码，然后自己改改，尝试自动化处理。</p>
-<p>当然了，由于自己没有太多的代码基础，最后，大约也只是实现了 1-2 分钟下载一篇的功能（不得不说，论文下载网站，比如 CxxI，他们对我这级别的小打小闹，毫不在意）...由于每天工作 8 小时，每次自动化下载，按最快速度，也就是 480 篇。最终 Python 并没有完全帮到我——当然了，也减轻了我的负担——比如我在吃饭的时候，还是可以跑一跑的...）</p>
-<p>之后，就忙着写论文，做翻译实践，似乎 Python 再次离我远去了...</p>
-<p>今天，似乎又有了些许转机。花花的大姐因为工作需要，不得不下载主流视频网站的视频。然而因为视频商的各种保护措施，都很难实现视频的完全下载（即完整视频、通用格式）。</p>
-<p>一开始，我尝试了所谓的缓存法（F12-审查元素），发现非程序员但不惧怕看代码的我，都嫌弃其步骤的琐碎。后来又跟着官方教程，下载视频程序，却发现下载的视频，是别人的独有格式，无法实现通用播放。</p>
-<p>是时候展现真正的技术了！</p>
-<p><strong>搜索能力先行</strong></p>
-<p>首先，我测试了脚本法（油猴和 Chrome 自带的应用），全军覆没。</p>
-<p>然后，我找到了 http://www.downfi.com/video/ ，一个小视频下载网站。暂时可以解决问题。不过，经测试，有些视频查不到，且无法下载长视频。</p>
-<p>我的心中，突然出现一句话：“<strong>要不，试试 Python 吧</strong>，毕竟爬虫界的 No.1。”</p>
-<p>搜索之后，发现有一个 you-get 的工具，似乎符合我的要求。</p>
-<p>立马打开我的 Visual Studio Code，pip3 install you-get，然后按照教程，you-get (url)。</p>
-<p>我的天啊！</p>
-<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5Csteve%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1560915451697.png" alt="1560915451697" loading="lazy"></figure>
-<p>连自动合并都帮我处理好了。我的 Python 之旅，似乎才刚刚开始。</p>
-<p>作者简介：</p>
-<p><strong>英语专业八级</strong></p>
-<p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
-<p><strong>人事部三级英语口译资格证书持证</strong></p>
-<p>四川外国语大学成都学院翻译系英语（翻译方向）专业</p>
-<p>重庆医科大学外国语学院英语笔译专业</p>
-<p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
-<p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
-<p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
 <p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
 <p>工作邮箱：wnxcn@foxmail.com</p>
 ]]></content>
