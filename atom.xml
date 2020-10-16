@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-16T03:01:57.961Z</updated>
+    <updated>2020-10-16T03:03:25.864Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,125 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[医学翻译学习-抗CD4抗体UB-421对治疗中断后HIV-1反弹的效应]]></title>
+        <id>https://NanxinWang.github.io/post/UTAFdLN7l/</id>
+        <link href="https://NanxinWang.github.io/post/UTAFdLN7l/">
+        </link>
+        <updated>2020-10-16T03:02:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>关于“抗CD4抗体UB-421对治疗中断后HIV-1反弹的效应”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1802264?query=nejmyxqy"> Effect of Anti-CD4 Antibody UB-421 on HIV-1 Rebound after Treatment Interruption</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>关于“抗CD4抗体UB-421对治疗中断后HIV-1反弹的效应”一文医学翻译摘要学习情况，记录于此。</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1802264?query=nejmyxqy"> Effect of Anti-CD4 Antibody UB-421 on HIV-1 Rebound after Treatment Interruption</a></p>
+<!--more-->
+<hr>
+<blockquote>
+<p><strong>背景</strong></p>
+<p>BACKGROUND</p>
+<p>在人类免疫缺陷病毒（HIV）感染者未接受抗逆转录病毒治疗（ART）的情况下，单独给予广泛中和HIV特异性抗体会导致耐抗体病毒的产生。</p>
+<p>Administration of a single broadly neutralizing human immunodeficiency virus (HIV)–specific antibody to HIV-infected persons leads to the development of antibody-resistant virus in the absence of antiretroviral therapy (ART).</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>development vs 产生</li>
+<li>In the absense of</li>
+</ul>
+<blockquote>
+<p>在实施分析性治疗中断（analytic treatment interruption）的HIV感染者中，UB-421（阻断人CD4+ T细胞上病毒结合位点的抗体）有可能诱导持续的病毒学抑制，且不会诱导耐药。</p>
+<p>It is possible that monotherapy with UB-421, an antibody that blocks the virus-binding site on human CD4+ T cells, could induce sustained virologic suppression without induction of resistance in HIV-infected persons after analytic treatment interruption.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>virus-binding site	病毒结合位点</li>
+<li>analytic treatment interruption	分析性治疗中断</li>
+<li>without induction of resistance	不会诱导耐药</li>
+<li>monotherapy 省略了....可惜我没有这个魄力</li>
+</ul>
+<blockquote>
+<p><strong>方法</strong></p>
+<p>Methods</p>
+<p>我们开展了一项非随机、开放标签、2期临床研究，在实施分析性治疗中断的HIV感染者中评价了UB-421单药治疗的安全性、药代动力学和抗病毒活性。</p>
+<p>We conducted a nonrandomized, open-label, phase 2 clinical study evaluating the safety, pharmacokinetics, and antiviral activity of UB-421 monotherapy in HIV-infected persons undergoing analytic treatment interruption.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>虽然有人用open-labelled，但实际上，open-label最常用</li>
+<li>整体结构属于套路</li>
+</ul>
+<blockquote>
+<p>筛选访视时，所有参与者的血浆病毒均不可测（＜20 copies HIV RNA/mL）。</p>
+<p>All the participants had undetectable plasma viremia (&lt;20 copies of HIV RNA per milliliter) at the screening visit.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>the screening visit	筛选访视</li>
+</ul>
+<blockquote>
+<p>停用ART后，参与者接受了8次UB-421静脉输入，剂量为每周1次，每次10 mg/kg（队列1），或者每2周1次，每次25 mg/kg（队列2）。</p>
+<p>After discontinuation of ART, participants received eight intravenous infusions of UB-421, at a dose of either 10 mg per kilogram of body weight every week (Cohort 1) or 25 mg per kilogram every 2 weeks (Cohort 2).</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>kilogram of body weight	翻译到英文时，常常会漏掉</li>
+<li>either or 这个结构其实也挺有意思的</li>
+</ul>
+<blockquote>
+<p>主要结局是至病毒反弹（≥400 copies/mL）的时间。</p>
+<p>The primary outcome was the time to viral rebound (≥400 copies per milliliter).</p>
+</blockquote>
+<blockquote>
+<p><strong>结果</strong></p>
+<p>RESULTS</p>
+<p>本研究共纳入29例参与者，队列1中14例，队列2中15例。</p>
+<p>A total of 29 participants were enrolled, 14 in Cohort 1 and 15 in Cohort 2.</p>
+</blockquote>
+<blockquote>
+<p>在分析性治疗中断期间，UB-421对于所有参与者（研究访视2～9中94.5%的测定值）均维持了病毒学抑制（＜20 copies/mL），在8例参与者（28%）中观察到间歇性病毒载量一过性小幅反弹（viral blip）（范围，21～142 copies/mL）。</p>
+<p>Administration of UB-421 maintained virologic suppression (&lt;20 copies per milliliter) in all the participants (94.5% of measurements at study visits 2 through 9) during analytic treatment interruption, with intermittent viral blips (range, 21 to 142 copies per milliliter) observed in 8 participants (28%).</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>维持病毒学抑制	maintain virologic suppression</li>
+</ul>
+<blockquote>
+<p>没有任何参与者的血浆病毒反弹至超过400 copies/mL。</p>
+<p>No study participants had plasma viral rebound to more than 400 copies per milliliter.</p>
+</blockquote>
+<blockquote>
+<p>CD4+ T细胞计数在整个研究期间保持稳定。</p>
+<p>CD4+ T-cell counts remained stable throughout the duration of the study.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>the duration of the study</li>
+</ul>
+<blockquote>
+<p>皮疹（大部分为1级）是常见的一过性不良事件；1例参与者因皮疹停用研究药物。</p>
+<p>Rash, mostly of grade 1, was a common and transient adverse event; one participant discontinued the study drug owing to a rash.</p>
+</blockquote>
+<p>笔记：</p>
+<ul>
+<li>transient 和上文的 intermittent 都处理未一过性</li>
+</ul>
+<blockquote>
+<p>在UB-421单药治疗期间观察到CD4+调节T细胞群减少。</p>
+<p>A decrease in the population of CD4+ regulatory T cells was observed during UB-421 monotherapy.</p>
+</blockquote>
+<blockquote>
+<p><strong>结论</strong></p>
+<p>Conclusions</p>
+</blockquote>
+<blockquote>
+<p>在参与者未接受ART的情况下，UB-421（在研究的8～16周）维持了病毒学抑制。</p>
+<p>UB-421 maintained virologic suppression (during the 8 to 16 weeks of study) in participants in the absence of ART.</p>
+</blockquote>
+<blockquote>
+<p>1例参与者因皮疹停止治疗（由United Biomedical等资助；在ClinicalTrials.gov注册号为NCT02369146）。</p>
+<p>One participant discontinued therapy owing to a rash. (Funded by United Biomedical and others; ClinicalTrials.gov number, <a href="http://clinicaltrials.gov/show/NCT02369146">NCT02369146</a>.)</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[医学翻译学习-近期发生心房颤动患者的早期或延迟复律]]></title>
         <id>https://NanxinWang.github.io/post/nwldCj9_A/</id>
@@ -2081,56 +2200,6 @@ syndrome remains undetermined.</p>
 <p><strong>英语专业八级</strong></p>
 <p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
 <p><strong>人事部三级英语口译资格证书持证</strong></p>
-<p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
-<p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
-<p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
-<p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
-<p>工作邮箱：wnxcn@foxmail.com</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于投稿]]></title>
-        <id>https://NanxinWang.github.io/post/-6rhA8pF4/</id>
-        <link href="https://NanxinWang.github.io/post/-6rhA8pF4/">
-        </link>
-        <updated>2020-10-15T03:29:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>投稿一年有余，虽最终并非CSSCI，还是有些感受，遂记录于此。</p>
-<p>旧文迁移，原文发于2019-03-14</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>投稿一年有余，虽最终并非CSSCI，还是有些感受，遂记录于此。</p>
-<p>旧文迁移，原文发于2019-03-14</p>
-<!--more-->
-<h1 id="1逻辑">1.逻辑</h1>
-<p>逻辑很重要，虽然不是第一步，但是必须要强调。<br>
-从宏观上说，是文章的框架，1到2，2到3，3到4。必须要说清楚。如果2到4，缺了3。读起来就会很别扭，很难过别人的眼。<br>
-稍具体点说，框架内的1、2、3和4，内部其实也可以再细分为1-1，1-2...同理，这其中的逻辑，也要说清楚。甚至在每一自然段，都应该有逻辑。<br>
-这样读起来自然，也是最重要的。</p>
-<h1 id="2创新">2.创新</h1>
-<p>个人感觉所谓创新，肯定是基于阅读文献的基础上。<br>
-首先，确定研究领域，导师基本定了中医方向；而我们学的是翻译。两者结合，是很自然的事情。<br>
-那么接下来，就是如何细分中医和翻译。<br>
-这一步可以先看一看中医研究的综述、翻译的综述，和中医翻译研究的综述。（这其中，以五年之内的文章为上）<br>
-在阅读时，记下你有兴趣的点。<br>
-阅读后，看看能否实现多点结合。并在知网查证是否有类似的研究。<br>
-选好最喜欢的结合研究，大致写一个框架最好。交由同门、导师查看。再碰撞一下，或许思路就出来了。</p>
-<h1 id="3沟通">3.沟通</h1>
-<p>这其实也是很重要的一环。主要涉及向导师请教、与同门沟通、与朋友沟通，以及与编辑沟通。<br>
-导师经历丰富，看文章的思路其实和期刊审稿人思路基本一致。即便选题导师或许不熟悉，但是触类旁通，必须要经常沟通。（此外，关于论文的进展，应及时向导师汇报，包括但不限于写论文、投稿等）<br>
-同门一般与自己研究方向不一致，可以互相帮助。而正因为大的研究方向一致，甚至经常会提供新的灵感。<br>
-投稿漫长，有个朋友缓解焦虑必不可少。人崩溃了，啥都没了。<br>
-与编辑沟通，时时确认自己的稿件状态。退了就赶紧换，有进展就及时跟进。毕竟读研时间紧迫，我们发文周期有限。</p>
-<h1 id="4态度">4.态度</h1>
-<p>首先要明确，这是自己的事情，要自己负责。毕竟发不了期刊无法毕业。从选题到投稿，必须要认真对待。<br>
-其次，要对周遭友好。对导师、对同门、朋友以及编辑。导师不提，大家都明白。同门、朋友，是我们一同进步的伙伴。编辑，发文的生杀大权....<br>
-别气馁。前前后后投了好多家期刊社，内心彷徨过。曾有人说，论文就是自己的孩子，谁不希望发个好点的期刊。但是自己孩子自己清楚……逐渐调整预期。充满希望是必须的。</p>
-<p>最后，就是一句话。好好写，认真发，总有慧眼。</p>
-<hr>
-<p>作者简介：</p>
-<p><strong>英语专业八级</strong></p>
-<p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
-<p><strong>人事部三级英语口译资格证书持证</strong></p>
-<p>四川外国语大学成都学院翻译系英语（翻译方向）专业</p>
-<p>重庆医科大学外国语学院英语笔译专业</p>
 <p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
 <p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
 <p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
