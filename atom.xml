@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的医学译界</title>
-    <updated>2020-10-20T06:41:12.256Z</updated>
+    <updated>2020-10-20T07:35:08.330Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的医学译界</rights>
+    <entry>
+        <title type="html"><![CDATA[再谈the_20201020]]></title>
+        <id>https://NanxinWang.github.io/post/xASimQkKY/</id>
+        <link href="https://NanxinWang.github.io/post/xASimQkKY/">
+        </link>
+        <updated>2020-10-20T07:16:37.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[submit和send可不一样]]></title>
         <id>https://NanxinWang.github.io/post/send&amp;submit/</id>
@@ -87,17 +94,6 @@
         <summary type="html"><![CDATA[<p>校对随笔 - 20190610</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>校对随笔 - 20190610</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医学翻译学习-ICH指导原则-新原料药和制剂的稳定性试验-ICH三方协调指导原则]]></title>
-        <id>https://NanxinWang.github.io/post/tqrOrzEEI/</id>
-        <link href="https://NanxinWang.github.io/post/tqrOrzEEI/">
-        </link>
-        <updated>2020-10-16T04:41:22.000Z</updated>
-        <summary type="html"><![CDATA[<p>关于“医学翻译学习-ICH指导原则-新原料药和制剂的稳定性试验-ICH三方协调指导原则”，学习内容记录于此。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>关于“医学翻译学习-ICH指导原则-新原料药和制剂的稳定性试验-ICH三方协调指导原则”，学习内容记录于此。</p>
 ]]></content>
     </entry>
 </feed>
