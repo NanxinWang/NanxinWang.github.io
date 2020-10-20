@@ -1,187 +1,346 @@
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Curtis的世界_医学翻译&amp;生活点滴</title>
-<link rel="shortcut icon" href="https://NanxinWang.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://NanxinWang.github.io/media/css/tailwind.css">
+  <meta charset="utf-8" />
+<meta name="description" content="Curtis的世界_医学翻译&amp;生活点滴 " />
+<meta name="keywords" content="医学翻译,计算机辅助翻译 ">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    旧文迁移 | Curtis的世界_医学翻译&amp;生活点滴
+</title>
+
+
+
+    <!-- 没开启静态资源加速 -->
+<link rel="shortcut icon" href="https://NanxinWang.github.io/favicon.ico?v=1603185891284">
 <link rel="stylesheet" href="https://NanxinWang.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Curtis的世界_医学翻译&amp;生活点滴 - Atom Feed" href="https://NanxinWang.github.io/atom.xml">
+<link rel="stylesheet" href="https://NanxinWang.github.io/media/css/prism.css">
+<link rel="stylesheet" href="https://NanxinWang.github.io/media/css/font-awesome.min.css">
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/jquery.min.js'></script>
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/plugins.js'></script>
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/script.js'></script>
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/aos.js'></script>
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/prism.js'></script>
 
-    
 
-  <meta name="description" content="随便聊聊，交个朋友" />
+<link rel="stylesheet" href="https://unpkg.com/autocjs@1.3.0/dist/autoc.min.css">
+<script type="text/javascript" src="https://unpkg.com/autocjs@1.3.0/dist/autoc.min.js"></script>
+
+
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+
+
+
+  <!-- 防止浏览器缓存 -->
+<meta http-equiv="pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
 </head>
-<body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
 
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="https://NanxinWang.github.io/post/self_intro" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-    <a href="https://NanxinWang.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
-</div>
-
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <h1 class="text-2xl font-bold pb-8 flex justify-center items-center">
-        <i class="ri-hashtag"></i>
-        旧文迁移
-      </h1>
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+<body class="home blog custom-background round-avatars">
+  
         
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://NanxinWang.github.io/post/_Ty77y292/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          校对随笔-20190530
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>所谓细节决定成败，在翻译中尤为如此。</p>
+            <div class="Yarn_Background" style="background-image: url( https://NanxinWang.github.io/media/images/bg.jpg);"></div>
+        
+     
+    <!-- 搜索开始 -->
 
-      </div>
-      <a href="https://NanxinWang.github.io/post/_Ty77y292/" class="btn">
-        更多
-      </a>
+<div class="js-search search-form search-form--modal">
+    <div class="search-form__inner">
+        <div>
+            <div id="search-container" class="ajax_search">
+                <form method="get" id="gridea-search-form" action="https://NanxinWang.github.io/search/">
+                    <div class="filter_container">
+                        <input type="text" value="" autocomplete="off" placeholder="请输入要搜索的内容" name="q" id="search-input" />
+                        <ul id="search_filtered" class="search_filtered"></ul>
+                    </div>
+                    <!-- <input type="submit" name="submit" id="searchsubmit" class="searchsubmit" value="" /> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 搜索结束 -->
+<div class="navi" data-aos="fade-down">
+    <div class="bt-nav">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+    <div class="navbar animated fadeInRight">
+        <div class="inner">
+            <nav id="site-navigation" class="main-navigation">
+                <div id="main-menu" class="main-menu-container">
+                    <div class="menu-menu-container">
+                        <ul id="primary-menu" class="menu">
+                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="/">
+                                                首页
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="/archives">
+                                                归档
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="/tags">
+                                                标签
+                                            </a>
+                                        </li>
+                                        
+                                            
+                                
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                            <a href="https://NanxinWang.github.io/post/self_intro">
+                                                关于
+                                            </a>
+                                        </li>
+                                        
+                                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- #site-navigation -->
+        </div>
+    </div>
+</div>
+<div class="hebin" data-aos="fade-down">
+    <i class=" js-toggle-search fa fa-search"></i>
+</div>
+<header id="masthead" class="overlay animated from-bottom" itemprop="brand">
+    <div class="site-branding text-center">
+        <a href="">
+            <figure>
+                
+                    <img class="custom-logo avatar" src="https://NanxinWang.github.io/images/avatar.png?v=1603185891284" />
+                    
+            </figure>
+        </a>
+        <h3 class="blog-description"><p>随便聊聊，交个朋友</p></h3>
+    </div>
+    <!-- .site-branding -->
+    <div class="decor-part">
+        <div id="particles-js"></div>
+    </div>
+    <div class="animation-header">
+        <div class="decor-wrapper">
+            <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+                <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+            </svg>
+        </div>
+    </div>
+</header>
+
+  <div id="main" class="content">
+    <div class="container">
+      <section class="post_content">
+        <h3 class="catalog-title yellow-under" style="margin-bottom: 5%;">当前标签：旧文迁移 </h3>
+        
+
+
+    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
+        <div class="status_list_item icon_kyubo">
+            
+                    <div class="status_user" style="background-image: url(https://NanxinWang.github.io/media/images/post-list.jpg);">
+                 
+                <div class="status_section">
+                    <a href="https://NanxinWang.github.io/post/_Ty77y292/" class="status_btn">校对随笔-20190530</a>
+                    <h5 class="review-item-creator"><b>发布日期：</b>2020-10-16</h5>
+                    
+                        <a href="https://NanxinWang.github.io/tag/KCm2MsUP3/" class="autotag">医学翻译</a>
+                        
+                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">旧文迁移</a>
+                        
+                    
+                        <p class="section_p">&lt;p&gt;所谓细节决定成败，在翻译中尤为如此。&lt;/p&gt;
+</p>
+                        
+                </div>
+            </div>
+        </div>
     </div>
     
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://NanxinWang.github.io/post/CVlzNfezA/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          计算机辅助翻译概论笔记（全）
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>注：电脑或平板电脑应用内开启，可查看目录</p>
-
-      </div>
-      <a href="https://NanxinWang.github.io/post/CVlzNfezA/" class="btn">
-        更多
-      </a>
+    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
+        <div class="status_list_item icon_kyubo">
+            
+                    <div class="status_user" style="background-image: url(https://NanxinWang.github.io/media/images/post-list.jpg);">
+                 
+                <div class="status_section">
+                    <a href="https://NanxinWang.github.io/post/CVlzNfezA/" class="status_btn">计算机辅助翻译概论笔记（全）</a>
+                    <h5 class="review-item-creator"><b>发布日期：</b>2020-10-16</h5>
+                    
+                        <a href="https://NanxinWang.github.io/tag/AGW3Htk_n/" class="autotag">计算机辅助翻译</a>
+                        
+                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">旧文迁移</a>
+                        
+                    
+                        <p class="section_p">&lt;p&gt;注：电脑或平板电脑应用内开启，可查看目录&lt;/p&gt;
+</p>
+                        
+                </div>
+            </div>
+        </div>
     </div>
     
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://NanxinWang.github.io/post/PslVGFP3b/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Trados中的一个应用细节
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>所谓细节决定成败，在翻译中尤为如此。</p>
-
-      </div>
-      <a href="https://NanxinWang.github.io/post/PslVGFP3b/" class="btn">
-        更多
-      </a>
+    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
+        <div class="status_list_item icon_kyubo">
+            
+                    <div class="status_user" style="background-image: url(https://NanxinWang.github.io/media/images/post-list.jpg);">
+                 
+                <div class="status_section">
+                    <a href="https://NanxinWang.github.io/post/PslVGFP3b/" class="status_btn">Trados中的一个应用细节</a>
+                    <h5 class="review-item-creator"><b>发布日期：</b>2020-10-16</h5>
+                    
+                        <a href="https://NanxinWang.github.io/tag/AGW3Htk_n/" class="autotag">计算机辅助翻译</a>
+                        
+                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">旧文迁移</a>
+                        
+                    
+                        <p class="section_p">&lt;p&gt;所谓细节决定成败，在翻译中尤为如此。&lt;/p&gt;
+</p>
+                        
+                </div>
+            </div>
+        </div>
     </div>
     
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://NanxinWang.github.io/post/GfwA4rUIl/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          英文写作中标点连字号（hyphen）与连接号（dash）的输入
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>生活处处有英语，这里说的是英文写作中标点连字号（hyphen）与连接号（dash）的输入。</p>
-
-      </div>
-      <a href="https://NanxinWang.github.io/post/GfwA4rUIl/" class="btn">
-        更多
-      </a>
+    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
+        <div class="status_list_item icon_kyubo">
+            
+                    <div class="status_user" style="background-image: url(https://NanxinWang.github.io/media/images/post-list.jpg);">
+                 
+                <div class="status_section">
+                    <a href="https://NanxinWang.github.io/post/GfwA4rUIl/" class="status_btn">英文写作中标点连字号（hyphen）与连接号（dash）的输入</a>
+                    <h5 class="review-item-creator"><b>发布日期：</b>2020-10-16</h5>
+                    
+                        <a href="https://NanxinWang.github.io/tag/F3gFEALaK/" class="autotag">计算机</a>
+                        
+                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">旧文迁移</a>
+                        
+                    
+                        <p class="section_p">&lt;p&gt;生活处处有英语，这里说的是英文写作中标点连字号（hyphen）与连接号（dash）的输入。&lt;/p&gt;
+</p>
+                        
+                </div>
+            </div>
+        </div>
     </div>
     
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://NanxinWang.github.io/post/sM4odoLzi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          医学翻译学习-维生素D补充剂与癌症和心血管疾病的预防
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        <p>关于“维生素D补充剂与癌症和心血管疾病的预防”一文医学翻译摘要学习情况，记录于此。</p>
-<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1809944?query=nejmyxqy">Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease</a></p>
-
-      </div>
-      <a href="https://NanxinWang.github.io/post/sM4odoLzi/" class="btn">
-        更多
-      </a>
+    <div class="post post-layout-list aos-init aos-animate shadow" data-aos="fade-up">
+        <div class="status_list_item icon_kyubo">
+            
+                    <div class="status_user" style="background-image: url(https://NanxinWang.github.io/media/images/post-list.jpg);">
+                 
+                <div class="status_section">
+                    <a href="https://NanxinWang.github.io/post/sM4odoLzi/" class="status_btn">医学翻译学习-维生素D补充剂与癌症和心血管疾病的预防</a>
+                    <h5 class="review-item-creator"><b>发布日期：</b>2020-10-16</h5>
+                    
+                        <a href="https://NanxinWang.github.io/tag/KCm2MsUP3/" class="autotag">医学翻译</a>
+                        
+                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">旧文迁移</a>
+                        
+                    
+                        <p class="section_p">&lt;p&gt;关于“维生素D补充剂与癌症和心血管疾病的预防”一文医学翻译摘要学习情况，记录于此。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nejm.org/doi/full/10.1056/NEJMoa1809944?query=nejmyxqy&#34;&gt;Vitamin D Supplements and Prevention of Cancer and Cardiovascular Disease&lt;/a&gt;&lt;/p&gt;
+</p>
+                        
+                </div>
+            </div>
+        </div>
     </div>
     
+
+        
+    <div class="pagination js-pagination">
+        
+            <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/page/2/">上一页</a>
+            
+                
+                    <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/page/4/">下一页</a>
+                    
+    </div>
+    
+
+      </section>
+
+    </div>
   </div>
   
-      </div>
 
-      
-  <div class="my-4 flex justify-between px-4 md:px-0">
-    
-      <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/page/2/" class="btn btn-white">
-        <i class="ri-arrow-left-line mr-4"></i>
-        上一页
-      </a>
-    
-    
-      <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/page/4/" class="btn btn-white">
-        下一页
-        <i class="ri-arrow-right-line ml-4"></i>
-      </a>
-    
-  </div>
 
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  a better translator
-</footer>
+
+    <script>
+    	jQuery(document).on('copy', function (e) {
+		var selected = window.getSelection();
+		var selectedText = selected.toString().replace(/\n/g, '<br>');  // Solve the line breaks conversion issue
+		var pageInfo = "From Curtis，请勿用于商业用途。";
+		var copyHolder = $('<div>', { id: 'temp', html: selectedText + pageInfo, style: { position: 'absolute', left: '-99999px' } });
+
+		$('body').append(copyHolder);
+		selected.selectAllChildren(copyHolder[0]);
+		window.setTimeout(function () {
+			copyHolder.remove();
+		}, 0);
+	});
+</script>
+  
+
+
+<script type='text/javascript' src='https://NanxinWang.github.io/media/js/particles.js'></script>
+
+
+<footer id="footer" class="overlay animated from-top">
+    <div class="decor-wrapper">
+        <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+            <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+        </svg>
+    </div>
+    <div class="socialize" data-aos="zoom-in">
+        
+        
+        
+        <a title="weibo" class="socialicon" href="https://weibo.com/stevenash120 "><i class="fa fa-weibo"
+                aria-hidden="true"></i></a>
+        
+        
+        
+        
 
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://NanxinWang.github.io/media/scripts/main.js"></script>
+    <div class="cr">
+        Copyright&copy;
+        a better translator |
+        <a class="rss" href="https://NanxinWang.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</footer>
+
 </body>
+
 </html>
