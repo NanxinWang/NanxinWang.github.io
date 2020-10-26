@@ -7,7 +7,7 @@
 <meta name="keywords" content="医学翻译,计算机辅助翻译 ">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    聊聊Injection | Curtis的世界_医学翻译&amp;生活点滴
+    GT4T使用一例_非CAT软件界面调用术语库_20201026 | Curtis的世界_医学翻译&amp;生活点滴
 </title>
 
 
@@ -187,47 +187,42 @@
                     <section class="post_content">
                         <header class="post_header">
                             <h1 class="post_title yellow-under">
-                                聊聊Injection
+                                GT4T使用一例_非CAT软件界面调用术语库_20201026
                             </h1>
                         </header>
                         <div class="post-body js-gallery">
-                            <p>Injection嘛，我们第一反应肯定是注射。注射，简单而言，就是将液体注入皮下组织、血管或者器官。<br>
-以往都是从普通解释，引申到医学领域的用法。今天，我们反其道而行之。<br>
-An act of injecting sb with a drug or substance.<br>
-Oxford 8th<br>
-If you have an injection, a doctor or nurse puts a medicine into your body using a device with a needle called a syringe<br>
-Collins<br>
-(1) : the act or an instance of injecting a drug or other substance into the body<br>
-(2) : a solution of a drug, nutrient, or other substance injected (as by catheter or needle) into the tissues, a vein, or a body cavity<br>
-(3) : a solution or suspension of a drug intended for administration under or through the skin or mucous membranes by means of a hypodermic syringe<br>
-(4) : an act or process of injecting vessels or tissues; also : a specimen prepared by injection — compare corrosion<br>
-(5) : the state of being injected : congestion<br>
-Webster<br>
-The action of or an act of driving or forcing (a fluid) into a passage, cavity, or solid material under pressure; esp. in Medicine, introduction of a medicine, preservative, etc., by means of a (hypodermic) syringe.<br>
-SOED5</p>
+                            <p>本文回答两个问题<br>
+什么是GT4T<br>
+如何在非CAT软件界面调用术语库</p>
+<!-- more -->
+<p>##首先是第一个问题——“什么是GT4T”？<br>
+GT4T是一款Windows/Mac应用。它是您翻译工作的终极机译解决方案。无论您的流程如何多样化，GT4T都能满足您的需求。<br>
+官网是gt4t.cn<br>
+其他可以大写特写的东西很多，但其实官网都有。我就不重复造轮子了。</p>
+<p>##第二个问题——“如何在非CAT软件界面调用术语库”？<br>
+###背景<br>
+周末无事，申请了加班。相熟的PM分配了一项在word和ppt上校订译文的工作。在word和ppt中，都涉及大量的表格。表格是关于不良事件的，而这些事件均按照首选语（preferred term，PT）进行分类。<br>
+虽然公司提供了MedDRA全套术语，但都是sdltb格式。现在不涉及CAT软件（trados），但需要确认这些首选语是否和官方一致。我该怎么办呢？<br>
+###方法1<br>
+这个方法很简单。<br>
+逐一复制原文词汇，放到trados里面的术语库搜索框，按回车，弹出译文，确认译文。<br>
+嗯，这个方法也很麻烦。</p>
+<p>看到大约有一两百术语的表格，我放弃了这个方法。</p>
+<p>###方法2 （推荐）<br>
+这个方法使用简单，但需要配置。</p>
 <ol>
-<li>[countable] a drug or another substance that is injected into your body<br>
-1a. [uncountable] the process of injecting a drug or another substance into your body<br>
-Macmillan<br>
-上述大体上，是我常用的基本英英词典里的解释。大家阅读之后也会发现，所谓的injection，既可以是动作，也可以是液体，真是还可以表示过程。<br>
-（顺带小声说一句，看看英英词典；想想自己以前看英汉词典时，天下我有的豪迈是否消失了呢？）<br>
-插入个分割线，我们继续聊医学以外的injection。<br>
-先看牛津</li>
-<li>[C] a large sum of money that is spent to help improve a situation, business, etc. 大量资金的投入<br>
-The theatre faces closure unless it gets an urgent cash injection. 剧院面临着倒闭，除非有大笔救急现金投入。</li>
-<li>[U, C] an act of forcing liquid into sth （液体的）注入，喷入<br>
-a fuel injection system 燃油注入装置<br>
-从词典里，我们学到了至少两个知识点。</li>
-<li>资金投入，cash injection</li>
-<li>help 和 improve之间有to，但通常省略掉了<br>
-再来瞧瞧麦克米兰<br>
-the addition of money to a business, a government programme, or someone's bank account<br>
-injection of: The company needs a huge injection of cash, and better trained staff.<br>
-the need for injection of capital from the parent bank<br>
-韦伯斯特<br>
-the placing of an artificial satellite or a spacecraft into an orbit or on a trajectory; also : the time or place at which injection occurs<br>
-随便翻翻词典，我们似乎就能发现许多小知识，翻译不就是这样么？一点又一点，慢慢知道的就多了。</li>
+<li>下载并安装Glossary Converter(由于此前已经下载并安装，不再赘述细节)</li>
+<li>将sdltb格式的PT术语转换为txt格式</li>
+<li>下载并安装GT4T (由于此前已经下载并安装，不再赘述细节)</li>
+<li>打开GT4T主界面并创建新的词汇表<br>
+<img src="https://NanxinWang.github.io/post-images/1603680241702.png" alt="" loading="lazy"></li>
+<li>用excel打开你新建的词汇表，会有四列内容。分别是SOURCE、TARGET、TARGETLAN和Paste source in column A and target in column B and then there you go. TARGET LAN can be left empty. You can safely replace this line.</li>
+<li>依照四列内容说明，依此将步骤2中的源语和目标语术语放入前两列</li>
+<li>保存步骤6文档，并在步骤4的界面中，将该文档设置为词汇表</li>
+<li>回到原来的word和ppt文件中，鼠标选中对应的PT，ctrl+win+d，就会弹出来对应的术语译文。</li>
+<li>对比译文是否一致，就不用多界面来回折腾了。</li>
 </ol>
+<p>后续，项目顺利进行，心态也没有因为查那几百个术语而崩溃。真好。感谢GT4T制作者Dallas。</p>
 
 
                         </div>
@@ -243,25 +238,21 @@ the placing of an artificial satellite or a spacecraft into an orbit or on a tra
                                 <!-- 文章底部信息开始 -->
                                 <div class="meta split split--responsive cf">
                                     <div class="split__title">
-                                        <time>2020-10-16</time>
+                                        <time>2020-10-26</time>
                                         
                                             
-                                                <span id="/post/U33ok-Ryt/" class="leancloud_visitors" data-flag-title="聊聊Injection">
+                                                <span id="/post/MiFnLpcFW/" class="leancloud_visitors" data-flag-title="GT4T使用一例_非CAT软件界面调用术语库_20201026">
                 <em class="post-meta-item-text"> 阅读量 </em>
                 <i class="leancloud-visitors-count">0</i>
               </span>
                                                 
                                                     
+                                                        <a href="https://NanxinWang.github.io/tag/AGW3Htk_n/" class="autotag">
+                #计算机辅助翻译
+              </a>
+                                                        
                                                         <a href="https://NanxinWang.github.io/tag/KCm2MsUP3/" class="autotag">
                 #医学翻译
-              </a>
-                                                        
-                                                        <a href="https://NanxinWang.github.io/tag/Uk_nqqzwf/" class="autotag">
-                #生活小词
-              </a>
-                                                        
-                                                        <a href="https://NanxinWang.github.io/tag/Z55rTNww1r/" class="autotag">
-                #旧文迁移
               </a>
                                                         
                                     </div>
@@ -300,17 +291,6 @@ the placing of an artificial satellite or a spacecraft into an orbit or on a tra
             <div class="navpost-part">
                 <div id="NextPrevPosts" style="display: block;">
                     
-                        <div class="prev aos-init aos-animate" data-aos="slide-right" data-aos-delay="1.5s">
-                            <div class="arrow"><i class="fa fa-angle-double-left"></i>
-                            </div>
-                            <div class="preview">
-                                
-                                        <div class="pull-left featuredImg" style="background-image:url(https://NanxinWang.github.io/media/images/no-image.png);"></div>
-                                        
-                                            <a class="pull-left preview-content bold" href="https://NanxinWang.github.io/post/N1jG3e4vB/"><span>比较</span></a>
-                            </div>
-                        </div>
-                        
                             
                                 <div class="next aos-init aos-animate" data-aos="slide-left" data-aos-delay="1.5s">
                                     <div class="arrow"><i class="fa fa-angle-double-right"></i></div>
@@ -318,8 +298,8 @@ the placing of an artificial satellite or a spacecraft into an orbit or on a tra
                                         
                                                 <div class="pull-left featuredImg" style="background-image:url(https://NanxinWang.github.io/media/images/no-image.png);"></div>
                                                 
-                                                    <a class="pull-right preview-content bold" href="https://NanxinWang.github.io/post/gKFAO8rQn/"><span>
-                校对随笔 - 20190618</span></a>
+                                                    <a class="pull-right preview-content bold" href="https://NanxinWang.github.io/post/xASimQkKY/"><span>
+                再谈the_20201020</span></a>
                                     </div>
                                 </div>
                 </div>
