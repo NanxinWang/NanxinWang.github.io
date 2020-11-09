@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的世界_医学翻译&amp;生活点滴</title>
-    <updated>2020-10-29T09:12:02.247Z</updated>
+    <updated>2020-11-09T09:24:33.040Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[关于标准物质的通用术语和定义_20201109]]></title>
+        <id>https://NanxinWang.github.io/post/-BK7qKn38/</id>
+        <link href="https://NanxinWang.github.io/post/-BK7qKn38/">
+        </link>
+        <updated>2020-11-09T09:06:56.000Z</updated>
+        <summary type="html"><![CDATA[<p>未完待续</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>未完待续</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[latter用法细节_20201029]]></title>
         <id>https://NanxinWang.github.io/post/nC8JcHuvp/</id>
@@ -92,12 +103,5 @@
         <link href="https://NanxinWang.github.io/post/N1jG3e4vB/">
         </link>
         <updated>2020-10-16T04:47:40.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[聊聊Injection]]></title>
-        <id>https://NanxinWang.github.io/post/U33ok-Ryt/</id>
-        <link href="https://NanxinWang.github.io/post/U33ok-Ryt/">
-        </link>
-        <updated>2020-10-16T04:47:10.000Z</updated>
     </entry>
 </feed>
