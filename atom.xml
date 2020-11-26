@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的世界_医学翻译&amp;生活点滴</title>
-    <updated>2020-11-26T08:05:55.665Z</updated>
+    <updated>2020-11-26T08:07:18.767Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[SDL Trados 2021 Pro CU2 使用体验]]></title>
+        <id>https://NanxinWang.github.io/post/fXbNeTuBK/</id>
+        <link href="https://NanxinWang.github.io/post/fXbNeTuBK/">
+        </link>
+        <updated>2020-11-26T08:39:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>塔多思CU2再次上新，体验了一番。感觉很不赖。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>塔多思CU2再次上新，体验了一番。感觉很不赖。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于标准物质的通用术语和定义_20201109]]></title>
         <id>https://NanxinWang.github.io/post/-BK7qKn38/</id>
@@ -74,17 +85,6 @@
         <summary type="html"><![CDATA[<p>想清楚了么？</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>想清楚了么？</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SDL Trados 2021 Pro CU2 使用体验]]></title>
-        <id>https://NanxinWang.github.io/post/fXbNeTuBK/</id>
-        <link href="https://NanxinWang.github.io/post/fXbNeTuBK/">
-        </link>
-        <updated>2020-10-16T08:39:45.000Z</updated>
-        <summary type="html"><![CDATA[<p>塔多思CU2再次上新，体验了一番。感觉很不赖。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>塔多思CU2再次上新，体验了一番。感觉很不赖。</p>
 ]]></content>
     </entry>
     <entry>
