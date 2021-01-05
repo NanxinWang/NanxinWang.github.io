@@ -2,14 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的世界_医学翻译&amp;生活点滴</title>
-    <updated>2020-12-16T00:28:18.313Z</updated>
+    <updated>2021-01-05T03:29:57.273Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
     <subtitle>随便聊聊，交个朋友</subtitle>
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <rights>All rights reserved 2021, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[20210105_上下左右中腹，怎么说得清]]></title>
+        <id>https://NanxinWang.github.io/post/iZotlqRYv/</id>
+        <link href="https://NanxinWang.github.io/post/iZotlqRYv/">
+        </link>
+        <updated>2021-01-05T03:08:59.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SDL Trados 2021 Pro CU2 使用体验]]></title>
         <id>https://NanxinWang.github.io/post/fXbNeTuBK/</id>
@@ -100,12 +107,5 @@
         <link href="https://NanxinWang.github.io/post/y_jEmo0Gh/">
         </link>
         <updated>2020-10-16T04:48:22.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比较]]></title>
-        <id>https://NanxinWang.github.io/post/N1jG3e4vB/</id>
-        <link href="https://NanxinWang.github.io/post/N1jG3e4vB/">
-        </link>
-        <updated>2020-10-16T04:47:40.000Z</updated>
     </entry>
 </feed>
