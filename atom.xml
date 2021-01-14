@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的世界_医学翻译&amp;生活点滴</title>
-    <updated>2021-01-12T01:42:52.700Z</updated>
+    <updated>2021-01-14T09:18:50.139Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[20210114_幸福瞬间]]></title>
+        <id>https://NanxinWang.github.io/post/teJtbh5s8/</id>
+        <link href="https://NanxinWang.github.io/post/teJtbh5s8/">
+        </link>
+        <updated>2021-01-14T09:14:07.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[20200112_眼科医生到底咋翻译？]]></title>
         <id>https://NanxinWang.github.io/post/wF4S1_WfO/</id>
@@ -100,12 +107,5 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>想清楚了么？</p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[主语与谓语]]></title>
-        <id>https://NanxinWang.github.io/post/RDH72rv_w/</id>
-        <link href="https://NanxinWang.github.io/post/RDH72rv_w/">
-        </link>
-        <updated>2020-10-16T04:49:11.000Z</updated>
     </entry>
 </feed>
