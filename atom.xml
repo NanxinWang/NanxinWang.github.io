@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NanxinWang.github.io</id>
     <title>Curtis的世界_医学翻译&amp;生活点滴</title>
-    <updated>2021-03-17T00:35:09.729Z</updated>
+    <updated>2021-03-17T11:28:52.735Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NanxinWang.github.io"/>
     <link rel="self" href="https://NanxinWang.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://NanxinWang.github.io/images/avatar.png</logo>
     <icon>https://NanxinWang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Curtis的世界_医学翻译&amp;生活点滴</rights>
+    <entry>
+        <title type="html"><![CDATA[20210316_稿件细节学习]]></title>
+        <id>https://NanxinWang.github.io/post/tf-MkfoIf/</id>
+        <link href="https://NanxinWang.github.io/post/tf-MkfoIf/">
+        </link>
+        <updated>2021-03-17T11:26:44.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[20210316_稿件细节学习]]></title>
         <id>https://NanxinWang.github.io/post/szjacqbeS/</id>
@@ -91,17 +98,6 @@
         <summary type="html"><![CDATA[<p>the与身体</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>the与身体</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[submit和send可不一样_20201020]]></title>
-        <id>https://NanxinWang.github.io/post/send&amp;submit/</id>
-        <link href="https://NanxinWang.github.io/post/send&amp;submit/">
-        </link>
-        <updated>2020-10-20T05:35:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>你喜欢哪个？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>你喜欢哪个？</p>
 ]]></content>
     </entry>
 </feed>
