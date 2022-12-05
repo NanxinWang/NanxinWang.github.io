@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en" style="--theme-color: #262626; --link-color: #262626;">
+<head>
+  <meta charset="UTF-8">
+  <title>计算机辅助翻译概论笔记（全） - 王楠鑫|Curtis_一个医学译者的前后左右</title>
+
+  <link rel="icon" href="">
+<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+<link rel="alternate" type="application/atom+xml" title="王楠鑫|Curtis_一个医学译者的前后左右 - Atom Feed" href="https://airmedtrans.com/atom.xml">
+
+  
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCRR8Q57W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script> -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-182385326-1');
+    ga('set', 'dimension1', 'site/cbS9tMKNT');
+    ga('set', 'dimension2', 'post/mzpjBTFbL');
+    ga('send', 'pageview');
+    // gtag('set', {
+    //   'custom_map': {
+    //     'dimension1': 'siteId',
+    //     'dimension2': 'postId',
+    //   }
+    // })
+
+    // gtag('config', 'G-NFCRR8Q57W', {
+    //   'siteId': 'site/cbS9tMKNT',
+    //   'postId': 'post/mzpjBTFbL',
+    // });
+  </script>
+
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="注：电脑或平板电脑应用内开启，可查看目录
+
+自述
+兜兜转转，2017年9月5日开始第一期CAT学习分享，245天之后，终于尽力完成了第一轮学习。不知道一路学下来的朋友有多少。
+计算机辅助翻译，一个一直以来比较有兴趣的方向，理论介绍终于告一段...">
+
+  <meta property="og:title" content="计算机辅助翻译概论笔记（全） - 王楠鑫|Curtis_一个医学译者的前后左右">
+  <meta property="og:description" content="注：电脑或平板电脑应用内开启，可查看目录
+
+自述
+兜兜转转，2017年9月5日开始第一期CAT学习分享，245天之后，终于尽力完成了第一轮学习。不知道一路学下来的朋友有多少。
+计算机辅助翻译，一个一直以来比较有兴趣的方向，理论介绍终于告一段...">
+  
+  <meta property="og:url" content="https://airmedtrans.com/CVlzNfezA/">
+  <meta property="og:site_name" content="王楠鑫|Curtis_一个医学译者的前后左右">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="计算机辅助翻译概论笔记（全）">
+
+  <meta name="gridea:post_id" content="mzpjBTFbL">
+
+  <link rel="canonical" href="https://airmedtrans.com/CVlzNfezA">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/a11y-light.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/css/main.css">
+
+</head>
+<body>
+  
+    
+  
+  <div id="page">
+    <div class="mb-16 sticky top-0 z-20 bg-white">
+  <header class="py-4 flex items-baseline justify-between max-w-2xl mx-auto px-2">
+    <h1 class="text-lg text-center font-medium px-4 md:px-0 flex items-center">
+      <div class="site-logo-text font-normal">王</div>
+      <a href="/">王楠鑫|Curtis_一个医学译者的前后左右</a>
+    </h1>
+    <div class="hidden sm:flex justify-center">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+        
+          <span class="text-gray-200">/</span>
+        
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+        
+      
+    </div>
+    <div class="flex sm:hidden py-2 px-4 text-center cursor-pointer" @click="openMenu = true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+    </div>
+  </header>
+
+  <div class="fixed top-0 right-0 bottom-0 left-0 bg-white hidden" :style="{
+    display: openMenu ? 'block !important' : 'none',
+  }" v-if="openMenu">
+    <div class="py-4 px-2 flex justify-end" @click="openMenu = false">
+      <div class="flex py-2 px-4 text-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+      </div>
+    </div>
+    <div class="flex flex-col p-4">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+      
+    </div>
+  </div>
+</div>
+    <div class="border-b border-gray-200">
+      <div class="max-w-2xl mx-auto px-6 md:px-2">
+        <div class="my-24 text-center">
+          <h1 class="text-2xl font-bold">计算机辅助翻译概论笔记（全）</h1>
+          <div class="post-title-bar mx-auto rounded mt-4"></div>
+          <div class="text-gray-400 mt-4">2020.10.16</div>
+          <div class="flex justify-center mt-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-bar" class="w-full sticky top-0 z-10 bg-white" style="height: 64px;"></div>
+    <div class="p-4 md:p-16 bg-white">
+      <div class="max-w-2xl mx-auto px-4 flex relative">
+        <section class="post-content flex-1 default-post-content max-w-2xl">
+          <div v-pre>
+            <p>注：电脑或平板电脑应用内开启，可查看目录</p>
+<!--more-->
+<h1 id="自述">自述</h1>
+<p>兜兜转转，2017年9月5日开始第一期CAT学习分享，245天之后，终于尽力完成了第一轮学习。不知道一路学下来的朋友有多少。<br>
+计算机辅助翻译，一个一直以来比较有兴趣的方向，理论介绍终于告一段落。由于公众号的内容构架太过折腾，我宁愿重新复制粘贴排版，用完整界面表达所有内容。<br>
+于是，也就有了你现在看到的版本。当然，这个版本会删去每次公众号开头和结尾的那些无实质意义的内容。排版不易，预计2018年6月前，完成所有排版工作。</p>
+<h1 id="一-引言">一、引言</h1>
+<h2 id="什么是cat"><strong>什么是CAT？</strong></h2>
+<p>中文名是：计算机辅助翻译<br>
+Wiki的英文解释</p>
+<blockquote>
+<p><strong>Computer-assisted translation</strong>, <strong>computer-aided translation</strong> or <strong>CAT</strong> is a form of language translation in which a human translator uses computer software to support and facilitate the translation process.<br>
+Computer-assisted translation is sometimes called machine-assisted, or machine-aided, translation (not to be confused with machine translation).</p>
+</blockquote>
+<p>进行一下关键信息提取<br>
+1、人类译员为主语（主动方）<br>
+2、使用电脑软件<br>
+3、支持、优化翻译流程</p>
+<p>简单的说，就是找个助理，在翻译过程中，为你提供帮助。</p>
+<p>那么，第二个问题接踵而至，<strong>这个CAT具体都包括些啥？</strong><br>
+其实Wiki上也说的浅显易懂，虽然并不全面（懒得看英文的，可以直接往下翻）</p>
+<blockquote>
+<p>Computer-assisted translation is a broad and imprecise term covering a range of tools, from the fairly simple to the complicated. These can include:<br>
+Translation memory tools (TM tools), consisting of a database of text segments in a source language and their translations in one or more target languages.[3]<br>
+Spell checkers, either built into word processing software, or add-on programs<br>
+Grammar checkers, again either built into word processing software, or add-on programs<br>
+Terminology managers, which allow translators to manage their own terminology bank in an electronic form. This can range from a simple table created in the translator's word processing software or spreadsheet, a database created in a program such as FileMaker Pro or, for more robust (and more expensive) solutions, specialized software packages such as SDL MultiTerm, LogiTerm, Termex, TermWeb, etc.<br>
+Electronic dictionaries, either unilingual or bilingual, also known as dictorobotary<br>
+Terminology databases, either on the host computer or accessible through the Internet, such as TERMIUM Plus or Grand dictionnaire terminologique from the Office québécois de la langue française<br>
+Full-text search tools (or indexers), which allow the user to query already translated texts or reference documents of various kinds. Some such indexers are ISYS Search Software, dtSearch Desktop and Naturel<br>
+Bitext aligners: tools that align a source text and its translation which can then be analyzed using a full-text search tool or a concordancer<br>
+Project management software that allows linguists to structure complex translation projects in a form of chain of tasks (often called &quot;workflow&quot;), assign the various tasks to different people, and track the progress of each of these tasks</p>
+</blockquote>
+<p>CAT内含广泛，有广义，有狭义，有难有易。<br>
+广义CAT可包括：<br>
+1、翻译记忆工具，由包含文本片段的数据库组成，该数据库包含源语（翻译前的文本）以及一个或多个目标语（翻译后的文本）对应文本。<strong>（简单的说，就有中英文对照的文本数据库）</strong><br>
+2、语法检查工具，要么内置在文字处理系统中，要么就扩展程序。<strong>（有人给你查语法）</strong><br>
+3、术语管理工具，该工具让译者能够以电子形式存储自己的术语。同时需要注意的是，这种术语管理，简单的，可以自己用word/excel建双语对照单词表，复杂点的，可以直接用SDL MulitTerm等专业程序建术语表，可以添加诸如译者、客户、术语含义、图片等信息**（自己翻译领域的独家字典产生）**<br>
+4、电子词典，不更多介绍了，有道、bing、欧路，以及灵格斯等等都属于这一系列。<strong>（翻书慢，那么这个效率就高很多）</strong><br>
+5、术语库，该工具可局域网、互联网共享术语。<strong>（团队性质词典产生）</strong><br>
+6、全文本搜索工具，翻译完的双语文本或不同类型的参考文本，可以直接搜索（wiki推荐ISYS Search Software, dtSearch Desktop and Naturel）（笔者认为，大家如果学会SDL Trados以及File Locator可达到类似效果）<br>
+7、双语对齐文本：将源语文本与译文进行对齐。（如果类似文本与翻译任务内容接近，可以进行利用）<br>
+8、项目管理软件：进行翻译项目管理，分配翻译任务以及跟踪翻译任务。<strong>（团队型管理）</strong></p>
+<p>有一种极端的说法，即，只要在翻译流程中使用了计算机，在某种程度上，就是计算机辅助翻译。当然，这种说法有些偏激，但是也有一定的可取之处。<br>
+例如，搜索引擎的利用、正则表达式的学习，以及ORC技术的了解。这些对于翻译工作都有很大作用。</p>
+<h2 id="翻译三大障碍">翻译三大障碍</h2>
+<p>在翻译的过程中，我们主要会遇到三类障碍，分别是<strong>翻译主体、翻译工具以及翻译客体</strong>所引发的障碍。</p>
+<p>在这之中，<strong>翻译主体</strong>所体现的译者不足，主要是双语交际能力、非语言能力、心理生理因素、专业操作能力、转换能力和策略能力【1】。这一系列能力的提升，需要一个漫长的过程，各位读者在日常翻译时，亦可针对性积累。</p>
+<p>最后，<strong>翻译工具</strong>所造成的障碍，包括译员对工具和资源的运用能力。常用的翻译工具包括但不限于传统辞典、电子词典、搜索引擎以及CAT软件等。同样，我们在之后的系列中，会更详细讨论。</p>
+<p>三者是否能够高效结合，决定了一份译稿的整体水平。<br>
+大致关系如下图所示：<br>
+<img src="http://mmbiz.qpic.cn/mmbiz_jpg/62v5jyGhdUicyFSzTaUEamKazoyIu0C1EfzQntLjl6JMfXDXADfPzL21ibOibYaQBAZv5gYhjjia37GZ5t2juC8a7w/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="图片" loading="lazy"></p>
+<p><strong>翻译客体</strong>所造成的障碍，按照翻译层面而论，则可分为语词类、句型句式类以及段落篇章类。</p>
+<p>首先是语词层面。</p>
+<p>在该层面中的第一个问题是，如何快速确定专业术语？例如“filler”在牙科医学领域须翻译为“充填剂”而非“填充剂”。解决这类问题，从CAT角度思考，最基本的依靠是<strong>辞典与语料库</strong>。</p>
+<p>在该层面的第二个问题是，习语（成语、俗语、格言、歇后语、谚语、俚语以及行话）含义如何确定？这其中又可大致分为三类：1、目标语中存在近似表达；2、目标语中存在意义相近，但形式、用法不同的表达；3、源语在目标语中不存在对应表达。这样的习语该如何翻译？解决这个问题，需要三大工具——<strong>搜索引擎、语料库以及工具书</strong>。至于习语是否可译这类问题，与翻译技术关联不大，有兴趣的朋友可自行研究。</p>
+<p>在该层面上，还包括但不限于：假同系表达、专业名词、新词新语、文化特色词、修辞，选词辨析等问题。这些问题大体上都可以借助<strong>搜索引擎、语料库以及工具书</strong>三方面得以解决。</p>
+<p>其次是语句层面。</p>
+<p>在该层面中，工具和资源能够帮助译者找到合适的<strong>平行文本</strong>，但最终翻译，还是需要依靠译者自身的素质。</p>
+<p>最后则是段落篇章层面。</p>
+<p>在该层面中，提供尽可能多的<strong>背景知识、双语文本</strong>是翻译工具与资源能够提供的最有效的帮助。</p>
+<p>综上所述，在翻译客体所造成的障碍中，充分利用翻译工具以及相关技术，能够在一定程度上降低翻译难度，提高翻译质量。这一点，在语词层面上最为明显。但单单依靠工具，是远远不够的。<strong>解决这类障碍的核心，还是译者自己</strong>。二、翻译实践常用工具（除CAT/MT）</p>
+<h2 id="翻译工具概述">翻译工具概述</h2>
+<p>不论是否为译者，只要学过英语的朋友，大都知道百度翻译、有道词典之类的英语类工具。但是具体说来，各自有什么区别，如何最大化相应工具的价值，可能知道的人就会少一些了。<br>
+ <br>
+在常见的翻译工作中，译者较为常用的工具包括：1、搜索引擎；2、辞典；3、语料库；4、CAT软件。在实际操作过程中，依据翻译项目的不同，可能还会涉及ORC软件识别、FileLocator本地搜索以及机器翻译等。由于篇幅有限，先大致谈一谈前4种翻译工具。<br>
+ <br>
+首先是<strong>搜索引擎</strong>。搜索引擎大致分为两种，本地搜索与互联网搜索。本文主要讨论互联网搜索引擎的使用。很多朋友可能不以为然，觉得不过是“百度一下 全都知道”；进阶一点的朋友可能会说“内事问百度，外事问谷歌”。不过事实可能并没有说起来那么简单。<br>
+ <br>
+基于笔者经验，在翻译过程中，谷歌搜索排名第一，其次为微软必应搜索（主体应用方向为中-英内容检索）。在使用搜索引擎时，并非简单的“想到什么就搜索什么”，而是应该更加具有技巧性。例如，在翻译时，应学会使用布尔检索、通配符等特定的搜索引擎语法。这类语法包括但不限于：filetype、intitle以及site等。<br>
+ <br>
+其次是<strong>辞典</strong>。传统辞典诚然精确，但是却存在不少需要规避的情况。首先，辞典中词语的收集到出版过程较长，导致词语相关信息陈旧；其次，中文释义无法也不能直接应用于翻译中；再次，由于篇幅所限，词语背景信息过少，容易造成“只见树木不见森林”的情况；最后，英汉对照的内容，无法直观对应。比如，“snap out of sth.”为“突然改变；行动起来”的意思；但是在词典中“突然行动”对应的译文却为“change/act suddenly”。电子词典与纸质词典的相应对比，也会在以后提及。<br>
+ <br>
+再次是<strong>语料库</strong>。最常见的语料库为杨百翰大学语料库，中国大学中北外的语料库建设也是独树一帜。虽然大多数语料库都是付费资源，但是通过语料库查询，译者可以迅速了解母语人士在语言使用上的特点。例如，通过对比10年内新闻报刊词汇的词频，译者可以了解词语的变迁情况，选择恰当的词语。</p>
+<h2 id="利用互联网搜索引擎进行翻译">利用互联网搜索引擎进行翻译</h2>
+<p>搜索引擎与翻译的联系，无疑十分紧密。</p>
+<p>搜索引擎的分类，一般有三种。第一种是根据<strong>组织方式分类</strong>，第二种是根据<strong>搜索范围分类</strong>，第三种则是根据<strong>信息内容分类</strong>。</p>
+<p>根据组织方式对搜索引擎分类，则有<strong>目录式搜索引擎</strong>与<strong>全文搜索引擎</strong>。</p>
+<p><strong>目录式搜索引擎</strong>，以人工方式或半自动方式搜集信息，由编辑员查看信息之后，人工形成信息摘要，并将信息置于事先确定的分类框架中。信息大多面向网站，提供目录浏览服务和直接检索服务。对网站的要求较高，<strong>需要网站内容特别明确</strong>：在向目录搜索引擎提交网站时必须将网站放在一个最合适的目录（Directory）；目录搜索引擎要求各网站的有关信息必须手工填写。目录式搜索引擎因为加入了人的智能，所以<strong>信息准确、导航质量高</strong>，缺点是<strong>需要人工介入</strong>、<strong>维护量大、信息量少、信息更新不及时</strong>。这类搜索引擎的代表是：<strong>Yahoo</strong>、looksmart、Open Directory、Go Guide等。（目前已经<strong>过时</strong>）</p>
+<p><strong>全文搜索引擎</strong>是<strong>目前广泛应用</strong>的主流搜索引擎。它的工作原理是计算机索引程序通过扫描文章中的每一个词，对每一个词建立一个索引，指明该词在文章中出现的次数和位置，当用户查询时，检索程序就根据事先建立的索引进行查找，并将查找的结果反馈给用户。这个过程<strong>类似于通过字典中的检索字表查字的过程</strong>。最常用的全文搜索引擎有**百度、谷歌（Google）**等。与之相对应的是目录索引类搜索引擎。</p>
+<p>目前市面主流搜索引擎中，国内百度最多，之后为搜狗、有道等；国外搜索以谷歌为主，还有altavista、YAHOO!、Yandex、Bing和Teoma等；另外，不同国家的谷歌，在搜索结果显示方面仍有不同。Yandex与Bing都是较新的搜索引擎，而Bing需要给予足够重视。</p>
+<p>根据搜索范围对搜索引擎分类，则有<strong>元搜索引擎</strong>与<strong>独立搜索引擎</strong>。</p>
+<p>元搜索引擎就是通过一个<strong>统一的用户界面</strong>帮助用户在<strong>多个搜索引擎中选择和利用合适的（甚至是同时利用若干个）搜索引擎</strong>来实现检索操作，是对分布于网络的多种检索工具的全局控制机制。简单而言，就是集合多个搜索引擎的结果，在单一界面显示。这一搜索引擎在早期使用较多，目前使用率一般。（仍有不少搜索引擎，借此在国内“帮助”用户使用谷歌等网站）</p>
+<p>元搜索引擎所选择和利用的单一搜索引擎即为独立搜索引擎，或者说，没有通过链接别的搜索引擎（一般是比较大的搜索引擎，如百度，google等）而独立进行相关资料搜索的搜索工具。</p>
+<p>根据信息内容对搜索引擎分类，则有<strong>综合性搜索引擎</strong>和<strong>专业搜索引擎</strong>。</p>
+<p>综合性搜索引擎，检索全面，不限制信息类型和范围；使用频率更高，满足更多需求；内容宽泛，但细节程度不够。</p>
+<p>专业搜索引擎，也可将其称为垂直搜索引擎（如住房、学科等）。该类型搜索引擎针对具体一类或者积累信息进行检索，结果相对较少，快速获得需求信息的几率亦较高。</p>
+<p>目前，也出现了多媒体搜索，如以图搜图和音频搜索等，同样值得读者关注。</p>
+<p>以上为搜素引擎的一个简单分类，希望大家对此有所了解。在翻译的过程中，有选择地使用搜索引擎。</p>
+<h3 id="搜索引擎工作的基本过程和要点">搜索引擎工作的基本过程和要点</h3>
+<p>搜索引擎大致的工作流程是：1、采集信息（爬虫）；2、索引，词汇与文字产生标识；3、匹配；4、输入结果。这其中大致有两个要点，其一是，爬取内容的处理，即中文分词的处理以及英文词形与形态变化的处理等；其二是，搜索引擎对检索词的处理。</p>
+<p>当然，这些内容主要还是交给程序员去处理，我们需要了解的一个关键点是，**搜索引擎优化（SEO）。**这一点对我们搜索的判读与选择有一定的帮助。Google Page Ranking是谷歌的排序关系。</p>
+<p>然而，由于因此产生的恶意优化产业日益膨胀，也由于谷歌不再需要借此去挑战诸如雅虎之类的竞争对手，这一数据已不再为公众所知。但这一算法1、引入了网站的重要性；2、根据网站内容的更新频率与内容进行分析，我们也因此知晓了使用搜索引擎须遵循的基准规则：1、选对搜索引擎；2、用准关键词；3、运用语法和高级检索。</p>
+<p><strong>第一点，选对搜索引擎。</strong></p>
+<p>** **</p>
+<p>因为不同的搜索引擎有不同的特点，同一关键词也会得到不同的结果（如百度、Bing与谷歌之间的搜索差异）。而且，同一搜索引擎的不同语言或版本之间的搜索结果也不相同（如谷歌澳大利亚与谷歌日本之间的搜索差异）。</p>
+<p><strong>第二点，用准关键词。</strong></p>
+<p>** **</p>
+<p>这其中第一点是利用主题对词限定（如“culture + 医学”）。这样可以限制搜索引擎的搜索范围，同时也可以排除有歧义的检索词。</p>
+<p>这其中第二点是多角度选词。译者应当正确分析检索主题得到关键词，多方面提炼反应该主题的含义以提高查全率。简单而言，有时候在搜索的过程中，不能将某些主题词僵化。</p>
+<p>这其中第三点则是避免搜索口语词汇。在这一部分，需要引出一个Hans Peter Luhn在信息检索研究时提出的概念——<em>Stop Words(停用词)</em>。所谓停用词，即在信息检索中，为节省存储空间和提高搜索效率，在处理自然语言数据（或文本）之前或之后会自动过滤掉的某些字或词。</p>
+<p>然而，并没有一个明确的停用词表能够适用于所有的工具。对于一个给定的目的，任何一类的词语都可以被选作停用词。通常意义上，停用词大致分为两类。一类是人类语言中包含的功能词比如“the”、“is”、“at”、等。但是对于搜索引擎来说，当所要搜索的短语包含功能词，特别是像The Who、The One或Take That等复合名词时，停用词的使用就会导致问题。另一类包括，比如“想”等词汇或短语（如“我想知道”、“帮我查查”等），这些词或短语应用十分广泛，但是对这样的词搜索引擎无法保证能够给出真正相关的搜索结果，难以帮助缩小搜索范围，同时还会降低搜索的效率，所以通常会把这些词从问题中移去，从而提高搜索性能。</p>
+<p>这其中第四点也是最后一点是双语检索。在译者确定相应译文的时候，可搜索源语和目标语言的部分或全部词。利用这个办法，有一定几率能够让译者快速获得相应翻译的平行文本。在某些时候，能够让译文产出更为快捷。</p>
+<p><strong>今天要谈到的第三点是使用语法和高级检索（以谷歌为例）。</strong></p>
+<p>在这一部分，不得不提的就是布尔逻辑。布尔逻辑应用至搜索引擎，为布尔检索。在布尔检索中，存在“与、或、非”的概念。逻辑“与”可用AND或*表达，逻辑“或”可用OR或+表达，逻辑“非”可用NOT或-表达。</p>
+<p>具体在谷歌中的布尔检索表达：<br>
+1、谷歌无需用明文的“AND”或“+”表达逻辑“与”；<br>
+2、谷歌用大写的“OR”表示逻辑“或”；<br>
+3、谷歌用空格加减号“-”表示逻辑“非”。</p>
+<p>如果用短语做关键词——必须加英文引号。</p>
+<p>我们<strong>利用谷歌的检索语法可以完成更为精确的检索</strong>。常用的检索语法包括但不限于：<br>
+site:<br>
+link:<br>
+filetype:<br>
+define:<br>
+intitle:<br>
+related:<br>
+inurl:<br>
+intext:<br>
+inanchor:</p>
+<p>关键词+【空格】site:网站<br>
+这一搜索语法可以保证搜索结果局限于某一具体的网站。“site:”后可接：<br>
+某具体网址，如tech.ifeng.com<br>
+某域名范围，如edu,gov等<br>
+如果要排出某网站或域名范围内的页面，只需要“【空格】-网站/域名”</p>
+<p>关键词【空格】filetype:文件类型<br>
+这一搜索可以搜索某些类型的文档。支持的文件格式包括Microsoft Office的xls、ppt与docx文档等；adobe的pdf文档等<br>
+（如果希望搜索较权威信息，可参考以pdf为类型的信息）</p>
+<p>inurl/allinurl:关键词<br>
+这一搜索可查询url中包含制定词语的页面。allinurl和inurl的区别在于：allinurl后面限定更加的严格，但allinurl后面同时包含几个词时，这几个词的关系是“且”的关系；而在inurl中，其后面同时包含几个词，这几个词的关系则是“或”的关系。inurl搜索的范围比allinurl搜索的范围更广。</p>
+<p>intitle/allintitle:关键词<br>
+这一搜索可以查询网页标题中包含指定词语的页面，两者间的具体差异与allinurl与inurl类似。</p>
+<p>类似搜索技巧仍有很多，在此不一一赘述。</p>
+<p>搜索引擎的高级搜索包括设置高级选项，即按照网页提供的筛选项缩小搜索范围，实现检索精确。实质也是对应了部分搜索语法，为不熟悉高级搜素语法的使用者生成所需要的关键字。</p>
+<h3 id="使用诱导词进行搜索">使用诱导词进行搜索</h3>
+<p><strong>那么第一个问题来了，什么是“诱导词”？</strong><br>
+在使用搜索引擎辅助翻译工作的过程中，“诱导词”是指与直接检索词有特定关系的源语或目标语间接关键词。</p>
+<p><strong>接下来，我们就以2008年哈佛大学校长毕业典礼演讲的一句话为例。</strong><br>
+原文：This moment would have propelled Increase and Cotton into a true “Mother lather.”<br>
+“Increase”和“Cotton”极为常见，但此处首字母大写，表明其并非普通含义。直接利用谷歌、必应等搜索引擎，获得的信息大多无用。</p>
+<p>如何解决其深层次含义呢？<br>
+1、尝试通过上下文语境去寻找与“Increase”和“Cotton”相关的背景知识。<br>
+其上下文语境为：<br>
+ Here I am in a pulpit, dressed like a Puritan minister — an apparition that would have horrified many of my distinguished forebears and perhaps rededicated some of them to the extirpation of witches. This moment would have propelled Increase and Cotton into a true “Mather lather.”<br>
+在待翻译文本之前的句子中，一共包含3层意思：1、我穿的像清教徒牧师；2、这打扮可能吓坏了很多前辈；3、这很可能让很多人再次投入消灭巫师的事业中。那么，为什么这样的打扮会让人投入到消灭巫师的事业中呢？<br>
+这一部分语境大部分与“Puritan”相关，因此，可以猜测Increase和Cotton也与Puritan有关。</p>
+<p>尝试搜索：“Increase Puritan”，搜索结果如下图所示：﻿<img src="https://images-cdn.shimo.im/Q3eBwKDs51coOmYC/640.jpg!thumbnail" alt="图片" loading="lazy"> <br>
+而尝试搜索：“CottonPuritan”，搜索结果如下图所：<img src="https://images-cdn.shimo.im/xNXtD2PqsjACrXN7/640.jpg!thumbnail" alt="图片" loading="lazy"><br>
+<img src="https://images-cdn.shimo.im/zdFH8j7sO7sriq0s/640.jpg!thumbnail" alt="图片" loading="lazy"></p>
+<p><strong>整体思路：</strong><br>
+通过上下文语境发现检索词“Increase”和“Cotton”的背景可能与“Puritan”有关，并将“Puritan”作为诱导词，分别与两个词一起查询，最终“诱导”出正确信息。（该句中“Increase”和“Cotton”为原文直接可以提取的检索词，而“Puritan”则是该句的诱导词。</p>
+<p>案例分析结束，我们大致了解了诱导词的实际使用过程。那么，<strong>诱导词是如何分类的呢？</strong><br>
+<strong>从语言维度考虑，可将诱导词分为源语诱导词和目标语诱导词。</strong><br>
+源语诱导词，是指与直接检索词语种相同的诱导词，如：检索词为英文，使用有特定关系的英文词作为诱导词。目标语诱导词，是指与直接检索词的目标语种相同的诱导词，如：检索词是英文，目标语是中文时，使用有特定关系的中文词作为诱导</p>
+<p>词。<br>
+<strong>从关系维度考虑，可将诱导词分为：1、原文内提取的诱导词；2、与原文知识背景有关系的诱导词；3、使用原文所在的地区、领域或行业的名称作为诱导词；4、使用与直接检索词有相同词根、词型、来源等的词；5、使用原文中某个词的同义词作为诱导词；6、扩展</strong></p>
+<p><strong>诱****导词。</strong><br>
+<strong>原文内</strong>提取的包括导<br>
+词的例子为：若原文是“土壤盐碱化”，可直接检索“土壤盐碱化 soil”；若原文是“查询条件”，可直接检索“查询条件 query condi<br>
+<strong>t****ion”。</strong><br>
+<strong>与原文知识背景</strong>有关系包括诱<br>
+导词的例子为：若原文是“…参与和支持孙中山革命者张永福、陈楚楠和林义顺的后人”，可考虑检索“Singapore branch of Tong Meng** Hui”。**<br>
+<strong>使用原文所在的地区、领域或行业的</strong>名称作包括诱<br>
+导词的例子为：若需要翻译“粒度”，可以考虑搜索“粒度 natural language processing”；若需要翻译“爱丽丝·门罗”，则可以考虑搜索“爱丽丝·门罗Canada/Noble P<strong>rize”。</strong><br>
+<strong>使用与直接检索词有相同词根、词</strong>型例子包括等<br>
+的词的例证为：若检索词是“pulling”，其原型是“pull”，检索时可将“pull”<strong>作为诱导词。</strong><br>
+<strong>使用原文中某个词的同</strong>义词子包括：导词的例证为：若需要搜索“查询条件”，可检索“查询条件 se此外，arch”。<br>
+扩展诱导词，是指直接检索词的语义放大或缩小后也可以作为诱导词，与其有关的词。比如，原文包含“破解”，可考虑搜索“hacker”、“jailbreak”以及“pah”等。</p>
+<h2 id="利用学术数据库进行翻译">利用学术数据库进行翻译</h2>
+<p>学术数据库专业性和权威性鲜明，是一系列数字资源的集合，有效归纳、整合了各领域的专业知识，构建出了各个学科的知识体系。</p>
+<p>那么，学术数据库如何帮助译者进行翻译呢？这主要分为三个方面。<strong>第一点，背景知识框架建设</strong>；译者通过学术数据库，可以了解相关专业的背景知识以及各类学科的相关问题。<strong>第二点，权威性资料查询</strong>；译者借助学术数据库，能够在字词术语、语篇结构和图表数据等方面，搜索到平行语料，甚至契合度极高的译文。<strong>第三点，验证译文准确与否</strong>；译者在翻译过程结束后，可以利用相关学术术语库，查询译文的术语使用、语篇结构，以及数据信息的表达是否符合规范。</p>
+<h3 id="学术数据库四大特征">学术数据库四大特征</h3>
+<p><strong>针对性、规范性、科学性</strong>以及<strong>可靠性</strong>。</p>
+<p>所谓针对性，即其包括特定学科的专业内容；所谓规范性，即数据库信息包含相关学科的写作、引用等学术规范；所谓科学性，是指数据库内信息，均通过了同行审议机制；而所谓的可靠性，是指在学术数据库中所获得的术语、数据等信息基本真实可靠。</p>
+<p>在实际的翻译过程中，由于翻译内容的多样性，以及翻译工作的复杂性，译者需要了解的专业背景知识与源语文本的专业性成正比。这也要求译者自身具有快速学习的能力和敏锐获取知识的技巧。</p>
+<p>在翻译过程中，常用的学术数据库包含但不限于1、<strong>中外文电子期刊数据库</strong>；2、<strong>电子图书与电子报纸</strong>；3、<strong>国内外学科信息门户</strong>；4、<strong>专利资源、科技报告以及标准文献</strong>等。</p>
+<p>首先讨论的是<strong>中外文电子期刊数据库</strong>。该类数据库包括付费和开放获取的电子期刊以及学位论文等；这类数据库是最常见也是最为常用的一类学术资源集合。</p>
+<p>国外电子期刊数据库包括Elsevier/Springer/John Wiley等。除此之外，还可访问谷歌学术搜索引擎scholar.google.com（当然，国内用户请自行寻找解决登陆事宜）。谷歌学术搜索引擎涵盖了世界上绝大多数学术出版物，更便于追踪某一学科的最新发展动向和研究成果。但使用“一般”检索办法，获得的信息也更为宽泛。</p>
+<p>中文的主流电子期刊数据库包括:中国知网、万方数据以及维普期刊。区别大家应该都有所了解，不再赘述。</p>
+<p>国外有影响的免费数据库站点有HighWire、DOAJ,而国内则有中国科技论文在线。HighWire由斯坦福大学图书馆创办于1995年；DOA是一个开放期刊的目录检索系统，全称是Directory of Open Access Journals，由瑞典Lund大学图书馆于2003年创建，数量多且质量有保证；中国科技论文在线是教育部于2003年创建的中文免费期刊收录网站。</p>
+<p>在实际操作过程中，可先用CNKI翻译助手查询相关译文，再用译文在数据库查询，看是否符合语境等信息；不断循环，直至获取相对最优译文。</p>
+<p>第二点要谈及的是<strong>电子图书与电子报纸</strong>。</p>
+<p>** **</p>
+<p>关于电子图书，目前主流的是亚马逊与古登堡计划；而电子报纸则涉及几乎所有主流媒体，拥有更高的时效性，也相对权威。</p>
+<p>第三点要谈及的是<strong>国内外学科信息门户</strong>。</p>
+<p>即学术资源导航网站：学术信息或网站资源按照学科筛选、分类聚合。这类门户是特定学科领域的网上信息资源、工具和服务的集合，信息检索和服务入口。如中国高等教育文献保障系统<a href="http://www.calis.edu.cn">www.calis.edu.cn</a>。各高校图书馆也有类似入口。</p>
+<p>其他资源导航服务还包括Global legal research library、Westlaw China中国法律法规双语数据库、北大法宝以及方略管理知识系统。</p>
+<p>第四点要谈及的是<strong>专利资源、科技报告以及标准文献。</strong></p>
+<p>** **</p>
+<p>关于专利资源，译者主要需要使用专利检索以及双语对照功能。<br>
+常用的数据库有<br>
+欧洲网上专利数据库<a href="http://www.espacenet.com/index.en.htm">www.espacenet.com/index.en.htm</a><br>
+美国专利全文数据库<a href="http://www.uspto.gov">www.uspto.gov</a><br>
+中国专利信息中心-专利之星检索系统search.patentstar.cn<br>
+中国专利数据库(知网版) <a href="http://dbpub.cnki.net/grid2008/dbpub/brief.aspx?id=SCPD">http://dbpub.cnki.net/grid2008/dbpub/brief.aspx?id=SCPD</a></p>
+<p>这类资源大多都是单语版本，不得不说是一个遗憾。目前欧洲专利局提供跨语言检索服务，而通过中文检索其他语言的专利数据库仍少见。</p>
+<p>科技报告是指报道、记录科研成果或进展情况的一种文献类型，一般单独出版。较有名的是美国商务部国家技术情报服务处NTIS数据库<a href="http://www.ntis.gov">www.ntis.gov</a>和国务院发展研究中心调查报告<a href="http://edu.drcnet.com.cn/www/edunew">http://edu.drcnet.com.cn/www/edunew</a></p>
+<p>最后是标准文献。标准是一类文件协议，包括技术规范或其他明确作为规则、指南、特征定义等的一致使用的标准，以保证材料、产品、加工、服务与他们的目的相同。如国际标准<a href="http://www.iso.org">www.iso.org</a>与中国标准<a href="http://www.chinastandard.com.cn">www.chinastandard.com.cn</a>。</p>
+<h3 id="应用学术数据库一般流程"><strong>应用学术数据库——一般流程</strong></h3>
+<p>1、要点与准则：<br>
+翻译问题识别：确定问题类型与查询对象<br>
+中外文资源之间的相互借鉴和使用</p>
+<p>2、选择对应的数据库：<br>
+与学科专业相关或所查文献类型相同</p>
+<p>3、采取有效的办法：<br>
+有限条件下的最优结果<br>
+直接检索、高级检索、关联检索</p>
+<p>4、确定对应关系：<br>
+中外文数据库循环检索<br>
+中外文对应、专业领域对应</p>
+<p>5、辨析与选择：<br>
+基于词频统计、基于经验、基于源语内容</p>
+<p>6、验证结果：<br>
+术语验证、语篇结构验证</p>
+<h3 id="学科数据库使用注意事项"><strong>学科数据库使用——注意事项</strong></h3>
+<p>1、灵活变通。不同的数据库以及其他互联网工具之间的相互切换与使用<br>
+2、顺藤摸瓜与“曲线”查询。国内外数据库循环检索、代<br>
+语境、相关检索<br>
+3、勿本末倒置。专注于解决翻译问题本身，并非一知识</p>
+<h2 id="利用语料库进行翻译">利用语料库进行翻译</h2>
+<p>语言不断产出，不断消失。而语料库则是语言使用留下的痕迹。通过语料库，我们能够了解语言，帮助翻译。虽然时效性而言，不如之前谈及的互联网。</p>
+<h3 id="引导"><strong>引导</strong></h3>
+<p>举一个简单的例子，翻译“制定政策”一词。“政策”很容易想到policy。但是“制定”一词如何确定？与policy搭配的动词有哪些呢？</p>
+<p>运用我们之前所学，可在谷歌搜索  <img src="https://images-cdn.shimo.im/txhjoeqrCDofY2xH/640.jpg!thumbnail" alt="图片" loading="lazy"><br>
+ 而在语料库中，我们可以找到与policy相关的动词搭配, 进而对比选择 <img src="https://images-cdn.shimo.im/cEYzAtTILtEHWFCj/640.jpg!thumbnail" alt="图片" loading="lazy"><br>
+ 举例到此结束。今天，我们就正式进入语料库部分的讲解。</p>
+<p><strong>首先是语料库思想产生的背景</strong><br>
+1、物质基础：电脑科技的发展；2、思想基础：经验主义。</p>
+<p>关于语言的记录、研究与理论的表达方法，首先要提及的是经验积累的历程。这其中，首先是辞典的编纂，如Oxford Endlish Dictionary和现代汉语词典。Harris对这类方式的总结为：“The approach began … with a large collection of recorded utterances from some language, a corpus. The corpus was subjected to a clear, stepwise, bottom-up strategy of analysis.”而乔姆斯基《句法结构》认为，说话的方式（词序）遵循一定的句法，这种句话是以形式的语法为特征的，具体而言就是一种不受语境影响并带有转换生成规则的语法。他表示：“Corpus could never be a useful tool for the linguist, as the lingusit must seek to model language competence rather than performance.”</p>
+<p><strong>什么是语料库？</strong></p>
+<p>A collection of machine-readable, authentic texts(including transcripts of spoken data) which is sampled to be representative of a particular language or language variety.</p>
+<p><strong>语料库用来做什么？</strong><br>
+1、对语言的某个方面进行研究<br>
+2、依据语料库所反应的语言事实对现行语言学理论进行校正和批判，重构新的观点和理论<br>
+3、依据语料库的分析结构，对于语言的规范应用给予借鉴和指导。***</p>
+<h3 id="语料库发展回顾与展望">**语料库发展回顾与展望 **</h3>
+<p><strong>早期建设与计算机发展直接相关</strong><br>
+英国的Quirk开创了新一代的语料库语言学。1959年他宣布建立SEU语料库的计划,目的是建立一个容量大、文本文体各异的语料库,对英语书面语和口语进行全面系统的描述。这是最后一个手工语料库,收集的语料是写在纸上或卡片上,不存入电脑,因此没有机读性。</p>
+<p>与Quirk1959年宣布建立SEU语料库的计划相隔仅两年,美国布朗大学的Francis和Kucera就开始酝酿编制第一个机读语料库。从1961年开始到1964年编制完成的布朗语料库可以说是一个创举,一是它标志着语料库的建立进入了电子时代;二是它要面对巨大的压力和无情的抨击,因为60年代初期正是Chomsky的转换生成语法理论风行美国和全世界的时代,处在萌芽时期的新一代语料库语言学自然会受到怀疑和抨击。布朗语料库的全称是布朗大学当代美国英语标准语料库,内容是1961年出版的美国书面英语,收录了500篇文本,每篇2000词左右,语料库共计100万词次。</p>
+<p>LOB语料库由英国兰开斯特大学和挪威奥斯陆大学与设在挪威卑尔根市的挪威人文科学计算中心共同合作建立。LOB语料库被认为可与布朗语料库相媲美,它收集了1961年出版的英国书面英语,同样有500篇文本,每篇约2000词,共计100万词次。这样,研究人员就可以从词频、语法等方面对英美两种英语变体进行对比研究。LOB语料库的建立虽然比布朗语料库晚了十几年,但语料库的编制者充分利用了科技进步的成果,他们把语料存在磁带和光盘上,制成缩微胶片和只读光盘,给语料库的原始文本和经过分析的部分文本的每个词加上语法标记,并编成连带上下文的关键词检索系统,语料库的价值和作用大大提高。</p>
+<p>1975年,由瑞典隆德大学的Svartvik主持成立的英语口语调查机构,开始将英国SEU语料库收集的英语口语材料转化成机读的形式。SEU语料库原有87篇口语文本,43万5千词次,他们增加了13篇文本,经过加工整理,于1980年建立起伦敦-隆德英语口语语料库,简称伦敦-隆德语料库,该语料库有100篇文本,每篇5000词,共计50万词次。</p>
+<p><strong>更大规模的发展</strong></p>
+<ul>
+<li>COBUILD Project</li>
+<li>Longman Corpus</li>
+<li>British National Corpus</li>
+<li>International Corpus of English</li>
+<li>American National Corpus</li>
+</ul>
+<p>具体如：<br>
+<strong>COBUILD Project</strong><br>
+建于1980年代，以词典编纂为应用背景；由英国伯明翰大学与柯林斯出版社合作完成，规模达2000万词次；基于该语料库出版的Collins Cobuild词典（1987）受到了广泛的好评。</p>
+<p><strong>语料库对词典的编纂帮助</strong><br>
+从语料库中所获得的词频信息以及其他辅助性信息，为词典编纂者决定选词立目和义项排序(例如，哪个义项该排在前面) 等决策提供了依据。如新词语的发现，年度词汇。其次，借助于语料库数据的分析，将帮助词典编纂者对一些编纂问题做出决策，如词义(某一语词有多少义项) 、片语(哪些短语或搭配值得凸显) 、句法特征(哪些句法结构需要收入词典中) 等等。</p>
+<p><strong>如Longman Corpus</strong></p>
+<ul>
+<li>建于1980年代，包括三个语料库：</li>
+<li>LLELC语料库（Longman/Lancaster英语语料库）</li>
+<li>LSC语料库（Longman口语语料库）</li>
+<li>LCLE（Longman英语学习语料库）</li>
+<li>目标是编撰英语学习词典，为外国人学习英语服务</li>
+<li>词典规模达5000万词次</li>
+</ul>
+<p><strong>如British National Corpus</strong></p>
+<ul>
+<li>制作于1991-1995年</li>
+<li>文本量大（两千万词），4G文本</li>
+<li><a href="http://www.natcorp.ox.ac.uk/">http://www.natcorp.ox.ac.uk/</a></li>
+<li><a href="http://www.oucs.ox.ac.uk/rts/xaira/Doc/">http://www.oucs.ox.ac.uk/rts/xaira/Doc/</a></li>
+</ul>
+<p>目前而言，极其重要</p>
+<p><strong>其他还有美国国家语料库等</strong></p>
+<p>而<strong>国内早期的语料库建设</strong>则如下图所示<br>
+<img src="https://images-cdn.shimo.im/g5BqvPfcu3guOCyk/640.jpg!thumbnail" alt="图片" loading="lazy"><img src="https://images-cdn.shimo.im/oyV7PGmMskMpZlKK/640.jpg!thumbnail" alt="图片" loading="lazy"><br>
+对于中文文本而言，目前依旧存在输入输出、存贮等难题。</p>
+<h3 id="语料库的特点">语料库的特点</h3>
+<p>语料库一般而言较为庞大，带有标签、注释等信息，通常已经进行了语法分析。在方向上，分为特定领域和通用领域；在加工程度上，分为粗糙和精细。语料库的加工深度则取决于语料库的用途、成本以及发展方向。</p>
+<h3 id="语料库建设的基本问题"><strong>语料库建设的基本问题</strong></h3>
+<p>包括但不限于：1.语料一旦确定，很少更新；2.人工参与过多，自动化程度不高；3.缺乏语言资源管理；4.缺乏用户定制功能；5.成本大，周期长；6.高度分化，缺乏集成。</p>
+<h3 id="现代语料建设的两个主要方向"><strong>现代语料建设的两个<strong><strong>主要</strong></strong>方向</strong></h3>
+<p>一个是Web-based corpora，另一个则是Wiki-based corpora。两者各有所长，有兴趣的朋友，可以搜索下相关文献。</p>
+<p>基于语料而进行的相关研究，大多具有客观性、科学性以及通用性等优势。当然，由于侧重点不同，也会有一些劣势，或者易受批评的方面，如选取语料是否鲜活、语料范围是否适宜、数据与理论是否可以契合、定性定量以何种方式为准等等。</p>
+<h3 id="语料库的用途">语料库的用途</h3>
+<p>大致可分为<strong>自然语言处理用途与人文社科用途</strong>。前者的代表是基于统计的机器翻译。早在1949年，美国数学家瓦伦·韦弗（Warren Weaver)提出了统计机器翻译的基本思想。1993年，IBM研究院的研究人员提出了五种统计模型。但由于当时计算条件的限制和资料库的匮乏，研究人员无法实现如此大规模的运算。2009年谷歌翻译负责人认为，这一机器翻译方法无法用来翻译诗歌。</p>
+<p>关于语言学范畴的语料库研究，则主要集中在：1.各类应用语言学研究的支撑工具以及规律、规则的发现和验证工具；2.语体、语言风格研究，如研究“红楼梦究竟是不是一个人写的”等问题；3.语法规则的发现和验证。而各学科结合、大数据下的语料库研究，则主要涉及：1.与社会网络结合，分析预测，如判断流行性感冒的发生与发展，地区分布；2.预测政治事件的发生，比如总统选举结果；3.结合语言认知心理学、社会心理学。</p>
+<h3 id="基于语料库的翻译学研究">基于语料库的翻译学研究</h3>
+<p>有Mona Baker的三篇相关论文值得一看，分别是：</p>
+<ol>
+<li>
+<p>Baker, M. 1993.Corpus linguistics and Translation Studies. Implications and Applications</p>
+</li>
+<li>
+<p>Baker, M. 1995.Corpora in Translation Studies: An Overview and Some Suggestions for Future Research</p>
+</li>
+<li>
+<p>Baker, M. 1999.The Role of Corpora in Investigating the Linguistic Behaviour of Professional Translators</p>
+</li>
+</ol>
+<h3 id="cat层面的语料库使用">CAT层面的语料库使用</h3>
+<p>基于语料库的翻译研究注重翻译结果的分析和研究，而在CAT层面，我们更在意翻译过程中，语料库的辅助作用。</p>
+<p>例如，由于两种语言存在相同特征（如功能、文本类型、主题，出版时间等），我们借助<strong>可比语料库</strong>，可以在翻译过程中了解不同语言的类似表达。</p>
+<p>如果语料库中只有一种语言，似乎与翻译无关。但是，绝大多数译员是单母语的；外语<strong>单语语料库</strong>提供了分析观察该语言的使用规则的最佳窗口，借助于语料检索与统计分析工具，可以得到远超过辞典和语法书的语用知识。</p>
+<p>在<strong>平行语料库</strong>中，同时存在源语与目的语，可以直接帮助译者选择最佳译文。</p>
+<p>至于语料库的类型，按照是否加工，可以分为熟语料和生语料；按照语言种类，可分为单语、双语和多语；按照规模，可分为小型和大型；按照语料类型分，可分为通用和专门用途。当然，还有类似学习语料、历史语料等其他分类方式。</p>
+<h3 id="常用的语料库检索工具"><strong>常用的语料库检索工具</strong></h3>
+<p>大致情况如下：<br>
+• Wordsmith（商业）<br>
+• Antconc、Paraconc（免费、商业）<br>
+• CWB（sourceforge，开源，推荐）<br>
+• SPSS、Weka 统计工具及数据分析工具（商业、开源）<br>
+• 基于 web 的语料库系统<br>
+• Sketch Engine （商业）<br>
+• <a href="http://corpus.byu.edu">http://corpus.byu.edu</a> （免费）<br>
+• <a href="http://ccl.pku.edu.cn">http://ccl.pku.edu.cn</a> （部分免费）</p>
+<p>总体而言，语料库有两大用途。首先，语料库拥有语料检索和频率统计功能。这两项功能不但可以观察和把握语言事实，而且还可以分析和研究语言的规律。其次，语料库还可以量化语法现象，并检测和验证语言理论、规则或建设。从语言本身分析，可以研究词汇、语法、语义、语体等等领域，辅助发展词汇学、语法学和语言理论领域。从历史维度等角度分析，还可以研究历史语言学。</p>
+<p>如果从人文社科和理工科两个角度看语料库的用途。则前者包含词汇、语法、语义、语用，以及语体研究；社会语言学研究，口语研究，词典编纂和语言教学。后者包括自然语言处理、人工智能、机器翻译、言语识别与合成和统计语言模型<br>
+在应用语言学领域，语料库可涉及词典编纂和语言学。<br>
+词典编纂：<br>
+用于收词、释义、例句、属性标注等。词语搭配，词语意义辨析，新词语发现。<br>
+语言教学：<br>
+1.语料比较、统计、筛选等方法为外语教学提供必要参考信息；<br>
+ 2.学习者语料库：教学过程与学习者语料库的收集整理与研究过程融为一体</p>
+<h3 id="语料库在翻译实践中的用途"><strong>语料库在翻译实践中的用途</strong></h3>
+<p>具体而言可以包括获取专业知识、学习专业术语、借鉴表达方式、模仿写作风格以及提供翻译策略。归根到底，则是帮助译者理解原文，以及帮助译者寻找更合适的表达方法。</p>
+<p>表格 1：借助语料库希望获得的</p>
+<p>在翻译实践中，<strong>可用的语料库类型</strong>包括：<br>
+1.双语对齐语料库<br>
+•      对齐层级：篇章、段落、句子、词组/语块、词汇<br>
+•      句对齐语料库——翻译记忆库的主要形式<br>
+2.可比语料库<br>
+3.单语语料库<br>
+•      从更多的句子、语境中理解待翻译原文<br>
+•      从更多句子、语境及统计分析结果中选择合适的译文</p>
+<p>其中<strong>单语语料库的使用</strong>值得再强调一番。这是由于英语单语语料库免费、量大、质高、检索方便，对翻译实务可用性较强。使用的关键点在于掌握语料库的检索表达式、显示、统计功能。</p>
+<ul>
+<li>检索表达式、检索功能的运用，从翻译的需求，转变成检索的需要，再约束为形式化的表达</li>
+<li>显示模式的灵活运用（若有），便于快速有效的分析和理解</li>
+<li>统计功能：进阶使用，基础的数学知识+对比分析</li>
+<li>语言学家+计算语言理论+程序员模式 更深入的，更自动化的加工分析过程</li>
+</ul>
+<h1 id="二-cat全新探索电子辞典-工具书与翻译实践">二、CAT全新探索——电子辞典、工具书与翻译实践</h1>
+<h3 id="电子工具书的综述"><strong>电子工具书的综述</strong></h3>
+<p>1.参考工具书是一种按特定形式编排，专供查找特定信息的特殊文献资料。<br>
+2.其试图解决的问题包括： what（何事物）、who（何人）、where（何地）、 when（何时）、why （何故）、how（如何）。</p>
+<h3 id="辞典-工具书的主要用途和目的"><strong>辞典、工具书的主要用途和目的</strong></h3>
+<ul>
+<li>字典、词典 Dictionaries：回答“是什么”</li>
+<li>年鉴 Annual, Almanacs, Year book：回答“什么时间”</li>
+<li>手册及指南 Handbooks and Manuals：解决“如何做”</li>
+<li>地理性资料 Geographical Sources：回答“在什么地方”</li>
+<li>名录及传记性资料 Directory and Biographical Sources：回答“是谁”</li>
+<li>百科全书 Encyclopedias：涉及上述六类问题</li>
+</ul>
+<h3 id="辞典-词典的分类方式"><strong>辞典、词典的分类方式</strong></h3>
+<ul>
+<li>母语 vs.非母语</li>
+<li>积极性词典 vs.消极性词典</li>
+<li>多语词典 vs.单语词典</li>
+<li>综合性词典 vs.专业性词典</li>
+</ul>
+<p>我们常见的字典包括：搭配词典、同义词词典、反义词词典、类义词词典、俚语词典、典故词典以及惯用语词典等。而在实际的翻译实践中，我们对辞典（词典）的期望包括但不限于：全面的语言学习、阅读理解以及生成表达。<br>
+ <br>
+信息技术不断发展，工具书同样在不断进步。我们经历过“韦编三绝”、纸版书的时代。也逐渐在感受电子工具书的发展。其中，电子工具书又大体分为光盘工具书、桌面端词典、移动端词典以及网络端工具书。<br>
+ <br>
+而这一切，也给我们带来了新的检索功能。比如关键词检索、通配符检索、词组检索，语音检索及其他检索方式。我们较为常见的通配符包括“？”、“*”以及“&amp;”等。<br>
+ <br>
+有的电子工具书还包括高级检索功能。这一功能限制条件更复杂，但针对性更强。可查询对象所在位置，如查询对象出现在词头内或是例句中；可查询对象所属语域，是口语词汇还是书面语词汇，是俚语还是正式语，是法律用语还是医学用语；所属词性等。<br>
+ <br>
+目前，以语言使用为主体的辞典、以百科知识信息为主体的工具书，趋向于融合，如：</p>
+<ul>
+<li>某一国家、某一城市的地理位置……；</li>
+<li>某一民族的起源、发展演变、分布、语言和生活方式；</li>
+<li>某一名人的生卒时间、所属国籍……；</li>
+<li>某一名著的作者、时代背景、主要内容和评价影响；</li>
+<li>某一党派和团体的性质、机构、成员、人物……；</li>
+<li>某一学科的内容、对象、研究方法、作用、发展等</li>
+</ul>
+<h3 id="辞典-工具书能查到什么"><strong>辞典、工具书能查到什么</strong></h3>
+<ul>
+<li>某一史实或事件的发生时间、地点、经过、人物和影响；</li>
+<li>某种机械、机器、仪器的发明、用途、原理、结构和发展；</li>
+<li>某种元素和物质的性质、用途、成分、分布和蕴藏；</li>
+<li>某种动物和植物的纲目分类、分布、习性、驯养、经济价值；</li>
+<li>某一现象的性质、成因、影响和利用；</li>
+<li>某一概念和名词的内涵、外延和现实意义等等</li>
+</ul>
+<h3 id="辞典工具书的更新周期"><strong>辞典工具书的更新周期</strong></h3>
+<p>辞典与工具书是知识的凝练和精华，需要经过严格编纂、编辑校对的流程，因此更新速度相对较慢，知识收集的容量相对较少。当然，在互联网时代，更新速度明显加快，其开始与新信息化的自动工具结合，发现新词汇等。甚至在网页类电子工具书，如维基百科中，其信息由网友及志愿者编写、编辑、校对。</p>
+<p>辞典、工具书的信息表现形式不断变更。传统纸本辞典“搬家”到屏幕上，扩充了过去限于条件损失的内容，增加了更多的插图，增添了互动性质的多媒体内容如音视频、动画等，扩充了例句库、双语对照句对库，改变了语义显示层次等。</p>
+<h3 id="辞典-工具书的互动性">辞典、工具书的互动性</h3>
+<p>辞典、工具书与用户的<strong>互动性</strong>优化，帮助使用者便捷阅读，还可以针对问题，进行互动性辨析。<br>
+传统纸本年代：</p>
+<ul>
+<li>无任何互动性可言</li>
+</ul>
+<p>互联网年代：</p>
+<ul>
+<li>挑选自己感兴趣的内容，针对性阅读</li>
+<li>报告错误、评论、改正、补充信息</li>
+<li>维基百科</li>
+</ul>
+<h3 id="电子词典">电子词典</h3>
+<p>桌面词典可进行快速浏览。中文译者常用词典工具包括但不限于巴比伦、有道词典、灵格斯、金山词霸、欧路词典、译典通，以及星际译王等。</p>
+<p>在线辞典及工具书种类庞杂，内容丰富多彩，时效性强，权威性则各有不同。收集整理，制作书签，非常重要。<br>
+<img src="https://mmbiz.qpic.cn/mmbiz_png/62v5jyGhdU8du3wvE9seeEVFpyftArkk73hCCnZXEhiaenSuqgcib3ib6d6HO22WNClfArg4pWJZkZ8wiaGr5UQNbw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="图片" loading="lazy"><br>
+<img src="https://mmbiz.qpic.cn/mmbiz_png/62v5jyGhdU8du3wvE9seeEVFpyftArkkQmZicvNxu5Jf2In6wI6JjejKJF2VqypdlHxZW2Ch9pvtU31VM19YBXA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="图片" loading="lazy"><br>
+至于纸质词典与电子词典的关系。两者并非简单的取代关系，电子词典继承了传统词典的内容。在一定程度上两者既对立存在，又互为补充。每种工具都有它的适合与不适合。桌面工具书收录多本辞典，而且多数可以链接互联网工作。光盘工具书是权威品牌词典纸质版的附加增值产品，具有较高的权威性和可靠性。</p>
+<p>在线工具书和桌面工具书类似，词条增加和更新的速度较快，而且资源更为丰富。相对来说，老式的掌中辞典，如CASIO、好易通等，不太适合我们的翻译学习和实践。</p>
+<h3 id="如何选择电子词典">如何选择电子词典</h3>
+<p>产品众多，如何挑选自己的“武器”呢？首先要了解自己的需求定位。</p>
+<ul>
+<li>不要以为词典是权威的代名词，因此不会出错。</li>
+<li>不要以为词典越大越好。</li>
+<li>不要以为制造商名气大，是电子词典就好，关键是编辑者。</li>
+<li>不要被电子词典的多功能迷惑。</li>
+<li>不要被容纳若干词典、海量词条、例句所迷惑。</li>
+<li>不要以为一生只用一本最好的词典就足够。</li>
+</ul>
+<p>未来，电子工具书将会具有更强大的检索功能，并整合更深层次的知识。前者将包括：1.聚类检索，根据词汇所属的类别进行检索。2.搭配检索，专门检索词语搭配的检索方式。3.文本类型、领域检索，按照文本所属的类型、语域及专业领域检索所需词汇、搭配、句式等信息。4.智能感知：根据用户明示或暗示的需求，随机而变。后者将涉及：1.加强原有的单部工具书中词条与词条之间的更为复杂的关联。2.加强对多部工具书的整合。</p>
+<p>工具书编纂模式也在不断变革。工具书的基本单位我们期望将不再是以词头为核心，而是知识元。一个知识元中包含更为丰富的面向翻译的属性及知识元间的关联，如音标、拼写、领域、文体、语式、义项、例句、上位概念、下位概念、其他聚类概念等。</p>
+<p>未来的电子工具书，将面向学习、面向语言产出，拥有更为智能的显示方式，更为强大的双语功能（准确释义及语用界定、对应地道表达、解决熟词僻义、杜绝望文生义），并有更为科学严谨的制作流程。</p>
+<h2 id="总结">总结</h2>
+<h3 id="工具概述">工具概述</h3>
+<p><strong>搜索引擎是翻译实践的万能工具</strong>。几乎任何问题都能用搜索引擎查一查、看一看。其人工介入最少，时效性最高，信息量最大。关于语言类问题，帮助译者找到平行文本。关于背景类问题，直接给出答案。但是，搜索引擎网罗海量数据，输出信息庞杂，需要耐心甄别。而过于细致和要求精准的语言类问题，搜索引擎并不一定适合。</p>
+<p>**语料库是语言的快照或仓库。**语料库的建设经过人工的甄选和加工。其信息量次于搜索引擎，时效性亦差，但准确性和科学性远优于搜索引擎。语料库可以解决多种多样的语言类问题，且提供海量例句和平行文本，供译员进行搭配、辨析、句型句式等方面的翻译参考。然而，语料库的顺畅使用，需要学习（不适合初学者）。</p>
+<p>**辞典、工具书最经典、最权威。**辞典工具书花费了最大的人工，权威性、准确性相对而言最高。但是其时效性最差、信息量最少、能解决的问题都是辞典工具书编纂者预设的。使用方法相对语料库而言简单，比搜索引擎要复杂得多。<br>
+<img src="https://mmbiz.qpic.cn/mmbiz_png/62v5jyGhdU8du3wvE9seeEVFpyftArkk5vhFh9wd19ia0SGqyMKgXDc8diaKdBNUxnkPLY74KqjUYibVtEvia3CBjg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt="图片" loading="lazy"></p>
+<h3 id="原则和技巧">原则和技巧</h3>
+<p>好翻译的目标一共有三：忠实准确、通顺达意，以及风格得体。这其中涉及的原则，既与语言能力有关，又与信息技术密不可分。<br>
+ <br>
+语言能力方面的原则大致有三个。第一，译者需要准确地理解原文并顺畅地表达出译文。第二，译者需要时刻提醒自己避免四类典型的翻译错误：语言翻译错误、文化翻译错误、语用翻译错误，以及语篇类型翻译错误。第三，译者需要让译文在语言、文化、语用和语篇类型上都达到与原文表达的最佳近似。<br>
+ <br>
+信息技术方面的原则大致有六个。<br>
+ <br>
+第一，灵活变通，选定查询对象。例如，寻找“泼了一瓢冷水”的翻译，可选定查询对象为“泼冷水”。<br>
+ <br>
+第二，利用词典信息，“顺藤摸瓜”。例如在寻找“reflect off”,“reflect on”的使用方法时，可优先寻找reflect。单词释义用词、参见词、用法（usage），甚至包括词典中的插图都应为译者所用。<br>
+ <br>
+第三，慎将双语词典中的释义直接套用在译文中。1.有些概念在两种语言系统中都有。2.有些概念虽然在两种语言系统中都存在，但意义用法上却不尽相同。如“吹牛”与“talk horse”、“talk bull”；“peasant”与“农民”；“individualism”与“个人主义”。3.有些概念是一种语言系统中特有的，另一种语言系统中根本不存在。如“元宵”、“三个代表”;“beefcake” （美男照）、“Halfway house”（康复医院）。当然，技术术语对等性，相对而言比较好。<br>
+ <br>
+第四，“曲线”查询——关联检索。搜索时，可增加搜索诱导，如“利玛窦+Italy”；“苏丹红+additive”。<br>
+ <br>
+第五，根据翻译障碍类型，确定选择数字工具的优先顺序。依据不同情况使用“词典”、“搜索引擎”与“语料库”，面对特定障碍或问题，直接搜索引擎、语料库。<br>
+ <br>
+第六，多种工具综合使用，反复验证。1.切不可直接照搬辞典释义。2.一种资源查出的说法，可以用另外的资源予以证实。例如用词典找到的几种说法，哪种更常见，就可以用搜索引擎的检索结果数量进行证明。<br>
+ <br>
+在理解原文方面，信息技术工具的使用技巧总结如下：<br>
+1. 查询对象+关键词<br>
+2. 查询对象+试翻译<br>
+3. 搜索平行/可比语料<br>
+4. 查询对象+特征词 （人名、地名、时间等）<br>
+5. 查询对象+上下文关联词语<br>
+6. 异构检索（改变查询对象的结构）<br>
+7. 查询对象上位词/下位词/姐妹词<br>
+ <br>
+在生成译文方面，信息技术工具的使用技巧总结如下：<br>
+1. 试翻译+关键词<br>
+2. 试翻译+查询对象<br>
+3. 搜索平行/可比语料<br>
+4. 试翻译+特征词 （人名、地名、时间等）<br>
+5. 试翻译+上下文关联词语<br>
+6. 试翻译	+上位词/下位词/姐妹词<br>
+7. 上位词+对应释义<br>
+8. 限定性检索</p>
+<h1 id="三-翻译记忆">三、翻译记忆</h1>
+<h1 id="第一部分翻译记忆概述"><strong>第一部分：翻译记忆概述</strong></h1>
+<p>翻译记忆从机器翻译开始。机器翻译是计算机处理自然语言的最直接最根本的动力。当然，代替人手工翻词典，也可算是动力之一。然而机器翻译非常复杂，种类繁复。出现过规则式机器翻译、统计式机器翻译，以及n种模型……</p>
+<p>实际上，翻译记忆很简单：记住做过的翻译，随后应用。这也让翻译记忆成为了译员手中真正使用的利器。</p>
+<p>翻译记忆“Translation memory”：<br>
+From Wikipedia, the free encyclopedia<br>
+<strong>A translation memory, or TM</strong>, is a database that stores &quot;<strong>segments</strong>&quot;, which can be sentences, paragraphs or sentence-like units headings, titles or elements in a list)that have <strong>previously been ranslated</strong>,in order to aid human translators. The translation memory <strong>stores the source text and its corresponding translation</strong> in language pairs called “translation units”.</p>
+<p>使用翻译记忆工具最简单最直接的动力：对个体：节省劳动，提高劳动生产率。对翻译工作：提高一致性。对翻译公司：整体生产率提高，生产成本降低；语言资产，是翻译公司核心竞争力的一部分。简而言之，就是效率与质量的保障！</p>
+<p>翻译记忆的最初形态。计算机逐渐从实验室，计算中心变为个人的大玩具和工作平台：译员可以扔掉打字机，转向字处理软件。翻译工作量的增加。翻译工作的性质不断变化，工程文档越来越多，文字重复是这类文档区别于传统文学翻译的显著特点之一。</p>
+<p>第一款商用翻译记忆软件：Trados（现今为SDL Trados）。</p>
+<p><strong>翻译记忆工作的流程</strong></p>
+<ul>
+<li>读取待翻译的句子；</li>
+<li>将待翻译的句子送到翻译记忆库中检索，看有无已有翻译；</li>
+<li>如果不存在已翻过的句子，就等待译员翻译并打字输入。</li>
+<li>翻译结束后，将原文和译文存入翻译记忆库；</li>
+<li>如果存在既有翻译句段，就输出译文，供译员使用或适当予以订正后使用；</li>
+<li>循环重复，直到译完最后一句待翻译句段，翻译工作全部完成。</li>
+</ul>
+<h1 id="第二部分翻译记忆若干关键问题上"><strong>第二部分：翻译记忆若干关键问题（上）</strong></h1>
+<h2 id="翻译记忆存储单位翻译单元">翻译记忆存储单位——翻译单元</h2>
+<p>翻译记忆存储单位是翻译单元。正如工作可以拆解为子工作。翻译亦可拆解为子翻译工作。什么是子翻译工作呢？即，字、词、短语、片段、子句、句子、句群，段落乃至篇章的翻译。</p>
+<p>那么，翻译单元的单位大些好，还是小些好呢？这就需要从必要性和可行性方面思考。必要性，即该单位的翻译是否可重复利用？一是重复出现的可能性，二是重复出现时，翻译可使用的可能性。（注意：使用翻译记忆必须检查后再利用！）。可行性，即译者能否做到某一单位的翻译都予以记忆？毕竟不是所有的自然语言单位都有清晰定义，也不是所有的单位都容易分辨处理。</p>
+<p>经研究，<strong>翻译单元的最佳选择</strong>是：</p>
+<ul>
+<li>亚句级别的单位：词、词组、语块、子句</li>
+<li>句子级别</li>
+<li>句子以上级别：句组和段落</li>
+</ul>
+<h1 id="第二部分翻译记忆若干关键问题下"><strong>第二部分：翻译记忆若干关键问题（下）</strong></h1>
+<p>上一次闲话CAT中，我们谈到了经研究，翻译单元的最佳选择是：</p>
+<ul>
+<li>
+<p>亚句级别的单位：词、词组、语块、子句</p>
+</li>
+<li>
+<p>句子级别</p>
+</li>
+<li>
+<p>句子以上级别：句组和段落</p>
+<p></p>
+</li>
+</ul>
+<p>那么，如何自动识别和切分句子呢？有人或许会问，句子识别也是问题吗？对人来说，如果要达到数学般精确，显然是问题。对计算机来说，肯定是一个棘手的问题。分隔句子的一般标志是标点符号。例如英语中的分隔标点即是，句点（.）、问号（?）以及叹号（!）等。<br>
+ <br>
+但是，只需要这类标志就可以了吗？以句点为例，句点的作用只有一个吗？</p>
+<ul>
+<li>数字 3.1415926535；192.168.0.1</li>
+<li>缩写 U.S.A.；Rev.</li>
+<li>称呼 Mr. Mrs.；George W. Bush.</li>
+<li>省略号的一部分</li>
+<li>分隔 <a href="http://www.cnn.com">www.cnn.com</a></li>
+<li>&quot;Carefree&quot; means &quot;free from care or anxiety.&quot;</li>
+<li>&quot;Carefree&quot; means &quot;free from care or anxiety&quot;.</li>
+</ul>
+<p>以上例证表明了句点具有不同的作用，也表明了断句的困难。<br>
+ <br>
+识别句子的方法大致有两种。分别是规则方法和统计方法。<br>
+ <br>
+前者需要穷尽所有的可能性，例如诸如正则表达式这样的工具进行识别。写得越多，越要注意重复和冲突。后者需要给定的语料库，人工判断哪些句点是句子的分隔符做好标记；设定机器学习程序：训练-&gt;获得模型-&gt;处理其他文章（解码）。<br>
+ <br>
+亚句级别的翻译记忆确实有用，因为重复出现的可能性高多了；但不好做，因为虽然重复出现得多，但出现多种翻译的可能性也增加了。这与术语管理还是有区别的。而且还需要考虑加入此项技术后，是否给译员增加负担？机器翻译的发展，例如层次短语模型，树模型，EBMT等，都可能在这个技术的中间地带得到利用。<br>
+ <br>
+另辟蹊径，不划分翻译单元可以吗？理论上似乎是可行的。利用信息检索，直接存储原文和译文，大致找到对应关系（对齐）。关键词倒排索引，检索，计算相似度，找到更相似片段。最后输出原文和译文段，译员自行判断和使用。程序很好写，用起来也还行，就是**效率低。**而这也是其致命伤。<br>
+ <br>
+翻译记忆可以如何获得呢？一种方法是一边翻译，一边存储。这种方法最自然，最直接。另一种方法则是，批量导入过去译好的文件建立翻译记忆库。那么，应该存储成什么格式呢？目前，有的是特定软件的翻译记忆库文件，也有的是开放格式的记忆库文件TMX。<br>
+ <br>
+自动对齐双语句子的原理是什么呢？首先，语言长度存在等比例现象。不同语言的对等翻译之间，以字符/词计算的长度比例是近似固定的。<strong>英语-汉语之间的字符比大约3:1。源语言方向会更精炼些，英语词-汉语字符之间的字符比大约1.6:1</strong>。<br>
+ <br>
+两种语言都需要先分句，数出每一个句子的字符数。</p>
+<ul>
+<li>
+<p>动态规划方法：</p>
+<p>对齐模式1:1,1:0,0:1,1:2,2:1,…<br>
+全局扫描，达到每句话的对应比例最均衡(评价函数）<br>
+各种动态规划算法，提高效率</p>
+</li>
+<li>
+<p>改进：</p>
+<p>词汇信息对应<br>
+先发现对齐最准确的<strong>锚点句</strong>后再对齐其他句子<br>
+……</p>
+</li>
+</ul>
+<p>那么，双语句对齐的工作实践是怎么样的呢？一般不是纯文本的对齐，而是带格式文本的对齐。这就需要先对齐格式，再对齐文本。对齐软件必须懂得识别文件格式,例如DOC。自动对齐后，为了达到译员可以使用的水平，必须有手工校正的环节。软件设计的水平、用户体验的高下，以及多人协同功能等都会影响双语对齐效率。对齐的双语文本是翻译公司资产的重要部分。这其中包括，翻译记忆库的生产和管理；翻译记忆库的分发、安全、回收、版本，以及质量……</p>
+<h2 id="翻译记忆的存储和使用">翻译记忆的存储和使用</h2>
+<p>关于翻译记忆库，大多数人的直观感受是：1.记忆库一句一句的存储，但是语言的存在需要环境，即上下文，才有更明确意义。2.翻译记忆库越大越好，重复率才能高。<br>
+ <br>
+的确，文本的意义确实与上下文环境相关。因此，在之前的闲话中，反复强调译员使用翻译记忆的规则：<strong>译员在沿用翻译记忆之前必须检查核对！<strong>这其中检查的，就是上下文。上下文对于机器来说可以理解为——窗口。<br>
+ <br>
+窗口就是指待处理对象的周围环境。文字是按照字符序列写作和存储的，“窗口”显然就是前后文字了。待处理对象包括但不限于词汇，句子。窗口大小就是向前、向后观察的距离。待翻译的句子的前后句子数量就是窗口的大小。对于翻译任务而言，选择±1，即前一句，后一句。<br>
+ <br>
+存储一个待翻译句子的</strong>原文和译文对</strong>的同时，存储前一句和后一句。如果下次复用时，发现不但当前翻译句和已存储句子一致，而且前后句子都一模一样，那么：“上下文匹配”和“完美匹配”就都符合了。<br>
+ <br>
+翻译记忆库越大越好？大就行了吗？翻译记忆库，在某种意义上来说，自然是大些好。但前提是：1.译员使用的翻译记忆库必须与自己当前的翻译工作相关。2.翻译记忆库运行所需的软件和硬件拥有相当的存储和检索能力。<br>
+ <br>
+翻译记忆库的分类模式可参考相关的判定准则公式：任务 &gt; 客户 &gt; 领域 &gt; 行业 &gt; 通用。翻译记忆库的适当大小，除了硬件软件能力之外，译员的认知负担是最需要考虑的问题。</p>
+<h2 id="句子之间的相似度计算">句子之间的相似度计算</h2>
+<p>至于句子的相似度问题：人可以模糊判定两个句子是否相似，但计算机不行。完全一致的两个句子，最容易判断句子的相似度，即字符对字符的一致即可。但此规则，有时候会显得过于严格。<br>
+ <br>
+因此，检验待翻译句与翻译记忆库中的存储句子之间的相似度：必须有一定的弹性和宽容度，翻译句子的相似程度最好能够告诉译员，便于译员进行判断。</p>
+<p>相似度计算有难度，理解也有困难。</p>
+<p>例如，这么一句话：<br>
+昨天，张先生欣喜地来到了恭王府。<br>
+翻译记忆库内有：<br>
+(1)1997年3月5日，<strong>张先生</strong>高兴的<strong>来到了</strong>北京城。<br>
+(2)大前天，乔峰<strong>欣喜地来到了</strong>石家庄。<br>
+(3)庚子年八月的一天，玉格格沉着脸<strong>来到了恭王府</strong>。</p>
+<p>机器应当如何去解读待翻译句段和已有记忆库的相似性问题呢？<br>
+先不考虑其他，只在字符级别计算。那么就需要引入莱文斯廷编辑距离（Levenshtein distance）算法。编辑距离，又称Levenshtein距离，是指两个字串之间，由一个转成另一个所需的最少编辑操作次数。许可的编辑操作包括将一个字符替换成另一个字符，插入一个字符，删除一个字符。当然，编辑所需的原子操作中，替换也可以用删除和插入替换，或者增加更多的操作种类，但这些都不影响我们的讨论。</p>
+<p>下面引用一个编辑距离计算的经典例子：<br>
+For example, the Levenshtein distance between &quot;kitten&quot; and &quot;sitting&quot; is 3, since the following three edits change one into the other, and there is no way to do it with fewer than three edits:<br>
+<strong>“kitten” －＞ &quot;sitting&quot;</strong><br>
+kitten → sitten (<strong>substitution</strong> of &quot;s&quot; for&quot;k&quot;)<br>
+sitten → sittin (<strong>substitution</strong> of &quot;i&quot; for&quot;e&quot;)<br>
+sittin → sitting (<strong>insertion</strong> of &quot;g&quot; at the end).<br>
+显然，用前述方法计算任意两个句子的“距离”，即相似度差值，是完全可以做到的。</p>
+<p>编辑距离计算的各种优化方法还包括：</p>
+<ul>
+<li>计算对象，可以是字符，也可以是词</li>
+<li>编辑动作的权重可以调整</li>
+<li>部分语言部件可以捆绑为一个计算单位，或根本不进行计算。“非译元素”：数字，网址；格式标签等</li>
+<li>词汇语义的差值，可以修正编辑距离的计算（如：高兴vs.欣喜）</li>
+<li>命名实体(named entity)：所谓的命名实体就是人名、机构名、地名以及其他所有以名称为标识的语言单位。广义的命名实体还可以包括表达数字、日期、货币、地址等等的语块。命名实体的检测：<a href="http://en.wikipedia.org/wiki/Named_entity">http://en.wikipedia.org/wiki/Named_entity</a></li>
+<li>计算编辑距离前，先进性命名实体的识别。例如：</li>
+</ul>
+<p>昨天，张先生欣喜的来到了恭王府<br>
+[日期]， [人名]欣喜地来到了[地名]<br>
+1997年3月5日，张先生高兴的来到了北京城。<br>
+[日期]， [人名]高兴的来到了[地名]</p>
+<ul>
+<li>句法结构上的相似度</li>
+<li>子句及其他亚句级的对齐、相似度计算</li>
+<li>识别源语言句子的句法结构，比如结构树，或者依存树都行，考虑句子的相似度先考虑结构，再考虑词汇；识别出子句或其他亚句级单位，进行相似度计算</li>
+</ul>
+<p>事实证明：译员们工作时的认知负担越小，体验越好！</p>
+<p>关于句子相似的匹配问题：字符串级别的一致是指Exact Match，而在商业翻译记忆系统中还有一个标配就是非译元素。但非译元素也不大可能解决的问题仍旧存在，比如：<br>
+a. There are 4 goats on the hill. 4：非译元素<br>
+b. There are 2 goats on the hill. 2：非译元素<br>
+c. There is a goat on the hill. a：……? Goat vs.Goats?</p>
+<p>句子相似度算法得到的可能对译员有参考价值的句子排序输出，涉及模糊匹配。相似度算法的要点就在于让相似度数值的排序，与译员心目中翻译记忆库中的可能参考的句子的可用性成稳定的正比例关系。然而，相似度的数值有多种算法，对于相似度数值的解释也可能各不相同。</p>
+<p>模糊匹配的相似度排序，极值是100%，指代精确匹配；0%指代没有任何相似。模糊匹配的阈值，通常由译员自行设定。越大的翻译记忆库，越可能有更多的相似句子。但输出句子越多，阅读负担越大。</p>
+<h1 id="翻译记忆工具的优缺点"><strong>翻译记忆工具的优缺点</strong></h1>
+<p>思考翻译记忆工具的适用性，实质是思考两个问题。第一，重复现象是否存在？第二，重复出现的句子，是否能使用同样的译文输出？而翻译记忆工具对于工程性质的文档，适用性最高；科技类次之；人文社科、文学类最低。</p>
+<p>那么，商业类翻译记忆工具有什么优缺点呢？</p>
+<p><strong>优点</strong>大致如下：</p>
+<ul>
+<li>增加翻译一致性</li>
+</ul>
+<p>相同句段译文的一致<br>
+原文与译文格式一致<br>
+与术语系统结合，保证术语翻译的一致</p>
+<ul>
+<li>提高翻译速度</li>
+</ul>
+<p>适合翻译工作的优秀平台，可	大量节省进行繁琐工作的时间</p>
+<ul>
+<li>降低翻译成本</li>
+</ul>
+<p>可惜的是，翻译记忆未必增加译员的个体工资</p>
+<ul>
+<li>方便翻译语言资源的查找与管理</li>
+</ul>
+<p>语言资产的建立和维护</p>
+<p><strong>缺点</strong>大致如下：</p>
+<ul>
+<li>翻译记忆工具的理论缺陷</li>
+</ul>
+<p>翻译记忆库提供的参考译文，难以保证可用性<br>
+翻译记忆的质量管控：写入、读出和使用资格管理<br>
+翻译记忆系统割裂原文的连续性	（曾经）<br>
+基于句段的翻译模式造成翻译中句序调整的困难</p>
+<ul>
+<li>技术环境下工作带来的问题</li>
+</ul>
+<p>翻译人员能否适应；需要培训，学习存在代价和负担<br>
+逐句段翻译的习惯带来弊病：缺乏上下文观念，存在依赖性、惰性<br>
+翻译记忆管理需要专业化，翻译公司需要专业化分工管理</p>
+<ul>
+<li>成本问题</li>
+</ul>
+<p>商业软件价值比较高昂，但分摊成本非常有限<br>
+管理维护带来人工成本<br>
+不断地升级带来学习成本<br>
+与其他管理系统的融合，也会带来成本</p>
+<p>翻译记忆工具该何去何从？</p>
+<ul>
+<li>发展自然语言处理技术</li>
+<li>相似度计算</li>
+<li>机器翻译/交互式机器翻译</li>
+<li>优化用户界面、用户体验</li>
+<li>网络化工作平台</li>
+<li>融合翻译、翻译工作管理、翻译工程管理、翻译公司管理系统</li>
+<li>引入新的云计算技术、大数据技术</li>
+</ul>
+<h1 id="四-翻译实践中的术语">四、翻译实践中的术语</h1>
+<p>在翻译工作中，译者遇到的最直接障碍就是“特殊词汇”的翻译。</p>
+<h1 id="术语管理">术语管理</h1>
+<p>术语的管理，实质上是知识的管理。优秀的术语管理，可以保证翻译工作顺利进行，是翻译质量提高的基础。其特点是“低投入，高产出”，投资回报比极高。<br>
+ <br>
+术语管理是语言服务活动延伸并规范企业/组织行为的很典型的例子。请注意，这里的企业并不只是翻译企业以及更广义的语言服务企业。越成熟的社会越重视“术语”管理工作。术语标准化委员会以及每年的年度新词发布活动越来越多，就是最明显的例证。<br>
+ <br>
+在学术研究中，“术语”这一概念被挖掘了出来。术语即是一组特定领域的“标准化”名称。术语亦可称为专业词汇表，是词汇（词或词组）的集合，也许经过标准化也许没有，但一定涉及特定领域的工作。</p>
+<pre><code>下面对几个相关词汇进行辨析。
+</code></pre>
+<ol>
+<li>
+<p>Lexicology：研究词汇，词汇语义关系，词典的学问</p>
+</li>
+<li>
+<p>Lexicography：词典编纂</p>
+</li>
+<li>
+<p>Terminology：研究特殊用途语言中的概念与词汇表达的学问</p>
+</li>
+<li>
+<p>Terminography：术语的记录、处理、展示、采集，汇编和管理</p>
+<p></p>
+</li>
+</ol>
+<p>术语学中与翻译相关的工作目标包括：1.等价；2.准确；3.服务目标受众。而术语的一般功能是1. 在特定领域内，提供沟通交流中的意义、概念；2. 在科学技术知识层次，提供表达以及排序。<br>
+ <br>
+术语使用语翻译的规则有两个；CKU和CCU。在创造术语时，应遵循CKU，即符合“Context, Knowledge, Usage”的要求。在管理术语时，应遵循CCU，即符合“Correct, Consistent, Unambiguous”的限定。<br>
+ <br>
+术语构成的方法包括：</p>
+<ul>
+<li>
+<p>Single-word terms 单字</p>
+</li>
+<li>
+<p>Compound or multiword terms 词组复合词</p>
+</li>
+<li>
+<p>Nominal multiword term (noun phrases) 名词短语</p>
+</li>
+<li>
+<p>Phrases 短语</p>
+</li>
+<li>
+<p>Collocations 搭配</p>
+</li>
+<li>
+<p>Standard texts (boilerplate texts) 标准文本</p>
+</li>
+<li>
+<p>Abbreviated forms 缩写词</p>
+</li>
+<li>
+<p>Canonical forms 最简/正规表达</p>
+<p><strong>×</strong> (capitalized, plural form) <br>
+<strong>×</strong>  (articles, gender as attribute, verb as infinitive)<br>
+<strong>×</strong>  (spoken, inverted, permuted form)</p>
+</li>
+</ul>
+<p>在术语表的规划中，应当留意术语之间的上下位概念，以及并列概念。</p>
+<h1 id="术语表的整体建设">术语表的整体建设</h1>
+<p>在术语表的整体建设中，大致分为6个阶段。1.规划（概念系统）；2.创建术语库（非术语词条），定义条目结构；3.创建术语词条；4.管理；5.输入数据、检索数据，以及修改数据；6.发布。</p>
+<p>“第三阶段：创建术语词条”为整体较复杂部分，大致可分为4个阶段。首先，在文本中创建术语。该步骤可自动或手动（有Term Extractor等软件）。先抽取术语后翻译与边翻译边抽取两种办法都比较常用。其次，在平行文本中搜索术语。然后，编纂术语，自建术语语料库。最后，抽取词条进行评估、审定。<br>
+ <br>
+创建术语库，具体而言，可重新细分为8个小步骤。<br>
+1.判定学科、领域/子学科、领域<br>
+2.识别与建设概念系统、子概念系统<br>
+（简化体系，抽取内容管理系统…… ）<br>
+3.创建文件夹结构，放置文本、图形以及关联资料<br>
+4.术语词条的创建<br>
+5.解决特定术语的创建以及翻译问题<br>
+6.使用各种术语工具建设术语库，例如MultiTerm， Termwiki；输入数据（术语录入）；验证与审核<br>
+7.发布词汇表（印刷形式，在线形式）<br>
+8.使用术语库（在翻译工具或其他工具中）</p>
+<p>这其中，概念系统的建设似乎在目前个人翻译工作中很少涉及。但是随着术语库规模的扩大，适用范围的扩大，概念系统建设	的必要性上升。以合理的概念系统为基础，才能建设大规模术语库。<br>
+ <br>
+术语词条具体构建的最简模式就是“源语+目标语”模式。但一个完整的术语表/术语库应存储4方面数据，即语言、概念，翻译转换以及管理数据。例如词条收集者、审核者、日期、版本；项目名称；主题、领域；English (源语言)、定义 (源语言)；见/参见 See/See Also（词汇间关联）；汉语 (目标语言)、汉语定义及使用说明；参考资料 (图像、文件、……)。</p>
+<h1 id="相关术语工具列表">相关术语工具列表</h1>
+<p><strong>建设术语库的工具</strong><br>
+个人</p>
+<ul>
+<li>纯文本编辑器</li>
+<li>MS Excel,	Access / Open Office</li>
+<li>SDL Trados:	MultiTerm</li>
+</ul>
+<p>企业</p>
+<ul>
+<li>
+<p>自行建设的基于数据库的术语库工具</p>
+</li>
+<li>
+<p>TermWiki	（商业产品）</p>
+</li>
+<li>
+<p>Apelon DTS	（商业开源软件）</p>
+</li>
+</ul>
+<p><strong>CAT</strong>	<strong>工具中的术语管理工具：</strong><br>
+集成于计算机辅助翻译系统的管理工具</p>
+<ul>
+<li>Integrated (e.g. crossTerm, Déjà Vu)</li>
+<li>Hybrid (Integrated or Stand-alone): MultiTerm</li>
+</ul>
+<p>独立的企业级知识管理工具</p>
+<ul>
+<li>Stand-alone: Look Up</li>
+<li>TB server</li>
+</ul>
+<h1 id="五-翻译服务-本地化服务与质量控制">五、翻译服务、本地化服务与质量控制</h1>
+<h1 id="翻译项目一般流程">翻译项目一般流程</h1>
+<p>商业服务与管理，一般涉及决策过程、对象、具体项目与一般理论的适配、沟通交流以及实践等。翻译管理实质上，依然是对技术、流程以及内容的管理。</p>
+<p>项目管理，即，应用知识、技能以及工具、技术等手段让项目活动满足需求目标。项目管理者（经理）负责预算计划，追踪项目流程和进度，管控项目的各个阶段以满足客户的需求。而翻译项目经理，最重要的是对翻译项目的管控。</p>
+<p>翻译项目的<strong>第一阶段是确认委托</strong>。客户提交翻译稿件或稿件样本，译者、翻译机构报价，客户评估质量、价格后接受报价，最终确认委托。</p>
+<p>翻译项目的<strong>第二阶段是项目计划</strong>。1.确认客户需求，以及他们的短期和长期目标；2.分解翻译工作：按照项目的结构、译者（分包商）的能力、兴趣、既有的工作负荷等进行项目拆解；3.确定翻译时程和进度计划，特别注意依赖关系；4.则是文件管理，这也是翻译服务管理中的重头戏；5.资源以及预算管理；6.沟通交流管理： 客户-译员-项目经理-分包商；7.质量管控计划：确定质量标准，辨识影响质量的危险因素；8.风险管控以及其他。</p>
+<p>翻译项目的<strong>第三阶段是实际工作</strong>。1. 翻译/本地化软件选择；2.管理软件选择；3.术语表制定；4.翻译记忆库准备；5.机器翻译的训练；6.待翻译文本的准备；7.翻译和审校。</p>
+<p>翻译项目的**第四阶段是交付。**译者或翻译机构按照时间节点，交付完成后的产品。可能需要同时交付的还有：1.术语库；2.翻译记忆库；3.工作日志记录QueryLog。最后则是财务结算事宜，如请款单/支付请求，收据/发票等。</p>
+<h1 id="翻译服务中的文件管理">翻译服务中的文件管理</h1>
+<p>如今的翻译工作与计算机文件密切相关。在翻译流程中，译员、项目经理以及客户都需要进行一定量的文件管理。关于这其中的文件管理，有两个核心观念。一是权限控制，二是版本、分支内容控制。<br>
+ <br>
+在这类管理中，最基本的做法，是基于操作系统的——设定干净清晰的文件目录。稍微进阶的版本是基于文件共享进行的文件管理。再高阶的办法还包括基于Web的项目管理软件以及基于专业文件的管理系统等。<br>
+ <br>
+专业的翻译项目或翻译公司管理软件有2个主流的开源系统。分别是Project-Open和GlobalSight。两个系统的具体信息可百度、Bing或Google，不再赘述。</p>
+<h1 id="翻译项目操作中的思考">翻译项目操作中的思考</h1>
+<p>在实际翻译过程中，要考虑两大主要问题。<br>
+ <br>
+首先是语言问题。这个问题延展很深，不仅仅是文字，更是文字背后的文化。例如译文投放国的官方语言、主要语言、地区语言、行业惯例以及政治正确等。<br>
+ <br>
+其次是内容载体和方向的问题。现在的翻译，不仅仅是文字，还包括音频、视频等等。即便是同一项目内，也包括内部参考类、市场类、专业技术类等不同方向。<br>
+ <br>
+翻译需要处理的“内容”，是数字化之后的文本、文件、图像、视频，结构化的记录（数据库）以及脚本等等。翻译，实际承载着语义，用于沟通交流和信息传播。<br>
+ <br>
+翻译管理更深层次是对技术、流程以及内容的管理。项目负责人主要负责的四个方面包括：1.源语言作者与开发者。2.目标语译者、作者与开发者。3.程序员与工程师。4.法律、商业以及文化咨询顾问。<br>
+ <br>
+项目管理中，项目经理是核心以及枢纽。<br>
+ <br>
+源语言内容的创作与开发包括但不限于风格指南、公司形象辨识；技术文档写作；影像、音乐以及声音创作编辑；动画、视频创作；网站美术设计、美工以及前端处理等。<br>
+ <br>
+目标语言翻译、写作以及开发包括但不限于桌面出版；字幕、配音；术语处理；翻译；计算机辅助翻译以及本地化工具应用；编辑；内容校对、审核，以及质量控制。<br>
+ <br>
+程序以及系统工程包括但不限于软件及各种应用程序的研发；网站后台程序开发；数据库建设；运行维护；国际化与本地化支持。<br>
+ <br>
+法律、商务及文化咨询即包括相应领域内容的审核、优化等。<br>
+ <br>
+我们在翻译项目中，可能遇到的问题大致有4类。1. 沟通：理解客户需求、目标市场的独特性。2. 数字内容、文件格式的复杂和多变。3. 内容的创作、审核与决定权归属。4. 交付的步骤和交付物的格式。</p>
+<h1 id="时效与质量">时效与质量</h1>
+<p>在翻译项目的管理中，时效与质量是永远躲不过的两个话题。<br>
+ <br>
+以往，人们对于翻译服务的期望大致是严复老先生的“信达雅”。三个字解读无数，有兴趣的朋友可去CNKI了解个透彻。而现在，似乎期望下降了一些，只要翻译正确，客户可用，就算是不错的翻译了。<br>
+ <br>
+但事实上，由于翻译的目的不同，翻译的质量标准实际是有起伏的。“设备说明书”与销售过程中的翻译，两者的目的不同，期待自然也就有了差异。<br>
+ <br>
+为了达到较好的翻译质量，我们面对的困境有哪些呢？<br>
+ <br>
+目标市场带来的困扰，首当其冲。语言障碍；公司、品牌文化；文化差异、冲突；政治、宗教、性别；行业、产业惯例；传统势力、习惯；流行文化、风潮；以及不同的受众期望值，都从各个方面，给翻译质量提出了要求。<br>
+ <br>
+我们坚持翻译质量，有什么意义吗？有一家跨国软件公司发布了报告，优秀翻译带来的ROI可以达到290%。而文档质量的低劣，则会导致用户对产品质量的评价下降，影响品牌美誉度。译者根据受众需求，针对性提高翻译水平；改进内容写作、翻译以及交付的全流程，必然可以带来巨大的回馈。<br>
+ <br>
+从源语言到目标语言，质量保证大致包含五个方面。这五个方面包括翻译的完整性；术语的准确、一致性；文件的完整性；翻译流程控制程度；翻译项目的系统性。<br>
+ <br>
+为了提高翻译质量，需要应对一系列固有的挑战。<br>
+ <br>
+首先是因译员主观性产生的挑战。译员可能会对原文理解产生偏差，或逻辑、价值判断失误；而且人类译员对于词汇选择、译文风格存在固有偏好。<br>
+ <br>
+其次是因技术工具产生的挑战。翻译实践中，先进的翻译工具学习成本较高，普及率较低。<br>
+ <br>
+再次是因审校者产生的挑战。审校者的地位因素；编辑、出版印刷等等技术带来的约束；源语言、目标语言市场的不同价值观考虑；与客户价值观不同等方面都可能给翻译质量带来一定的问题。<br>
+ <br>
+除了上述三个方面，行业内的终端用户、翻译项目经理，以及翻译（语言服务行业）的管理、评论者和研究者都面对着翻译质量的挑战。<br>
+ <br>
+传统翻译服务的质量大致从以下7个方面判定：<br>
+1.Correct spelling and grammar 词汇、语法正确<br>
+2.Accurate terminology术语准确<br>
+3.Consistent terminology and expression 一致性<br>
+4.Reflects meaning of source text 原文意义传递<br>
+5.Appropriate register语体恰当<br>
+6.Native fluency 语言流畅度<br>
+7.Clarity 清晰</p>
+<h2 id="保证本地化产品质量的细节">保证本地化产品质量的细节</h2>
+<p>在保证本地化产品质量的过程中，有三个关键的要素需要注意。这三个要素分别是文本翻译质量，文件、产品质量（即需要满足在目标市场所期望的品牌形象、公司文化），和功能质量（即项目正确运转）。<br>
+ <br>
+翻译产品是否达到了协议所规定的水准，在客户驱动的翻译服务评估中，由适用性、价值、其他支持以及心理满足四个方面决定。适用性是指，翻译作品是否满足用户需求和目的。价值是指，客户付出的代价与得到的质量是否匹配，其他支持是指，文本格式、印刷出版、网站发布等方面是否获得足够支持。心理满足是指，服务商的品牌形象、口碑是否符合客户预期。<br>
+ <br>
+在控制翻译的过程中，大致有四个针对质量保证的检查点。第一个检查点介于源语言创作与翻译之间，第二个检查点介于翻译与编辑之间，第三个检查点介于编辑与审校之间，第四个检查点介于审校与交付之间。翻译错误带来的成本损失，从第一个检查点到第四个检查点之间依次递增。<br>
+ <br>
+应对翻译质量的挑战，有两个方面值得特别注意。<br>
+ <br>
+第一个方面是沟通交流与理解。首先，翻译的过程中必然会遇到源语文化与目标语在政治、文化、宗教、性别等差异。其次，在不同翻译领域，如商业、市场、研发等，翻译的侧重点必然会有所差异。最后，客户、译员、项目经理、技术、法务等方面，由于背景差异，更加需要沟通、交流与理解。</p>
+<p>第二个方面则是翻译服务协议。为保证翻译质量，需要明示质量目标，明确质量判别准则，落实不同服务水准对应的价格标准。</p>
+<h2 id="翻译标准的探讨">翻译标准的探讨</h2>
+<p>对于所有翻译质量问题、影响因素，服务采购者与服务提供者应当有一致的认知——标准。<br>
+ <br>
+那什么是标准？标准是基于普遍接受的科学、技术研究成果，基于标准所服务社区的整体利益，衡量人或事物的依据或准则。而翻译服务的标准来源于翻译服务实践，服务于翻译工作的所有参与者。<br>
+ <br>
+而质量、翻译质量又是什么呢？质量肯定不是绝对化的价值标准，而是由“行为目的”+“环境”所决定。质量控制涵盖产品质量、服务质量与过程质量。<br>
+ <br>
+借助翻译质量标准，我们可以获得客观的评估方法、降低因为低质量翻译所带来的损失、增加客户满意度、确定翻译服务能力，以及确立竞争优势。<br>
+ <br>
+我们在之前已经讨论了很多翻译服务标准，但由于国家、地区与行业差异；客户需求与业务的特殊性；目标受众因素各异、服务对象有别等诸多因素掣肘，翻译服务标准依然存在缺口。</p>
+<p>目前已有许多翻译服务标准，但对象并不相同，比如针对译员的ATA certification；针对翻译服务过程的DIN 2345、ISO 900x、UNI EN 10754，EUATC以及ASTM；针对译后文本的SAE J2450和LISA QA。<br>
+ <br>
+对翻译服务过程和产品评估的过程中，翻译质量标准应该能够覆盖：1.译后文本需要达到的标准。2.翻译服务过程需要遵循的规范。优秀的翻译服务质量标准应该做到重复性（任何时候对评估对象分析，应该有一致的结果）；可复制性（不同的评估员或评估程序，按照同一标准分析，应该有同样的结果）；客观性（避免评估员的主观因素干扰）。<br>
+ <br>
+什么是正确的翻译文本呢？是否可以说，正确的翻译文本就是没有错误的翻译文本呢？或许，“正确的翻译文本是指：文本内所有翻译错误失分（翻译错误评估指数）不高于指定的数值。”——这一概念，更为恰当一些。<br>
+ <br>
+基于上述概念，翻译标准中对错误分析的支持应当包括：1.客观的评分。2.符合既定的原则或准则。3.评分系统完备。4.满足实践需求。5.实施成本。6.包含对未来改进的兼容性。<br>
+ <br>
+实际上，许多语言服务企业和客户都会有自己的“风格指南”。这一风格指南，实际上就是大语言服务公司为其分包商制定的“准则”，或是客户对为其提供服务的语言服务供应商的质量准则。有些风格指南是公开的，有些是保密的。微软、SUN（现在为Oracle），CISCO等的风格指南，可以在网上找到。<br>
+ <br>
+以上文提及的SAE J2450 翻译标准进行一个分析举例。这一标准的制定者是GM、Ford、Chrysler + 翻译服务商，标准启动于1997年，适用于汽车行业，用于评价汽车服务文档的翻译工作。在美国，这一标准作为最佳实践标准被广泛使用。这一翻译标准的目标是成为行业内可以被无论是译员、翻译服务商，还是最终用户都可以广泛接受的评价量尺。</p>
+<p>“The objective of the metric is to establish **a consistent standard **against which the quality of automotive service information can **be objectively measured **regardless of the source language, regardless of the target language and regardless of **how the translation is performed **–i.e. human translation or machine ranslation.”<br>
+ <br>
+当然，任何标准都会有一些批评与评论。SAE J2450也不例外。SAE J2450：1.只评价了翻译出来的文本。2.没有说明最后得到的分数的用法。3.只计算出错的数目，但并不试图改正。4.没有讨论引发错误的原因。5.原文的错误引发翻译错误，同样是错误。6.错误分类的“严重/轻微”是静态设定的。7.没有关于风格的评价，例如不评价因为排版问题引发的错误。</p>
+<h2 id="翻译校对与质量审查软件">翻译校对与质量审查软件</h2>
+<p>译者使用翻译校对软件的目的主要有四个方面，包括1.拼写检查。2.标点符号检查。3.语法检查。4.是否符合目标语言母语者习惯的检查。在实际操作的过程中，我们可以发现，利用软件进行语言校对很难，100%发现具体错误，几乎不可能。但是格式校对由于自动化程度很高，操作起来反而相对比较容易。</p>
+<p>翻译记忆、术语管理等CAT工具应用于翻译实践之后，从翻译速度、质量、一致性角度带来了工作效率的提升；同时增加了新的自动化校对办法。但是，正是由于多种工具的引入，也同时导致新错误出现的可能性上升。</p>
+<h2 id="qa校对软件的相关概述">QA校对软件的相关概述</h2>
+<p>QA校对软件大致分为两类，一类为嵌入式工具，另一类则是独立工作的QA校对软件。前者的代表是SDL Trados, Déjà Vu以及Wordfast。后者的代表是QA Distiller、ErrorSpy以及Xbench。</p>
+<p>这类QA校对工具值得注意的细节，可归纳为六个方面。<br>
+1.体系结构两极化，既可以利用插件嵌入其他CAT工具，又可以独立运行。<br>
+2.检查规则集有差异：书写方式可能不同，或有或无导出功能。<br>
+3.可扩展性不同：发展势头较强的QA软件大多可利用宏、正则表达式以及编程API进行扩展。<br>
+4.对文字编码的兼容性不同。<br>
+5.对文件格式的兼容性不同。<br>
+6.错误发现后的记分处理以及最后的错误报告格式和流程有区别。</p>
+<p>我们应当如何学习这类QA质量检查校对工具呢？首先，寻找视频、文字教程。其次，自己下载和使用相应工具。再次，学习扩展QA工具规则库，建立自己的规则。最后，修改规则，适应不同的翻译任务和客户。</p>
+<h1 id="六-机器翻译与本地化工程">六、机器翻译与本地化工程</h1>
+<p>众所周知，机器翻译是跨越语言障碍的利器，能够低成本、快速获取不精确信息。而我们所从事的语言服务行业，1.侧重高质量的语言、文化转换。2.跨语言跨文化的沟通交流。3.坚持广义或扩展的翻译目的论。</p>
+<p>语言服务行业中，机器翻译是否有用？这一问题大致有两种比较对立的观点。1.有用。机器翻译可以提高生产效率，降低生产成本。在快速获取低质量译文时，价值更大。2.没用。机器翻译的确可以提高生产量，但是译员的收入并没有增加。而且，低质量机器翻译产出的译文，无助于译员工作。</p>
+<p>但实际上，我们在考虑这一问题时，要思考技术的适用性以及形态。</p>
+<p>首先，多份报告证明，机器翻译对初级译员有用；对于资深译员，可采用适当的运用形式。其次，技术形态具有多样化特性，不能眼光僵化。利用机器翻译的方式大致可分为四种。1.大规模快速批处理翻译。2.机器翻译引擎（规则、语料）可定制化。3.可优化译前/译后编辑模式。4.可追求交互式机器翻译模式。</p>
+<p>我们应该拥抱一切可以提高效率的技术，而且要走在行业的前列；我们应该不断探索新技术，掌握技术发展的脉络，让技术为自己所用。</p>
+<h1 id="机器翻译的历史与挑战">机器翻译的历史与挑战</h1>
+<p>机器翻译的历史与人类认知的规律一致。1930年，出现了“机器翻译”的真正专利——“翻译机”。其中一项应用，由乔治阿氏罗利(Georges Artsrouni)提出，是一个使用纸带的自动双语词典。另一项建议则更详细，是由彼得(Peter Troyanskii)，俄罗斯人提出。</p>
+<p>1947-1954年，属于开创时期；1954-1966年属于乐观的十年；1966年-1980年属于ALPAC报告阻碍的时期；之后直至现在，则是机器发展重新起步的时期。</p>
+<p>如今，机器翻译在政治、经济全球化发展的背景下，成为需求旺盛的技术热点；互联网的大发展，也让属于信息技术的机器翻译渗透到生活的方方面面。因此，机器翻译研究获得了前所未有的基础和优越条件：比如，语料资源、信息检索以及搜索引擎方面的发展迅速；数学工具（概率统计类）以及机器学习等领域进展神速。可以说，任何语言只要有语言资源，就有机会做出优秀的机器翻译引擎。</p>
+<p><strong>机器翻译的适用领域</strong>或许大致可以分为四个方向。1.快速翻译，比如粗略快速低成本翻译，类似网站浏览等情景。2.科技翻译，与文学相反，与技术打交道更多的领域。3.受限制的文本，比如天气预报。4.译后编辑，机器翻译后结果需要继续加工，而且有宽容度的场合，比如跨语言信息检索。</p>
+<p>为了进一步思考机器翻译的适用领域，我们可以先考虑机器翻译，相较于人的优势。首先，机器翻译迅速、成本低廉。其次，在某些系统下，机器翻译还具有深度学习的能力。再次，机器翻译“不疲倦，不抱怨”。</p>
+<p><strong>那么哪些领域不适合机器翻译</strong>呢？传统观点认为，表达人类情感的文学、艺术领域难以应用机器翻译。但实际上，机器翻译只是计算机根据人确定的规则，或者自己从大量资料中学习（统计）出来的“规则”，对文字进行转换。只要文字本身能够辨识，就有可能执行机器翻译。基于此，很多过去认为机器翻译无法涉足的领域，正在逐渐改变。</p>
+<p>目前看来，进行<strong>机器翻译非常困难的文本类型</strong>：<br>
+1.文学性作品：散文、小说等<br>
+2.双关语、隐语等与语境强相关的内容：笑话等<br>
+3.隐藏、非浅层概念的情形<br>
+4.其他约束条件比较多的情形：歌词，韵文，诗歌等</p>
+<p>在我们看来，语言的结构从小至大，大致为字-词-句-篇章；同时，语言又可从语法-语义-语用三个方面进行分析。<br>
+<strong>萨皮尔—沃尔夫假说</strong>(Sapir—Whorf  Hypothesis)是一个关于人类语言的假说，由语言学家兼人类学家萨皮尔Edward Sapir）及其学生本杰明·李·沃尔夫（Benjamin Whorf）所提出，是一门心理学及语言学的假说。该假说含义大致可分为两层，一是语言因其自我成形，自我创造的能力而能决定人们对世界的认识，是形成入们世界意象的积极因素，这叫语言决定论；二是不同的语言不能表示同一个社会的现实，世界意象随着人们赖以思维的语言体系的不同而变比。这叫语言相对论。</p>
+<p>这一假说，从理论层面表达了机器翻译的实际困难。<br>
+对于机器翻译而言，能解决，但是依然解决不好的挑战是：</p>
+<p>A.获得正确的用词:<br>
+1.选择正确的词（词根）<br>
+2.正确的进行词形变化<br>
+3.插入“多余的”词汇</p>
+<p>B.让词汇排列成正确的顺序<br>
+1.语言的分类：SVO vs. SOV等<br>
+2.语言自己固有的习惯（语法-惯用法）<br>
+3.不同语言之间的差异性转换</p>
+<p>C1. 正确用词-正确的词根<br>
+1.同一语言中，一词多义<br>
+如：bank，打<br>
+2.同一语言中，一义多词<br>
+词义的微妙区别，概念的内涵和外延：迅捷，迅猛<br>
+适用文体、领域的差异性：警察 条子<br>
+3.不同语言间的深层差异<br>
+内含不存在：go Greek，lame duck，风水（feng sui）<br>
+概念之间的落差：狗dog<br>
+语域、文体、风格：when in Rome, do as the Romans do.</p>
+<p>C2. 正确用词-正确的词形<br>
+词形：屈折变化<br>
+阴阳性、数量、时态等<br>
+欧洲语言，从西往东差异愈发明显<br>
+中文：非屈折语</p>
+<p>C3. 正确用词-插入“多余的”词汇<br>
+冠词、限定词<br>
+书：a book, the book, the books<br>
+介词<br>
+六月份：in June<br>
+代词<br>
+我举手：I raised my hands.<br>
+连词<br>
+because：因为…，所以…</p>
+<pre><code>Have you finished yourhomework?
+你做完作业了吗？（省略和添加）
+President BarackObama of US
+美国总统奥巴马（惯例省略，对异种文化不习惯）
+Day after day he came to his work --sweeping, scrubbing, cleaning.
+…………扫地，擦地板，收拾房间
+</code></pre>
+<p>C4. 获得正确的句子-语序<br>
+SVO (Subject-Verb-Object) languages<br>
+English, German, French, Mandarin<br>
+I baked a pizza<br>
+SOV Languages<br>
+Japanese, Hindi<br>
+VSO languages<br>
+Irish, Classical Arabic, Tagalog</p>
+<pre><code>VP + PP vs. PP + VP
+VP + AdvP vs. AdvP+ VP
+Adj + N vs. N + Adj
+NP + PP vs. PP + NP
+NP + S vs. S + NP
+普通话：你先走。粤语：你走先
+床上 on the bed
+窗外 outside the window
+jump on the bed  在床上跳
+</code></pre>
+<p>为获得正确的句子，还需要了解特定语言的规则与惯用法：<br>
+普通话：你先走。粤语：你走先。<br>
+Why do you think that he came yesterday?<br>
+<strong>你为什么</strong>认为他昨天来了？<br>
+<strong>为什么你</strong>认为他昨天来了？<br>
+她<strong>把</strong>功课写完了。<br>
+She finished her homework.<br>
+他<strong>把</strong>墙挖了一个洞。<br>
+He dug a hole in the wall.<br>
+他<strong>把</strong>句子皮剥了。<br>
+He peeled the orange’s skin.</p>
+<h1 id="机器翻译的主要实现方法">机器翻译的主要实现方法</h1>
+<p>然这与翻译的直接关系并不大，但人类的认知不断深入，学科之间的借鉴就显得十分重要。</p>
+<p>人与机器是如何进行语言学习和翻译的呢？</p>
+<p>人学外语的通常过程是1.背单词：牢记拼写与含义；2.学模板，不断套用；3.反复练习；以听、读为输入，以说、写为输出。而训练机器进行翻译则是1.翻译词汇；2.套模板，找规律；3.根据语法特点进行处理；4.设定学习规则</p>
+<p>译员的翻译过程大致为：1.理解原文；2.转换语义；3.产出译文。而机器的翻译过程大致为：1.句法分析、语义分析；2.词级别转换、短语级别转换、树结构级别转换；3.按照特定语言进行译后处理。</p>
+<p>由于语言资源越多，机器翻译越有可能产出高质量结果，机器翻译需要的语言资源包括：1.语料库，最重要的语言资源；2.翻译词典：双语对应/对照；3.自然语言处理工具；4.模版，翻译规则。</p>
+<p>在上述语言资源之中，语料库是最重要的语言资源。关于目标语的单语平衡语料库、单语领域语料库可以让机器翻译学习如何产出；至少篇章对齐的平行语料库（句对齐语料库使用最多），可以直接供机器翻译学习；可比语料库，对于领域翻译工作而言，可以直接借鉴。</p>
+<p>主要的机器翻译实现方法目前大致有6种。<br>
+1.基于转换的方法，Transfer-based<br>
+ •乔姆斯基的形式化转换语法<br>
+2.基于中间语言的方法，Interlingua<br>
+ •都向英语转化；向人造的形式化语言转化<br>
+3.基于实例的方法，Example-based (EBMT)<br>
+ •大致可以类比于翻译记忆，要复杂很多<br>
+4.基于统计的方法，Statistical MT (SMT)<br>
+ •翻译工作完全类比于密码破译工作<br>
+5.基于神经网络的机器翻译<br>
+ •以谷歌翻译为主流的商用翻译引擎<br>
+6.复合方法，Hybrid approach<br>
+ •综合运用多种策略</p>
+<p>译员可用的机器翻译与普通人可用的机器翻译区别仍旧很大。机器翻译系统可以帮助译员工作的方法大致有3种。<br>
+1.机器翻译预处理<br>
+ 事先把文章翻译一遍，供译员快速理解<br>
+ 事先处理可以翻译的词汇、术语<br>
+ 本地化工程中，模拟人的翻译结果预先改进程序<br>
+2.机器翻译结果作为参考译文<br>
+3.机器翻译结果作为人工翻译的制导<br>
+ 交互式机器翻译</p>
+<h1 id="本地化工程概论">本地化工程概论</h1>
+<p><strong>什么是全球化经济、全球化社会？</strong><br>
+2003年，Michael Cronin在<em>Translation and Globalization</em>这本书中，有一段话值得思考：</p>
+<blockquote>
+<pre><code>  ...**new economy** is global because t**he central activities **of production, consumption and circulation, as well as **their components** (capital, labor, raw materials, management, information, technology, markets), are **organized on a global scale**, either **directly or through a network** of connections between **different economic agents.**
+</code></pre>
+</blockquote>
+<p><strong>G11N, L10N, I18N是什么？</strong><br>
+上述的三个词，其实是很简单的缩略词的写法，分别是：<br>
+全球化（Globalization）<br>
+本地化（Localization）<br>
+国际化（Internationalization）<br>
+为什么中间是数字？数数呗。</p>
+<p><strong>那什么是国际化，什么是本地化呢？两者和全球化、翻译有什么联系呢？</strong><br>
+**国际化：**设计一款产品使其易被世界上其他地区人们所接受；<br>
+**本地化：**让一款已经设计完成的产品根据特定地区市场的需求进行裁剪、修改和补充完善。<br>
+ <br>
+语言同样有全球化与本地化的需求。某些强势语言具有文化、科技、政治的优势而广泛使用，导致语言趋同，升值成为中间语言。而因为文化、主权、情感等多种因素，语言多样性成为很多地区、很多社群的诉求。<br>
+ <br>
+如果进行排序的话，大致可以理解为：翻译∈本地化∈国际化∈全球化。</p>
+<p><strong>一个产品/服务的全球化（这对于消费类产品尤其重要）需要：</strong></p>
+<p>1. 同时考虑国内和国际市场；<br>
+2. 为本地化工作做好国际化准备；<br>
+3. 整套的保证措施、工作设计和规划（从技术到市场，从销售到服务）。</p>
+<p>实质上，所有为使本地化工作更容易而进行的设计工作都属于国际化范畴。这其中，就包括多种语言和文化习惯的内建支持（比如电源插头、文字输入、显示、打印、排序，以及货币符号和特殊排版习惯等等）。<br>
+ <br>
+<strong>本地化，即为了让产品适合当地市场而做出的从语言、文化到技术的所有努力和工作需要</strong>：</p>
+<p>1. 以跨语言、跨文化交流为基础；<br>
+2. 以商业目的的达成为结局；<br>
+3. 技术研发既是工作支撑，也是工作目标</p>
+<p><strong>翻译，即语言转换；跨越语言、文化的交流和传播，是本地化、国际化工作的核心内容。除了以传统翻译为基础，此外还必须注意：</strong></p>
+<p>1. 技术支撑，CAT/Localization/PM 系统的广泛使用；<br>
+2. 嵌入技术环境；<br>
+3. 商业目的服务于产品（广义的翻译目的论）</p>
+<p><strong>全球化、国际化、本地化与翻译对翻译行业有什么影响呢？</strong><br>
+这一切，让翻译行业同样出现了巨大变化。翻译公司不断延展，扩大服务内容；翻译的技术支持类服务逐渐增加、成熟；整合的翻译解决方案同样在不断创新。</p>
+<p>现代的语言服务行业提供语言服务。语言服务是以语言技术为技能和内容提供专业服务，它<strong>以翻译为基础</strong>，但是已经<strong>超越了翻译服务</strong>的范畴。而语言服务保质保量的关键在于信息技术和管理技术的普及和应用。</p>
+<h2 id="本地化到底在是做什么的"><strong>本地化到底在是做什么的？</strong></h2>
+<p>我们在互联网所用到的软件、网站，平时玩的游戏，日常使用的文档，以及字幕、配音和程序的多语种支持都属于本地化。</p>
+<p>在本地化翻译的工作中：<br>
+<strong>文字载体</strong>	丰富，包括但不限于<br>
+ ·PDF、FM、Indd、HTML<br>
+ ·PHP、Java、Javascript<br>
+ ·XML<br>
+<strong>工作量</strong><br>
+ ·从几十万到数亿不等<br>
+<strong>工具包</strong>	括但不限于<br>
+ ·格式转换、文件管理<br>
+ ·翻译记忆、术语库、机器翻译<br>
+ ·翻译管理<br>
+<strong>人力资源</strong><br>
+ ·从几十到上百<br>
+<strong>工作模式</strong><br>
+ ·敏捷开发<br>
+ ·写作<br>
+ ·翻译</p>
+<p><strong>现代化的翻译项目流程</strong>大致为：<br>
+①项目需求、项目分析<br>
+②计划会议<br>
+③内部计划与进度<br>
+④前期设置<br>
+⑤翻译、编辑、校对<br>
+⑥抽样语言测试<br>
+⑦语言复查<br>
+⑧DTP<br>
+⑨功能测试/最终语言QA<br>
+之后进入客户复查、交付，项目总结阶段。</p>
+<h2 id="软件本地化要点概述">软件本地化要点概述</h2>
+<ol>
+<li>
+<p><strong>理想化的软件本地化翻译工作是希望翻译工作与程序开发彻底的分离</strong>，即：<br>
+（1）新的语言不必开发新的代码；<br>
+（2）翻译完成之后，不必重新编译；<br>
+（3）新增加语言，软件不需要重新测试；<br>
+（4）发行本地化版本不造成延误；<br>
+（5）新的发行和升级依然可以沿用旧版本的翻译；<br>
+（6）在别的软件上也可以复用翻译；<br>
+（7）翻译工作可以交给任何译员，即使译员没有任何程序开发经验。</p>
+</li>
+<li>
+<p><strong>软件的内涵与外延</strong><br>
+软件以UI与用户交互，需要获得客户、技术以及网络支持，以及基于计算机的训练，通过营销手段传播，并提供相应的文件（操作手册等）支持。<br>
+为了高效传播，软件核心必须要进行国际化，而且，软件UI的翻译是最关键的一部分。在翻译过程中，技术写作起到了支撑作用。值得注意的是，软件周边的翻译/本地化工作占据了相当的工作量。</p>
+</li>
+<li>
+<p><strong>软件翻译时的质量控制检查清单（不完整列表）</strong>：<br>
+（1）字符集是否正确，是否具有兼容性<br>
+（2）是否完整翻译<br>
+（3）夹杂的格式标签、控制标签是否处理<br>
+（4）有无非法标签、语义错误（标签及文字的顺序是否错误）<br>
+（5）由程序其他部分生成的动态文字或属性中的文字是否存在<br>
+（6）源程序的格式指令是否适用于目标语言市场<br>
+（7）图片是否同步处理<br>
+（8）文字和图片的关系是否正确<br>
+（9）软件、说明书及其他媒体间翻译一致性是否保证</p>
+</li>
+<li>
+<p><strong>本地化软件应具备的功能</strong><br>
+（1）格式处理<br>
+（2）待翻译段落、语句的抽取<br>
+（3）翻译过程中的支持（翻译记忆，术语管理）<br>
+（4）译文的放回<br>
+（5）多语言软件的测试支持（伪翻译）<br>
+（6）翻译工程项目的管理</p>
+</li>
+<li>
+<p><strong>软件本地化的部分最佳实践</strong><br>
+（1）软件本身切割成程序和界面设计（资源文件）<br>
+（2）尽量引用操作系统级别的字符串处理功能<br>
+（3）尽量使用Unicode/UTF-8编码<br>
+（4）尽量使用程序和批处理作业模式，手工工作越少，工作效率越高，且工作质量也越高<br>
+（5）从软件开发的源头起，包括核心部分、用户界面及用户手册都要做到国际化支持<br>
+（6）整个团队都应该具有全球化的视野和策略安排</p>
+</li>
+<li>
+<p>目前，对本地化行业而言<strong>比较重要的一些标准规范</strong>包括<br>
+（1）EN 15038：质量规范<br>
+（2）SRX (Segmentation Rules eXchange)：翻译单元的切分规则<br>
+（3）TBX (Term Base eXchange)：术语交换的格式<br>
+（4）TMX (Translation Memory eXchange)：翻译记忆交换格式<br>
+（5）UNICODE：计算机处理多语言时的内码标准<br>
+（6）XLIFF (XML Localization Interchange File Format)：为了翻译处理其他文件格式的统一处理规范<br>
+（7）UAX#29, #14 (Unicode Annex 29, 14)：Unicode处理多种语言时的附加标准，专门解决语言单位的“边界”问题</p>
+</li>
+<li>
+<p><strong>参与制定标准的国际组织</strong>包括<br>
+（1）ETSI: European Telecommunications Standards Institute<br>
+（2）GALA: Globalization and Localization Association<br>
+（3）OASIS: Organization for the Advancement of Structured Information Standards（XLIFF是其代表作）<br>
+（4）TAUS: Translation Automation Users Society<br>
+（5）UNICODE–ULI TC, Unicode Localization Interoperability Technical Committee</p>
+</li>
+<li>
+<p>关键性标准TMX，TBX，SRX和GMX曾由LISA.org持有，倒闭后，由ETSI继续发展。比较著名的ETSI-LISA成员包括HP、Huawei、Lionbridge等。OASIS XLIFF也是业内最重要的标准之一。</p>
+</li>
+</ol>
+<h1 id="参考源不分先后顺序">参考源（不分先后顺序）</h1>
+<ol>
+<li>西班牙巴塞罗那自治大学翻译能力习得过程和评估专项研究——PACET</li>
+<li><a href="http://tac-online.org.cn/ch/tran/2013-05/03/content_5924920.htm">http://tac-online.org.cn/ch/tran/2013-05/03/content_5924920.htm</a></li>
+<li>coursera课程：计算机辅助翻译原理与实践Principles and Practice of Computer-Aided Translation</li>
+<li>钱多秀. 计算机辅助翻译[M]. 外语教学与研究出版社, 2011.</li>
+<li>FedericoZanettin, SilviaBernardini, DominicStewart. Corpora in translator education[M]. 外语教学与研究出版社, 2007.</li>
+<li>Granger-Legrand S, Lerot J, Petch-Tyson S. Corpus-based approaches to contrastive linguistics and translation studies =[M]. Foreign Language Teaching and Research Press, 2007.</li>
+<li>org.cambridge.ebooks.online.book.Author@baff. Corpus Linguistics[M].</li>
+<li>Hunston S. Corpora in applied linguistics[J]. 2002, volume 57(4):416-420(5).</li>
+<li>Olohan M. Introducing Corpora in Translation Studies[M]. ROUTLEDGE, 2004.</li>
+<li>Shevchuk V. Corpus-based translation studies: theory, findings, applications[J].</li>
+<li>Perspectives Studies in Translatology, 2009, 17(17):281-28</li>
+<li>Schäffner C, Adab B J. Developing translation competence[M]. Shanghai Foreign Languag, 2012.</li>
+<li>MichaelMcCarthy, 麦卡锡. Issues in applied linguistics[M]. 世界图书出版公司北京公司, 2006.</li>
+</ol>
+
+          </div>
+          <div class="py-4 text-gray-600 flex items-center justify-between">
+            <div class="">
+              <div class="text-sm text-gray-300">最后更新于: </div>
+              <div class="text-base font-medium">2020.10.16</div>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <i class="ri-eye-line"></i> <span class="ml-2">{{ views }}</span>
+            </div> -->
+          </div>
+          <div>
+            <div id="disqus_thread"></div>
+          </div>
+        </section>
+        
+          <!-- <aside class="sticky toc-container flex-shrink-0 hidden md:block">
+            <div class="text-gray-600 mb-4">目 录</div>
+            <ul class="markdownIt-TOC">
+<li><a href="#%E8%87%AA%E8%BF%B0">自述</a></li>
+<li><a href="#%E4%B8%80-%E5%BC%95%E8%A8%80">一、引言</a>
+<ul>
+<li><a href="#%E4%BB%80%E4%B9%88%E6%98%AFcat"><strong>什么是CAT？</strong></a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E4%B8%89%E5%A4%A7%E9%9A%9C%E7%A2%8D">翻译三大障碍</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E5%B7%A5%E5%85%B7%E6%A6%82%E8%BF%B0">翻译工具概述</a></li>
+<li><a href="#%E5%88%A9%E7%94%A8%E4%BA%92%E8%81%94%E7%BD%91%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91">利用互联网搜索引擎进行翻译</a>
+<ul>
+<li><a href="#%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A6%81%E7%82%B9">搜索引擎工作的基本过程和要点</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E8%AF%B1%E5%AF%BC%E8%AF%8D%E8%BF%9B%E8%A1%8C%E6%90%9C%E7%B4%A2">使用诱导词进行搜索</a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%A9%E7%94%A8%E5%AD%A6%E6%9C%AF%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91">利用学术数据库进行翻译</a>
+<ul>
+<li><a href="#%E5%AD%A6%E6%9C%AF%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9B%9B%E5%A4%A7%E7%89%B9%E5%BE%81">学术数据库四大特征</a></li>
+<li><a href="#%E5%BA%94%E7%94%A8%E5%AD%A6%E6%9C%AF%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%80%E8%88%AC%E6%B5%81%E7%A8%8B"><strong>应用学术数据库——一般流程</strong></a></li>
+<li><a href="#%E5%AD%A6%E7%A7%91%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><strong>学科数据库使用——注意事项</strong></a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%A9%E7%94%A8%E8%AF%AD%E6%96%99%E5%BA%93%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91">利用语料库进行翻译</a>
+<ul>
+<li><a href="#%E5%BC%95%E5%AF%BC"><strong>引导</strong></a></li>
+<li><a href="#%E8%AF%AD%E6%96%99%E5%BA%93%E5%8F%91%E5%B1%95%E5%9B%9E%E9%A1%BE%E4%B8%8E%E5%B1%95%E6%9C%9B">**语料库发展回顾与展望 **</a></li>
+<li><a href="#%E8%AF%AD%E6%96%99%E5%BA%93%E7%9A%84%E7%89%B9%E7%82%B9">语料库的特点</a></li>
+<li><a href="#%E8%AF%AD%E6%96%99%E5%BA%93%E5%BB%BA%E8%AE%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E9%97%AE%E9%A2%98"><strong>语料库建设的基本问题</strong></a></li>
+<li><a href="#%E7%8E%B0%E4%BB%A3%E8%AF%AD%E6%96%99%E5%BB%BA%E8%AE%BE%E7%9A%84%E4%B8%A4%E4%B8%AA%E4%B8%BB%E8%A6%81%E6%96%B9%E5%90%91"><strong>现代语料建设的两个<strong><strong>主要</strong></strong>方向</strong></a></li>
+<li><a href="#%E8%AF%AD%E6%96%99%E5%BA%93%E7%9A%84%E7%94%A8%E9%80%94">语料库的用途</a></li>
+<li><a href="#%E5%9F%BA%E4%BA%8E%E8%AF%AD%E6%96%99%E5%BA%93%E7%9A%84%E7%BF%BB%E8%AF%91%E5%AD%A6%E7%A0%94%E7%A9%B6">基于语料库的翻译学研究</a></li>
+<li><a href="#cat%E5%B1%82%E9%9D%A2%E7%9A%84%E8%AF%AD%E6%96%99%E5%BA%93%E4%BD%BF%E7%94%A8">CAT层面的语料库使用</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E8%AF%AD%E6%96%99%E5%BA%93%E6%A3%80%E7%B4%A2%E5%B7%A5%E5%85%B7"><strong>常用的语料库检索工具</strong></a></li>
+<li><a href="#%E8%AF%AD%E6%96%99%E5%BA%93%E5%9C%A8%E7%BF%BB%E8%AF%91%E5%AE%9E%E8%B7%B5%E4%B8%AD%E7%9A%84%E7%94%A8%E9%80%94"><strong>语料库在翻译实践中的用途</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%BA%8C-cat%E5%85%A8%E6%96%B0%E6%8E%A2%E7%B4%A2%E7%94%B5%E5%AD%90%E8%BE%9E%E5%85%B8-%E5%B7%A5%E5%85%B7%E4%B9%A6%E4%B8%8E%E7%BF%BB%E8%AF%91%E5%AE%9E%E8%B7%B5">二、CAT全新探索——电子辞典、工具书与翻译实践</a><br>
+*
+<ul>
+<li><a href="#%E7%94%B5%E5%AD%90%E5%B7%A5%E5%85%B7%E4%B9%A6%E7%9A%84%E7%BB%BC%E8%BF%B0"><strong>电子工具书的综述</strong></a></li>
+<li><a href="#%E8%BE%9E%E5%85%B8-%E5%B7%A5%E5%85%B7%E4%B9%A6%E7%9A%84%E4%B8%BB%E8%A6%81%E7%94%A8%E9%80%94%E5%92%8C%E7%9B%AE%E7%9A%84"><strong>辞典、工具书的主要用途和目的</strong></a></li>
+<li><a href="#%E8%BE%9E%E5%85%B8-%E8%AF%8D%E5%85%B8%E7%9A%84%E5%88%86%E7%B1%BB%E6%96%B9%E5%BC%8F"><strong>辞典、词典的分类方式</strong></a></li>
+<li><a href="#%E8%BE%9E%E5%85%B8-%E5%B7%A5%E5%85%B7%E4%B9%A6%E8%83%BD%E6%9F%A5%E5%88%B0%E4%BB%80%E4%B9%88"><strong>辞典、工具书能查到什么</strong></a></li>
+<li><a href="#%E8%BE%9E%E5%85%B8%E5%B7%A5%E5%85%B7%E4%B9%A6%E7%9A%84%E6%9B%B4%E6%96%B0%E5%91%A8%E6%9C%9F"><strong>辞典工具书的更新周期</strong></a></li>
+<li><a href="#%E8%BE%9E%E5%85%B8-%E5%B7%A5%E5%85%B7%E4%B9%A6%E7%9A%84%E4%BA%92%E5%8A%A8%E6%80%A7">辞典、工具书的互动性</a></li>
+<li><a href="#%E7%94%B5%E5%AD%90%E8%AF%8D%E5%85%B8">电子词典</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E7%94%B5%E5%AD%90%E8%AF%8D%E5%85%B8">如何选择电子词典</a></li>
+<li><a href="#%E6%80%BB%E7%BB%93">总结</a>
+<ul>
+<li><a href="#%E5%B7%A5%E5%85%B7%E6%A6%82%E8%BF%B0">工具概述</a></li>
+<li><a href="#%E5%8E%9F%E5%88%99%E5%92%8C%E6%8A%80%E5%B7%A7">原则和技巧</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E4%B8%89-%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86">三、翻译记忆</a></li>
+<li><a href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E6%A6%82%E8%BF%B0"><strong>第一部分：翻译记忆概述</strong></a></li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E8%8B%A5%E5%B9%B2%E5%85%B3%E9%94%AE%E9%97%AE%E9%A2%98%E4%B8%8A"><strong>第二部分：翻译记忆若干关键问题（上）</strong></a>
+<ul>
+<li><a href="#%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E5%AD%98%E5%82%A8%E5%8D%95%E4%BD%8D%E7%BF%BB%E8%AF%91%E5%8D%95%E5%85%83">翻译记忆存储单位——翻译单元</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E8%8B%A5%E5%B9%B2%E5%85%B3%E9%94%AE%E9%97%AE%E9%A2%98%E4%B8%8B"><strong>第二部分：翻译记忆若干关键问题（下）</strong></a>
+<ul>
+<li><a href="#%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E7%9A%84%E5%AD%98%E5%82%A8%E5%92%8C%E4%BD%BF%E7%94%A8">翻译记忆的存储和使用</a></li>
+<li><a href="#%E5%8F%A5%E5%AD%90%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BC%BC%E5%BA%A6%E8%AE%A1%E7%AE%97">句子之间的相似度计算</a></li>
+</ul>
+</li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E8%AE%B0%E5%BF%86%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9"><strong>翻译记忆工具的优缺点</strong></a></li>
+<li><a href="#%E5%9B%9B-%E7%BF%BB%E8%AF%91%E5%AE%9E%E8%B7%B5%E4%B8%AD%E7%9A%84%E6%9C%AF%E8%AF%AD">四、翻译实践中的术语</a></li>
+<li><a href="#%E6%9C%AF%E8%AF%AD%E7%AE%A1%E7%90%86">术语管理</a></li>
+<li><a href="#%E6%9C%AF%E8%AF%AD%E8%A1%A8%E7%9A%84%E6%95%B4%E4%BD%93%E5%BB%BA%E8%AE%BE">术语表的整体建设</a></li>
+<li><a href="#%E7%9B%B8%E5%85%B3%E6%9C%AF%E8%AF%AD%E5%B7%A5%E5%85%B7%E5%88%97%E8%A1%A8">相关术语工具列表</a></li>
+<li><a href="#%E4%BA%94-%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1-%E6%9C%AC%E5%9C%B0%E5%8C%96%E6%9C%8D%E5%8A%A1%E4%B8%8E%E8%B4%A8%E9%87%8F%E6%8E%A7%E5%88%B6">五、翻译服务、本地化服务与质量控制</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E4%B8%80%E8%88%AC%E6%B5%81%E7%A8%8B">翻译项目一般流程</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86">翻译服务中的文件管理</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E9%A1%B9%E7%9B%AE%E6%93%8D%E4%BD%9C%E4%B8%AD%E7%9A%84%E6%80%9D%E8%80%83">翻译项目操作中的思考</a></li>
+<li><a href="#%E6%97%B6%E6%95%88%E4%B8%8E%E8%B4%A8%E9%87%8F">时效与质量</a>
+<ul>
+<li><a href="#%E4%BF%9D%E8%AF%81%E6%9C%AC%E5%9C%B0%E5%8C%96%E4%BA%A7%E5%93%81%E8%B4%A8%E9%87%8F%E7%9A%84%E7%BB%86%E8%8A%82">保证本地化产品质量的细节</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E6%A0%87%E5%87%86%E7%9A%84%E6%8E%A2%E8%AE%A8">翻译标准的探讨</a></li>
+<li><a href="#%E7%BF%BB%E8%AF%91%E6%A0%A1%E5%AF%B9%E4%B8%8E%E8%B4%A8%E9%87%8F%E5%AE%A1%E6%9F%A5%E8%BD%AF%E4%BB%B6">翻译校对与质量审查软件</a></li>
+<li><a href="#qa%E6%A0%A1%E5%AF%B9%E8%BD%AF%E4%BB%B6%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E8%BF%B0">QA校对软件的相关概述</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%AD-%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91%E4%B8%8E%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%B7%A5%E7%A8%8B">六、机器翻译与本地化工程</a></li>
+<li><a href="#%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91%E7%9A%84%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%8C%91%E6%88%98">机器翻译的历史与挑战</a></li>
+<li><a href="#%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91%E7%9A%84%E4%B8%BB%E8%A6%81%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95">机器翻译的主要实现方法</a></li>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%B7%A5%E7%A8%8B%E6%A6%82%E8%AE%BA">本地化工程概论</a>
+<ul>
+<li><a href="#%E6%9C%AC%E5%9C%B0%E5%8C%96%E5%88%B0%E5%BA%95%E5%9C%A8%E6%98%AF%E5%81%9A%E4%BB%80%E4%B9%88%E7%9A%84"><strong>本地化到底在是做什么的？</strong></a></li>
+<li><a href="#%E8%BD%AF%E4%BB%B6%E6%9C%AC%E5%9C%B0%E5%8C%96%E8%A6%81%E7%82%B9%E6%A6%82%E8%BF%B0">软件本地化要点概述</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%BA%90%E4%B8%8D%E5%88%86%E5%85%88%E5%90%8E%E9%A1%BA%E5%BA%8F">参考源（不分先后顺序）</a></li>
+</ul>
+
+          </aside> -->
+        
+      </div>
+    </div>
+    <div class="py-8 text-gray-300 text-center border-t border-gray-200">
+  Powered by Gridea
+</div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+    <script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://airmedtrans-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+  
+  
+    
+  
+</body>
+</html>

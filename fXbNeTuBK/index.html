@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" style="--theme-color: #262626; --link-color: #262626;">
+<head>
+  <meta charset="UTF-8">
+  <title>SDL Trados 2021 Pro CU2 使用体验 - 王楠鑫|Curtis_一个医学译者的前后左右</title>
+
+  <link rel="icon" href="">
+<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+<link rel="alternate" type="application/atom+xml" title="王楠鑫|Curtis_一个医学译者的前后左右 - Atom Feed" href="https://airmedtrans.com/atom.xml">
+
+  
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCRR8Q57W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script> -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-182385326-1');
+    ga('set', 'dimension1', 'site/cbS9tMKNT');
+    ga('set', 'dimension2', 'post/EV8pj76dG');
+    ga('send', 'pageview');
+    // gtag('set', {
+    //   'custom_map': {
+    //     'dimension1': 'siteId',
+    //     'dimension2': 'postId',
+    //   }
+    // })
+
+    // gtag('config', 'G-NFCRR8Q57W', {
+    //   'siteId': 'site/cbS9tMKNT',
+    //   'postId': 'post/EV8pj76dG',
+    // });
+  </script>
+
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="塔多思CU2再次上新，体验了一番。感觉很不赖。
+
+差不多新版本用了一个月了，有两个新的细节想和大家分享。
+第一个：非译元素的格式自定义
+
+这个功能很早就已经有了，但是自定义还真是第一次。由于各家风格指南不一样，有了这个，一致性保障提升。
+第...">
+
+  <meta property="og:title" content="SDL Trados 2021 Pro CU2 使用体验 - 王楠鑫|Curtis_一个医学译者的前后左右">
+  <meta property="og:description" content="塔多思CU2再次上新，体验了一番。感觉很不赖。
+
+差不多新版本用了一个月了，有两个新的细节想和大家分享。
+第一个：非译元素的格式自定义
+
+这个功能很早就已经有了，但是自定义还真是第一次。由于各家风格指南不一样，有了这个，一致性保障提升。
+第...">
+  
+  <meta property="og:url" content="https://airmedtrans.com/fXbNeTuBK/">
+  <meta property="og:site_name" content="王楠鑫|Curtis_一个医学译者的前后左右">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="SDL Trados 2021 Pro CU2 使用体验">
+
+  <meta name="gridea:post_id" content="EV8pj76dG">
+
+  <link rel="canonical" href="https://airmedtrans.com/fXbNeTuBK">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/a11y-light.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/css/main.css">
+
+</head>
+<body>
+  
+    
+  
+  <div id="page">
+    <div class="mb-16 sticky top-0 z-20 bg-white">
+  <header class="py-4 flex items-baseline justify-between max-w-2xl mx-auto px-2">
+    <h1 class="text-lg text-center font-medium px-4 md:px-0 flex items-center">
+      <div class="site-logo-text font-normal">王</div>
+      <a href="/">王楠鑫|Curtis_一个医学译者的前后左右</a>
+    </h1>
+    <div class="hidden sm:flex justify-center">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+        
+          <span class="text-gray-200">/</span>
+        
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+        
+      
+    </div>
+    <div class="flex sm:hidden py-2 px-4 text-center cursor-pointer" @click="openMenu = true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+    </div>
+  </header>
+
+  <div class="fixed top-0 right-0 bottom-0 left-0 bg-white hidden" :style="{
+    display: openMenu ? 'block !important' : 'none',
+  }" v-if="openMenu">
+    <div class="py-4 px-2 flex justify-end" @click="openMenu = false">
+      <div class="flex py-2 px-4 text-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+      </div>
+    </div>
+    <div class="flex flex-col p-4">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+      
+    </div>
+  </div>
+</div>
+    <div class="border-b border-gray-200">
+      <div class="max-w-2xl mx-auto px-6 md:px-2">
+        <div class="my-24 text-center">
+          <h1 class="text-2xl font-bold">SDL Trados 2021 Pro CU2 使用体验</h1>
+          <div class="post-title-bar mx-auto rounded mt-4"></div>
+          <div class="text-gray-400 mt-4">2020.11.26</div>
+          <div class="flex justify-center mt-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-bar" class="w-full sticky top-0 z-10 bg-white" style="height: 64px;"></div>
+    <div class="p-4 md:p-16 bg-white">
+      <div class="max-w-2xl mx-auto px-4 flex relative">
+        <section class="post-content flex-1 default-post-content max-w-2xl">
+          <div v-pre>
+            <p>塔多思CU2再次上新，体验了一番。感觉很不赖。</p>
+<!-- more -->
+<p>差不多新版本用了一个月了，有两个新的细节想和大家分享。</p>
+<p>第一个：非译元素的格式自定义</p>
+<p><img src="https://NanxinWang.github.io/post-images/1606377761861.png" alt="" loading="lazy"></p>
+<p>这个功能很早就已经有了，但是自定义还真是第一次。由于各家风格指南不一样，有了这个，一致性保障提升。</p>
+<p>第二个：预览时word弹出</p>
+<p>预览这个功能其实出来挺久了。从一开始的内嵌到后来的HTML，基本都够用。不过这次，可以弹出word了。其意义在于，那些偶尔会用word插件版低错检查工具的译员，可以稍微省点事，不用再导出文档了。</p>
+<p>以下为2020年10月16日内容————————————————————————————<br>
+目前发现的更新记录如下（使用时间：2020年10月16日）：</p>
+<ol>
+<li>
+<p>确认句段<br>
+原来的确认句段快捷键是ctrl+enter，在2021中变为了ctrl+alt+enter</p>
+</li>
+<li>
+<p>跳至下一未确认句段<br>
+原来是直接ctrl+enter就跳了，在2021中变成了alt+add（add即全键盘右侧加号）</p>
+</li>
+<li>
+<p>TM反应提速<br>
+从2017到2019，虽然名义上不断升级TM，但是TM的响应速度不断变慢。2021的第二个版本，在这一个问题上，给出了一个不错的答案。</p>
+</li>
+<li>
+<p>插件在软件内可视化<br>
+从2015版开始，插件的使用频率越来越高。但是如何安装、卸载插件以及查看插件具体信息，一直比较麻烦。2021版可以直接在软件内卸载插件，感觉不错。当然，原始的放在Roaming对应文件夹内的办法，仍旧可用。</p>
+</li>
+<li>
+<p>翻译结果界面删除TM更稳定<br>
+之前在17和19版里删除TM的时候，经常会遇到TM删不掉的情况。目前在2021版本中有所改善。</p>
+</li>
+</ol>
+<p>updating</p>
+
+          </div>
+          <div class="py-4 text-gray-600 flex items-center justify-between">
+            <div class="">
+              <div class="text-sm text-gray-300">最后更新于: </div>
+              <div class="text-base font-medium">2020.11.26</div>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <i class="ri-eye-line"></i> <span class="ml-2">{{ views }}</span>
+            </div> -->
+          </div>
+          <div>
+            <div id="disqus_thread"></div>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+    <div class="py-8 text-gray-300 text-center border-t border-gray-200">
+  Powered by Gridea
+</div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+    <script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://airmedtrans-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+  
+  
+    
+  
+</body>
+</html>

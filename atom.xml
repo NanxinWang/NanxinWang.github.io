@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>airmedtrans.com</id>
+    <title>王楠鑫|Curtis_一个医学译者的前后左右</title>
+    <updated>2022-12-05T13:58:41.381Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="airmedtrans.com"/>
+    <link rel="self" href="airmedtrans.com/atom.xml"/>
+    <rights>All rights reserved 2022, 王楠鑫|Curtis_一个医学译者的前后左右</rights>
+    <entry>
+        <title type="html"><![CDATA[临床文献学习_20221225]]></title>
+        <id>https://airmedtrans.com/临床文献学习_20221225</id>
+        <link href="https://airmedtrans.com/临床文献学习_20221225"/>
+        <updated>2022-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我们提取了截至2020年1月29日中国大陆30个省、自治区和直辖市552家医院1,099例经实验室确诊的COVID-19患者的数据。主要复合终点是送入重症监护病房（ICU）、采用机械通气或死亡。
+We extracted data rega...]]></summary>
+        <content type="html"><![CDATA[<p>我们提取了截至2020年1月29日中国大陆30个省、自治区和直辖市552家医院1,099例经实验室确诊的COVID-19患者的数据。主要复合终点是送入重症监护病房（ICU）、采用机械通气或死亡。</p>
+<p>We extracted data regarding 1099 patients with laboratory-confirmed Covid-19 from 552 hospitals in 30 provinces, autonomous regions, and municipalities in <strong>mainland China</strong> through January 29, 2020. The <strong>primary composite end point</strong> was admission to an intensive care unit (ICU), the use of mechanical ventilation, or death.</p>
+<p><strong>Comments：</strong></p>
+<p><strong>这里明显的一个表达不妥，是对“中国大陆”一词的处理。““中国大陆”的英译文绝不能用Mainland China，而应是the Chinese Mainland, Mainland of China或China’s Mainland。”——中国翻译协会，《<strong><strong>责任必须落实 监管尚需到位——公共场所英语标示纠错有感（之三）</strong></strong>》</strong></p>
+<p><strong>主要复合终点，primary composite end point</strong></p>
+<p>患者中位年龄为47岁；女性占41.9%。67例患者（6.1%）发生了主要复合终点，包括送入ICU的5.0%、接受有创机械通气的2.3%和死亡的1.4%。</p>
+<p>The median age of the patients was 47 years; 41.9% of the patients were female. The primary composite end point occurred in 67 patients (6.1%), including 5.0% who were admitted to the ICU, 2.3% who underwent invasive mechanical ventilation, and 1.4% who died.</p>
+<p>仅1.9%的患者有与野生动物的直接接触史。</p>
+<p>Only 1.9% of the patients had a history of direct contact with <strong>wildlife</strong>.</p>
+<p><strong>Comments：</strong></p>
+<p><strong>能用一个词，不用两个词</strong></p>
+<p>在非武汉居民中，72.3%有与武汉居民的接触史，其中31.3%曾去过武汉。</p>
+<p>Among nonresidents of Wuhan, 72.3% had contact with residents of Wuhan, including 31.3% who had visited the city.</p>
+<p>最常见症状为发热（入院时43.8%有发热，住院期间88.7%有发热）和咳嗽（67.8%）。腹泻不常见（3.8%）。</p>
+<p>The most common symptoms were fever (43.8% on admission and 88.7% during hospitalization) and cough (67.8%). Diarrhea was uncommon (3.8%).</p>
+<p>中位潜伏期为4天（四分位距，2～7）。入院时，磨玻璃影是胸部计算机断层扫描（CT）中最常见的影像学表现（56.4%）。</p>
+<p>The median incubation period was 4 days (interquartile range, 2 to 7). On admission, <strong>ground-glass opacity</strong> was the most common <strong>radiologic finding</strong> on chest computed tomography (CT) (56.4%). .</p>
+<p><strong>Comments：</strong></p>
+<p><strong>磨玻璃影，ground-glass opacity</strong></p>
+<p><strong>影像学表现，radiologic</strong></p>
+<p>877例非重症患者中的157例（17.9%）和173例重症患者中的5例（2.9%）无影像学或CT异常。</p>
+<p>No <strong>radiographic</strong> or CT abnormality was found in 157 of 877 patients (17.9%) with nonsevere disease and in 5 of 173 patients (2.9%) with severe disease.</p>
+<p><strong>Comments：</strong></p>
+<p><strong>radiographic，换了一个表述。</strong></p>
+<p>入院时，83.2%的患者有淋巴细胞减少。</p>
+<p>Lymphocytopenia was <strong>present</strong> in 83.2% of the patients on admission.</p>
+<p><strong>Comments：</strong></p>
+<p><strong>对there be句型的严正抗议~有事儿说事儿系列~</strong></p>
+<p>在此次疫情的前2个月期间，COVID-19在中国大陆迅速传播，并引起了不同程度的疾病。</p>
+<p>During the first 2 months of the current outbreak, Covid-19 spread rapidly throughout China and caused varying degrees of illness.</p>
+<p>患者就诊时常无发热，许多无影像学异常表现。</p>
+<p>Patients often presented without fever, and many did not have abnormal radiologic findings.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[临床研究基本概念]]></title>
+        <id>https://airmedtrans.com/lin-chuang-yan-jiu-ji-ben-gai-nian</id>
+        <link href="https://airmedtrans.com/lin-chuang-yan-jiu-ji-ben-gai-nian"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[临床研究（clinical study）：凡是以病人或健康人为研究对象的医学研究是临床研究，其中包括各类的临床研究（实验性研究，即有干预，对干预措施的疗效和安全性进行评价，如临床试验，或无干预，即观察性研究），但临床试验（clinical ...]]></summary>
+        <content type="html"><![CDATA[<p><strong>临床研究</strong>（<strong>clinical study</strong>）：凡是以病人或健康人为研究对象的医学研究是临床研究，其中包括各类的临床研究（实验性研究，即有干预，对干预措施的疗效和安全性进行评价，如临床试验，或无干预，即观察性研究），但临床试验（clinical trial）是其中特别的一大类, 即前瞻性的临床研究。</p>
+<p><strong>前瞻性研究</strong>（<strong>prospective study</strong>）：在研究开始进行之前，经过周密、严格的设计和计划，制定出研究方案，并遵照研究方案进行的研究;与回顾性研究形成鲜明的对比，后者是在事件发生后，根据病历记录等进行的分析研究。</p>
+<p><strong>随机</strong>（<strong>random, randomize, randomization</strong>）：是指随机分配或随机分组，这是一种过程，通过这个过程，临床试验的每个参与者（participant）都有相同的机会被分配到干预组或对照组。在参与者决定参加研究之前，无论是参与者还是研究者都不了解分配方案如何，否则随机分组的益处就体现不出。</p>
+<p>随机分组是取得研究组之间可比性的最佳方法，也是进行统计学推断的基础。随机分组保证研究组之间已知和未知危险因素的可比性。</p>
+<p>英文论文中，随机这个词语的用法有以下几种：</p>
+<p>1）The patients were divided into two groups at random.</p>
+<p>2）The patients were randomized into two groups.</p>
+<p>3）Permuted block randomization was used to randomly assign the participants to either intervention group or the control group.</p>
+<p><strong>对照/对照组</strong>（<strong>control, control group</strong>）：对照是指对比或比较；对照组是用于比较或对比用的组，其对立的组一般称为研究组（study group）、治疗组（treatment group）、观察组(observation group)、干预组(intervention group)，等。但“研究组”、“观察组”的说法都有些不妥，因为，即使是对照组，即使对照组是由健康人组成的，对这些组的人也都要观察、研究。因此，如果是治疗性的研究，对照组相应的那一组可以称“治疗组”，也可以用“干预组”。有个别作者在写英文论文稿件时，用comparative或contrast代替control这个词，并不太恰当，因为绝大多数的医学期刊文章中都用control表示对照这个意思，因此我们并不需要用其他词语代替control。</p>
+<p><strong>盲化/非盲化</strong>（<strong>blinding/non-blinding, blinded/non-blinded</strong>）：临床试验中的盲化，是为减少或消除数据收集和分析中的偏倚而采取的一些“遮盖”或“掩蔽”的措施。与盲化对立的是非盲化，或公开\开放，即参加研究的病人和研究者都知道参与者的分组情况或接受的是哪一种疗法（干预还是对照）。盲化有单盲、双盲和三盲。</p>
+<p><strong>双盲设计</strong>（<strong>double-blind</strong>）：是通过一些措施，使研究对象和研究者都不了解研究对象所接受的是干预还是对照。双盲试验中产生偏倚的危险显著地减少了。</p>
+<p><strong>单盲</strong>（<strong>single-blind</strong>）：则是指只有研究者知晓每个参与者接受的是哪一种干预, 参与者则不了解。</p>
+<p><strong>三盲</strong>（<strong>triple-blind</strong>）：试验是双盲设计的延伸，负责对应答变量进行监测的委员会不知晓组的性质（即哪个组用哪种治疗），只知道代号，如A组和B组。</p>
+<p><strong>临床试验</strong>（<strong>clinical trial</strong>）：在人类中，与对照相比，比较和评价某种或某些干预的临床效果和价值的前瞻性研究。请注意，临床试验必须是前瞻性的，而不是回顾性的；对研究对象要向前进行随访。临床试验的选题应有充足的科学依据，设计应当严谨，还有许多相关的要求，如盲化（双盲或单盲）、多中心，及按照CONSORT指南指导稿件的准备。临床试验必须有干预措施。干预措施可以是药物治疗、手术治疗、心理或行为干预，等等。</p>
+<p><strong>药物临床试验按照研究的目的和作法不同，分为四期。</strong></p>
+<p><strong>1期</strong>（<strong>phase 1</strong>）：是用于研究人体对药物的耐受性、药物的代谢、药物相互作用、药代动力学和药效学问题的临床试验。研究对象大多是健康志愿者，但也可以是患者，而患者应为用已有标准疗法证明无效的患者。有些1期临床试验重点研究的是药物的生物利用度和体内分布，也初步对药物活性进行评估，多用剂量递增方法。</p>
+<p><strong>2期</strong>（<strong>phase 2</strong>）：是探索性治疗研究，研究不同剂量的疗效，特别是以生物标志物为结局指标的研究。一些2期研究用随机分组的方法将现有治疗方法已被证实无效的患者，例如恶性肿瘤患者，纳入研究并分组，初步评价新治疗干预的疗效、安全性及最适剂量的选择。也有用不同类型对照组的2期临床研究，如用历史上的对照、治疗前后数据的比较。</p>
+<p><strong>3期</strong>（<strong>phase 3</strong>）：是治疗确证研究，证实临床疗法或干预应用的疗效及安全性，以及新疗法在临床实践中的价值。多数药物监管机构要求新的干预措施或产品需要在完成3期临床试验后方能申请上市。3期临床试验的重点在于有效性，而不是在于安全性。</p>
+<p><strong>4期</strong>（<strong>phase 4</strong>）：是带有长期随访内容的临床试验或在管理机构批准（上市）之后开展的大规模临床试验。针对慢性疾病进行的3期临床试验的随访期，与实践中用于干预措施的时间相比，往往较短。然而安全性方面的证据或知识对于评价某种干预在临床实践中的恰当作用方面也是必要的，因此对某些干预措施有必要开展4期临床试验，对干预效果和安全性的长期监测。</p>
+<p><strong>意向性治疗分析</strong>（<strong>intention-to-treat analysis</strong>）：分析临床试验数据的一种策略, 即任何经历了为治疗而随机化的研究对象都必须包括在分析中。</p>
+<p><strong>符合方案分析</strong>（<strong>per-protocol analysis</strong>）：对临床试验数据的分析，只包括所有经历随机分组的研究对象中充分依从研究方案的人。</p>
+<p><strong>终点或结局</strong>（<strong>endpoint or outcome</strong>）：在试验中做为评价疗效或安全性的观察变量。这些变量可与疗效相关，也可与安全性相关。该术语在数年前与“疗效变量”或“安全性变量”几乎当同义词使用，近几年与结局（outcome）这个词几乎等同使用。</p>
+<p><strong>主要终点或主要结局</strong>（<strong>primary endpoint or main outcome</strong>）：是一项临床试验中评价疗效或安全性的主要观察项目或变量。这可以是单一的变量，也可以是由1个以上变量组成的复合主要终点（composite primary endpoint）或复合主要结局（composite main outcome）。</p>
+<p>这里需要特别指出的是，在一项临床试验中，主要终点或主要结局是研究的主要项目之一，研究方案中一旦确定了主要终点或主要结局，就不能轻易更改。因为试验的样本量是根据主要终点的相关数据计算的。如果更改，可能需要重新进行临床试验的注册。</p>
+<p>还有一点十分重要，即注意术语的规范性。有些作者在稿件中，在相当于写主要终点或主要结局之处，用自造的词语，如observation index这个词组。这类词语会给编辑和审稿人造成极大误解。</p>
+<p><strong>次要终点或次要结局</strong>（<strong>secondary endpoint or outcome</strong>）：是研究中包含的除主要终点或主要结局以外的终点或结局。</p>
+<p><strong>先导性（探索性）研究</strong>（<strong>pilot study</strong>）：为帮助设计其后的正式临床试验（主要试验）用的一种小型临床研究，一般也采用随机对照的设计，但样本量小；其研究组的干预和对照组的干预都要与其后即将进行的主要试验一致。先导性研究取得的某些数据将用于其后进行的正式临床试验的设计，例如样本量的计算。内部先导性研究（internal pilot study），是先导性研究的一个类型，其所收集的数据会作为主要试验数据的一部分。先导性研究的典型例子可参见文献Elias WJ et al. N Engl J Med 2013;369:640-8.</p>
+<p><strong>非劣效性试验</strong>（<strong>non-inferiority trial</strong>）：以证实一种干预的疗效和安全性不比另一种干预差为目的的临床试验。通过这种试验，可以证实某种新的治疗或干预的疗效不比对照干预差，或至少与对照干预一样好。这里所说的对照干预是指已经得到证实的确实有效的，往往是标准的疗法。实际的设计中要设定非劣效的合理界限，如5%，10%或20%等。新干预的疗效即使比对照干预差一些，但只要不超过设定的界限，一般就可以认定新的干预是非劣效的。近年来国际医学期刊上刊登的非劣效性临床试验比以前有所增多。例子可参见Rosenfield K et al. N Engl J Med 2016;374:1011-20.</p>
+<p><strong>等效性试验</strong>（<strong>equivalence trial</strong>）：证实两种干预（或治疗）方法疗效相同，或无显著性差异的临床试验。临床医疗中有时需要在疗效和安全性基本相同的情况下，根据患者病情等因素（如支付能力、伴随疾病的治疗等）的需要，从疗效相同的治疗方法中选择合适的方法用来治疗患者。</p>
+<p><strong>优效性试验</strong>（<strong>superiority trial</strong>）：用于证实研究药物的疗效和安全性优于对照干预的临床试验，这里的对照干预可以是安慰剂，也可以是另一种疗法。</p>
+<p><strong>以上这三种临床试验在设计和结局的判定方面有所不同。</strong></p>
+<p><strong>队列研究</strong>（<strong>cohort study</strong>）：纵向研究的一个类型，研究者确定一个队列（具有指定特征的一个群组人，典型的情况是，在选定的某个时期经历了共同的事件，例如出生或毕业），在时间进程中连续观察并收集是否暴露于一些与发病相关的因素，以及暴露的程度等方面数据资料，以分析研究疾病的发生和发展与暴露因素的关联。队列研究代表流行病学研究的一种基本设计，被用于医学、护理学、心理学、社会科学的现场（或实地）研究。队列研究是在所研究的疾病或结局发生之前就开始，纵向研究进行到研究的疾病或结局发生。这类研究往往能确定疾病相关的因果关系。可以是前瞻性的，也有回顾性的，可以将研究对象分组进行观察和对比。研究的特点是需时可能很长，数年至数十年。一个典型的但规模相对小，持续时间较短的队列研究的例子是Gladstone BP等发表的论著文章N Engl J Med 2011;365:337-46。该研究在印度韦洛尔（Vellore）的贫民窟进行的关于轮状病毒感染的队列研究，纳入的452名儿童中，373名完成了3年的随访。该研究阐明了以下问题：56%的儿童到6月龄时已经发生了轮状病毒感染，再感染率高，只有30%为原发感染。对于中至重度轮状病毒感染的保护率较低，在感染发生3次后出现的保护率只有79%。结论是早期和频繁发生再感染加之病毒的异质性可以解释在亚洲和非洲轮状病毒疫苗效果低于预期的原因。</p>
+<p><strong>病例对照研究</strong>（<strong>case control study</strong>）：将患有某种疾病的患者与未患有该病但其他方面密切匹配的对照个体进行比较分析的研究。这类研究被用于揭示可能引起所研究疾病的病因、危险因素或暴露。病例对照研究的论文有很多，Jha P等发表的论著N Engl J Med 2008;358:1137-47证实了在印度吸烟导致大量和越来越多的过早死亡。近年有研究者证实，大规模病例对照研究或分析还可用于解决药物安全性方面随机对照临床试验无法解决的重要问题。例证之一，是Filion KB等发表的论著文章N Engl J Med 2016;374:1145-54。</p>
+<p><strong>横断面研究</strong>（<strong>cross-sectional study</strong>）：亦称横断面分析、横向研究、患病率研究，是按照事先设计的方案，在选定的人群中以普查或抽样调查的方式收集特定时间点上人群中疾病或健康状况或相关因素的资料，以描述疾病或健康状况在人群中的分布以及某些因素与疾病的关联。我国杨文英教授等发表的论著N Engl J Med 2010;362:1090-101是一典型的例子。这类研究涉及在特定时间收集的数据。这种研究常用于评估急性或慢性疾病/病况的患病率，但不能用于回答关于疾病原因或干预结果的问题。横断面的数据不能用于推断因果关系，因为对时间关系不了解。这类研究不适合用于罕见病，而且回忆困难可造成偏倚。</p>
+<p>整理自nejmqianyan.cn</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年的政府工作报告 输出4]]></title>
+        <id>https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu4</id>
+        <link href="https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu4"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[drive
+今天的第一个词，是一个熟词僻义。drive，初中词汇~甚至小学词汇~但一般我们只会学习其“驾驶”相关的释义。但这么一个“初级”词汇，我们真正掌握了么？或许，还差一点点。（不，我不想喝果茶）
+
+全球疫情仍在持续，世界经济复苏动力不...]]></summary>
+        <content type="html"><![CDATA[<p>drive</p>
+<p>今天的第一个词，是一个熟词僻义。drive，初中词汇~甚至小学词汇~但一般我们只会学习其“驾驶”相关的释义。但这么一个“初级”词汇，我们真正掌握了么？或许，还差一点点。（不，我不想喝果茶）</p>
+<blockquote>
+<p>全球疫情仍在持续，世界经济复苏<strong>动力</strong>不足，大宗商品价格高位波动，外部环境更趋复杂严峻和不确定。The Covid-19 pandemic is still ongoing. The world economic recovery lacks <strong>drive</strong>, and commodity prices remain high and are prone to fluctuation. All of this is making our external environment increasingly volatile, grave and uncertain.</p>
+</blockquote>
+<p>drive，我们可以视为动力~</p>
+<p>如柯林斯所述：</p>
+<blockquote>
+<p>[U] (approving) a strong desire to do things and achieve sth; great energy<br>
+• 冲动；干劲；精力:</p>
+</blockquote>
+<blockquote>
+<p>»He'll do very well—he has tremendous drive.</p>
+</blockquote>
+<p>他会干得很出色的——他干劲冲天。</p>
+<p>甚至再读读词典，还会发现：</p>
+<blockquote>
+<p>1．a drive to raise funds（筹款运动），a membership drive（征求会员运动）等表达方式里的 drive 是美国英语，在英国用 campaign。drive 用作“进攻”解也是美国用法，在英国用 offensive。</p>
+</blockquote>
+<p>2．drive（不及物动词）和 ride（不及物动词）略有不同。drive 通常是“乘完全或部分地自己管理的车”，如 He is driving in his own car, He is driving in a friend's car 和 He is driving in a hired car。**ride 通常是“乘自己并不管理的车”，如 He is riding in a bus, He is riding in a tram-car 和 He is riding in a train。**在美国 ride 也指“乘船”。例如：He is riding in a steamer. drive 和 ride 用作名词，有跟用作不及物动词同样的区别。</p>
+<p>3．<strong>drive 是“驾驶”，drive in 是“乘坐”</strong>。例如：<br>
+He is driving a car. （他正在驾驶汽车。）<br>
+He is driving in a car. （他正在坐着汽车行路。）</p>
+<p>4．<strong>He drives his own car 可能有两个含意</strong>：“他驾驶自己的汽车（不必借用别人的）”和“他自己驾驶汽车（没有司机）。”<br>
+——《葛传椝英语惯用法词典》</p>
+<blockquote>
+<p>■drive<br>
+指驾驶四轮以上的车辆：drive a car， drive a truck等。如果是要张腿跨着骑的，如马匹、自行车、小摩托，或是不能坐着驾驶的，如踏板车（scooter），都不能说是drive，而应该说ride。即使是机动的也不例外。<br>
+——《英语常用词疑难用法手册》</p>
+</blockquote>
+<hr>
+<p>Mindful</p>
+<p>第二个词，大体也是一个“认识”但“懒得用”的词汇。</p>
+<blockquote>
+<p>我们要增强忧患意识，直面问题挑战，全力以赴做好工作，决不辜负人民期待！<br>
+We must be more <strong>mindful of</strong> potential difficulties, face problems and challenges squarely, make every effort to deliver a satisfactory performance, and do our utmost to live up to people's expectations.</p>
+</blockquote>
+<p>去看看OALD7，我们可以发现，我们多了一些替代词的选择。</p>
+<blockquote>
+<p>• <strong>~ of sb / sth | ~ that...</strong> (formal) remembering sb / sth and considering them or it when you do sth<br>
+• 记着；想着；考虑到  SYN  conscious :</p>
+</blockquote>
+<p>»<strong>mindful of</strong> our responsibilities 意识到我们的责任</p>
+<p>»<strong>Mindful of</strong> the danger of tropical storms, I decided not to go out. 想到热带风暴的危险，我决定不出门。</p>
+<p>再看一眼柯林斯的例句：</p>
+<blockquote>
+<p><strong>Mindful of</strong> the needs of its students, Cardiff has invested heavily in providing new and improved residences.<br>
+<strong>考虑到</strong>学生的需要，加的夫大学投入了巨资兴建和改善学生宿舍。</p>
+</blockquote>
+<p>想到了什么？没错啊，considering。</p>
+<blockquote>
+<p>◙ prep. , <strong>conj</strong>. • used to show that you are thinking about a particular fact, and are influenced by it, when you make a statement about sth• 考虑到；就…而言；鉴于:</p>
+</blockquote>
+<blockquote>
+<p>»She's very active, <strong>considering</strong> her age. 就她的年龄来说,她是十分活跃的。</p>
+</blockquote>
+<blockquote>
+<p>»<strong>Considering</strong> he's only just started, he knows quite a lot about it. 鉴于他才刚刚开始,他懂得的已经不少了。</p>
+</blockquote>
+<blockquote>
+<p>»You've done very well, considering (= in the difficult circumstances).<strong>考虑到</strong>处境的艰难,你已经做得相当不错了。</p>
+</blockquote>
+<p>是豁然开朗？还是更加迷茫？Considering为啥不是动名词啊？逻辑主语不对啊，balabala~别说了~看葛老先生怎么说的吧~</p>
+<blockquote>
+<p>**considering 从现在分词转作介词，作“鉴于……”解。**例如：You write very well considering your age（就你的年龄而论，你可算写得很好）和 You write very well considering how young you are。<strong>因为是 participle，所以后面也可以接以 that 引导的从句</strong>。例如：You write very well, considering that you are so young. <strong>有时 considering 被用作副词似的</strong>，作 considering the circumstances 解。例如：You write very well, considering.（就情形而论，你可算写得很好。）<br>
+——《葛传椝英语惯用法词典》</p>
+</blockquote>
+<p>当然，如果细扣的话，我们还是要基于语域和实际情况选择用词~</p>
+<hr>
+<p>lend</p>
+<p>熟词僻义，再来一个~Lend~</p>
+<p>完成今年发展目标任务，宏观政策要稳健有效，微观政策要持续激发市场主体活力，结构政策要着力畅通国民经济循环，科技政策要扎实落地，改革开放政策要激活发展动力，区域政策要增强发展的平衡性协调性。社会政策要兜住兜牢民生底线。To fulfill the development goals and tasks for the year, we should pursue prudent and effective macro policies, micro policies that can continuously energize market entities, and structural policies that facilitate smooth flows in the economy. Science and technology policies should be fully implemented, reform and opening up policies should <strong>lend impetus to</strong> development, regional policies should ensure more balanced and coordinated development, and social policies should meet basic living needs.</p>
+<p>借借借，就知道借？“lend impetus to”借动力干啥？说不动的话，问问词典~</p>
+<blockquote>
+<p>~ sth (to sb / sth) | ~ (sb / sth) sth to give or provide help, support, etc. • <strong>给予,提供(帮助、支持等)</strong>:</p>
+</blockquote>
+<blockquote>
+<p>▪ [VN] »I was more than happy to <strong>lend my support to</strong> such a good cause. 我非常乐意给这样美好的事业提供援助。</p>
+</blockquote>
+<blockquote>
+<p>▪ [VNN] »He came along to l<strong>end me moral support</strong>. 他来给予我精神上的支持。</p>
+</blockquote>
+<hr>
+<p>come to the fore</p>
+<p>第四个词，让我觉得，市场类稿件的表达+1+1+1~</p>
+<blockquote>
+<p>使用1000亿元失业保险基金支持稳岗和培训，加快培养制造业高质量发展的急需人才，让更多劳动者掌握一技之长、让三百六十行行行人才辈出。A total of 100 billion yuan from the unemployment insurance fund will be used to support enterprises in maintaining stable payrolls and providing training programs, and we will speed up training of skilled workers who are urgently needed to promote high-quality development of manufacturing. These efforts will enable more workers to acquire marketable skills and large numbers of talented people to <strong>come to the fore</strong> in all sectors.</p>
+</blockquote>
+<blockquote>
+<p><strong>be / come to the fore</strong></p>
+</blockquote>
+<blockquote>
+<p>(<strong>BrE</strong>) (NAmE be at the 'fore) to be / become important and noticed by people; to play an important part• <strong>变得重要(或突出)；起重要作用:</strong></p>
+</blockquote>
+<blockquote>
+<p>»She has always been to the fore at moments of crisis. 在危急时刻她总是挺身而出。</p>
+</blockquote>
+<blockquote>
+<p>»The problem has come to the fore again in recent months. 近几个月来这个问题又成为热点。</p>
+</blockquote>
+<p>play an important role in？还是有替代词的呀~</p>
+<hr>
+<p>further</p>
+<p>深入推进公平竞争政策实施，加强反垄断和反不正当竞争，维护公平有序的市场环境。We will <strong>further</strong> the implementation of policies to ensure fair competition and take stronger action against monopolies and unfair competition to ensure a well-ordered and fair market environment.</p>
+<p>词性是啥？adv. adj.？再来一个，v.~</p>
+<blockquote>
+<p>◙ verb [VN]• to help sth to develop or be successful• 促进；增进:</p>
+</blockquote>
+<blockquote>
+<p>»They hoped the new venture would <strong>further</strong> the cause of cultural cooperation in Europe. 他们希望这个新项目将促进欧洲文化合作事业。</p>
+</blockquote>
+<blockquote>
+<p>»She took the new job to further her career. 她接受了这项新工作以进一步发展她的事业。</p>
+</blockquote>
+<p>再回顾：</p>
+<p>further</p>
+<p>be/come to the fore</p>
+<p>lend</p>
+<p>mindful</p>
+<p>drive</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年的政府工作报告 输出2]]></title>
+        <id>https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu2</id>
+        <link href="https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu2"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[
+Register
+
+这个词，在此次报告中，一个有意思的用法，如下所示。
+
+关键核心技术攻关取得重要进展，载人航天、火星探测、资源勘探、能源工程等领域实现新突破。
+Major advances were registered in rese...]]></summary>
+        <content type="html"><![CDATA[<ol>
+<li>Register</li>
+</ol>
+<p>这个词，在此次报告中，一个有意思的用法，如下所示。</p>
+<blockquote>
+<p>关键核心技术攻关取得重要进展，载人航天、火星探测、资源勘探、能源工程等领域实现新突破。<br>
+Major advances were <strong>registered</strong> in research on core technologies in key fields, and breakthroughs were made in manned spaceflight, Mars exploration, resource exploration, energy projects and other areas.</p>
+</blockquote>
+<blockquote>
+<p>今年安排中央本级支出增长3.9%，其中中央部门支出继续负增长。<br>
+This year, central government expenditures will rise by 3.9 percent, but the budgetary spending of central government departments will continue to <strong>register</strong> negative growth.</p>
+</blockquote>
+<p>根据陆老的英汉大辞典，以及以上示例，我们可以发现，register，还有一个很有意思的用法。</p>
+<blockquote>
+<p>达到; 取得, 获得:</p>
+</blockquote>
+<blockquote>
+<p>Business failure <strong>registered</strong> a postwar record this year. 今年厂商的倒闭<strong>达到</strong>战后最高记录。</p>
+</blockquote>
+<blockquote>
+<p>This country has <strong>registered</strong> extraordinary economic progress. 这个国家<strong>取得</strong>了惊人的经济发展。</p>
+</blockquote>
+<p>所以，似乎除了reach、achieve和attain，有有的玩儿了？</p>
+<hr>
+<ol start="2">
+<li>Mark</li>
+</ol>
+<p>闲话少说，先看例句。</p>
+<blockquote>
+<p>市场主体总量超过1.5亿户。|<br>
+The total number of market entities supassed the 150-million <strong>mark</strong>.</p>
+</blockquote>
+<p>这里面，mark的用法，值得我们查证。牛津走起来~</p>
+<blockquote>
+<p>level 水平</p>
+</blockquote>
+<blockquote>
+<p><strong>a level or point that sth reaches that is thought to be important （重要的）水平，标准点，指标</strong></p>
+</blockquote>
+<blockquote>
+<p>Unemployment has passed the four million <strong>mark</strong>. 失业人数已突破四百万大关。</p>
+</blockquote>
+<blockquote>
+<p>She was leading at the half-way <strong>mark</strong>. 赛程到一半时是她领先。</p>
+</blockquote>
+<p>引申思考一步，日常做翻译的时候，经常把“水平”视为范畴词省略了。但是，如果在一个句子里，所谓的“水平”存在“<strong>sth reaches that is thought to be important</strong>”的内涵，似乎用一个mark，更凸显准确性。</p>
+<hr>
+<ol start="3">
+<li>in real terms</li>
+</ol>
+<p>这个短语，似乎常见于金融领域，自己很少用。单独摘录，看之后有没有合适的场景。</p>
+<blockquote>
+<p>居民人均可支配收入实际增长8.1%。<br>
+Per capita disposable income increased by 8.1 percent in real terms.</p>
+</blockquote>
+<p>这个短语，麦克米兰给的解释如下：</p>
+<blockquote>
+<p>in real terms <em>phrase</em></p>
+</blockquote>
+<p><strong>after considering all the things that affect the true value of something</strong></p>
+<pre><code>Spending was cut by 4% in real terms.
+
+Thesaurus: **true, definite and based on facts** synonym 
+
+Main entry: real
+</code></pre>
+<hr>
+<ol start="4">
+<li>Reflect on</li>
+</ol>
+<p>这个短语，仅出现一次，但再次凸显了我的肤浅~</p>
+<blockquote>
+<p>回顾过去一年，成绩得来殊为不易。<br>
+Reflecting on the past year, we can see that our achievements did not come easily.</p>
+</blockquote>
+<p>其实这句话，隐隐约约觉得看过好几年了，但一直记不住用。再次摘录，再次提醒自己。下面是牛津例句，常背常新。</p>
+<blockquote>
+<p>★ <strong>[I, T] to think carefully and deeply about sth 认真思考；沉思</strong></p>
+</blockquote>
+<blockquote>
+<p>Before I decide, I need time to reflect. 在作出决定以前，我需要时间认真考虑考虑。</p>
+</blockquote>
+<blockquote>
+<p><strong>~ on/upon sth</strong></p>
+</blockquote>
+<blockquote>
+<p>She was left to reflect on the implications of her decision. 由她来考虑她这个决定会有什么后果。</p>
+</blockquote>
+<blockquote>
+<p><strong>~ that …</strong></p>
+</blockquote>
+<blockquote>
+<p>On the way home he reflected that the interview had gone well. 回家的路上，他琢磨着这次面试非常顺利。</p>
+</blockquote>
+<blockquote>
+<p><strong>~ how, what, etc. …</strong></p>
+</blockquote>
+<blockquote>
+<p>She reflected how different it could have been. 她琢磨着那件事本可以有多大的不同。</p>
+</blockquote>
+<blockquote>
+<p><strong>speech</strong></p>
+</blockquote>
+<blockquote>
+<p>&quot;It could all have been so different,&quot; she reflected. “那件事本可以如此完全不同的。”她思索着。</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年的政府工作报告 输出3]]></title>
+        <id>https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu3</id>
+        <link href="https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu3"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[“放水养鱼”、涵养税源
+help nurture business growth and cultivate sources of tax revenue
+今天的第一个分享，其实不再是短语或者单词的深入探究，而是一个有关于翻译思路的展示。
+...]]></summary>
+        <content type="html"><![CDATA[<p>“放水养鱼”、涵养税源</p>
+<p>help nurture business growth and cultivate sources of tax revenue</p>
+<p>今天的第一个分享，其实不再是短语或者单词的深入探究，而是一个有关于翻译思路的展示。</p>
+<p>这个分享所在的原文如下：</p>
+<blockquote>
+<p>实践表明，减税降费是助企纾困直接有效的办法，实际上也是“放水养鱼”、涵养税源。<br>
+Tax and fee reductions have proved a direct and effective way of helping enterprises ease their difficulties. In reality, they also <strong>help nurture business growth and cultivate sources of tax revenue</strong>.</p>
+</blockquote>
+<p>这里“放水养鱼”的处理，其实就是我们翻译专业老师经常提到的“脱壳”。作为翻译，不仅仅需要把字面意思处理好，更应该深层思考作者、说话人的内含表达。</p>
+<p>当然，这样的内含表达解读，并不容易。其一，原作者有时候是刻意处理，不愿意也不需要译者解读。其二，原作者的理解和译者的理解可能因为知识体系、立场等等不同，而有出入。其三，语言本身存在某些不可译的文化或其他内涵。我随手就可写下上述难点，但做翻译，想要往前走，就得尽力去克服这些种种。（复盘了最近几次CATTI折戟，我发现自己的一个较大的缺陷，也是如此——快速理解内含并保证一定质量的输出水平不足）</p>
+<hr>
+<p>bolster</p>
+<p>政府工作报告不愧是我寻找替代词的天堂~</p>
+<blockquote>
+<p>加强和创新监管，反垄断和防止资本无序扩张，维护公平竞争。<br>
+We <strong>bolstered</strong> regulation and adopted new regulatory approaches, took action against business monopolies, and prevented the unregulated expansion of capital, thus ensuring fair market competition.</p>
+</blockquote>
+<p>牛津走一波：</p>
+<blockquote>
+<p>◙ verb [VN]<br>
+• <strong>~ sth (up) to improve sth or make it stronger</strong><br>
+• 改善；加强:</p>
+</blockquote>
+<p>»to bolster sb's confidence / courage / morale</p>
+<p>增加某人的信心/勇气/士气</p>
+<p>»Falling interest rates may help to bolster up the economy.</p>
+<p>利率下降可能有助于激活经济。</p>
+<p>你以为就这？这就完了？居然还让我发现了垫枕的处理。</p>
+<blockquote>
+<p>◙ noun<br>
+• a <strong>long thick pillow</strong> that is placed across the top of a bed under the other pillows<br>
+• 垫枕(长而厚)</p>
+</blockquote>
+<p>啥？你不知道垫枕是啥？试试去amazon.com（英文版）搜一下Bolster呢~</p>
+<hr>
+<p>seat</p>
+<p>啥？seat还需要总结？emm，咱们来看下例句先~</p>
+<blockquote>
+<p>推进以县城为重要载体的城镇化建设。<br>
+Urbanization with the focus on county <strong>seats</strong> was promoted.</p>
+</blockquote>
+<p>Seat在这里，其实就是个熟词僻义。</p>
+<p>›› town / city 城镇；市</p>
+<p><strong>~ of sth (formal)</strong> a place where people are involved in a particular activity, especially a city that has a university or the offices of a government</p>
+<p>• (尤指大学或政府机关)所在地；中心:</p>
+<p>»Washington is the seat of government of the US.<br>
+华盛顿是美国政府所在地。</p>
+<p>»a university town renowned as a seat of learning.<br>
+有学术重镇之称的大学城</p>
+<p>今天就先到这儿啦~明儿大概率得加班，连更梦怕是要碎了，争取周末再来两发~emm~一发保底吧~嗯~晚安了各位</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年的政府工作报告 输出1]]></title>
+        <id>https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu1</id>
+        <link href="https://airmedtrans.com/2022-nian-de-zheng-fu-gong-zuo-bao-gao-shu-chu1"/>
+        <updated>2022-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2022年的政府工作报告，中英对照，先视译，然后拜读了一遍。发现，年复一年，质量依旧稳定。以下内容，是我从自己246条脚注中，摘出的一些比较有意思的内容。
+这是第一期，量少易吸收（为了增加更新频率，只有降低输出量这一个黔驴技穷般的办法了）。...]]></summary>
+        <content type="html"><![CDATA[<p>2022年的政府工作报告，中英对照，先视译，然后拜读了一遍。发现，年复一年，质量依旧稳定。以下内容，是我从自己246条脚注中，摘出的一些比较有意思的内容。</p>
+<p>这是第一期，量少易吸收（为了增加更新频率，只有降低输出量这一个黔驴技穷般的办法了）。</p>
+<p><strong>1.如期</strong></p>
+<p>关于“<strong>如期</strong>”，全文一共出现了2次。</p>
+<blockquote>
+<p>如期打赢脱贫攻坚战 We declared victory in the critical battle against poverty <strong>as envisaged</strong>.</p>
+</blockquote>
+<blockquote>
+<p>如期全面建成小康社会 We achieved the first centenary goal of building a moderately prosperous society in all respects <strong>on schedule</strong>.</p>
+</blockquote>
+<p>后者常见姑且放过，而前者，似乎可以再研究研究。</p>
+<p><strong>envisage</strong></p>
+<p>参考牛津第八版</p>
+<blockquote>
+<p><strong>to imagine what will happen in the future 想像；设想；展望</strong></p>
+</blockquote>
+<blockquote>
+<p><strong>~ sth</strong> What level of profit do you envisage? 你预计会有什么样的利润水平？</p>
+</blockquote>
+<blockquote>
+<p><strong>~ (sb) doing sth</strong> I can't envisage her coping with this job. 我无法设想她如何应付这个工作。</p>
+</blockquote>
+<blockquote>
+<p><strong>it is envisaged that …</strong> It is envisaged that the talks will take place in the spring. 谈判预期在春季举行。</p>
+</blockquote>
+<blockquote>
+<p><strong>~ that …</strong> I envisage that the work will be completed next year. 我预计这项工作将在明年完成。</p>
+</blockquote>
+<blockquote>
+<p><strong>~ how, where, etc. …</strong> It is difficult to envisage how people will react. 很难设想人们将有什么反应。</p>
+</blockquote>
+<p>常见的其他表达学习之后，以后用词再上一个台阶。（~ (sb) doing sth 似乎更值得熟读并背诵）</p>
+<p><strong>2.国内外</strong></p>
+<p>这是一个常见表达，关键不是如何翻译，而是能搞出几个版本。全文出现3次，译文给了2个版本。</p>
+<blockquote>
+<p>一年来，面对复杂严峻的国内外形势和诸多风险挑战 Last year, facing complicated and challenging circumstances <strong>both in and outside of China</strong></p>
+</blockquote>
+<blockquote>
+<p>国内外形势又出现很多新变化... many new changes occurred <strong>in and outside of China</strong>...</p>
+</blockquote>
+<blockquote>
+<p>综合研判国内外形势，今年我国发展面临的风险挑战明显增多，必须爬坡过坎。A comprehensive analysis of evolving dynamics <strong>at home and abroad</strong> indicates that this year our country will encounter many more risks and challenges, and we must keep pushing to overcome them</p>
+</blockquote>
+<p>at home and abroad，似乎更为常见，那么in and outside of China，偶尔也可以做同义替换了。</p>
+<p><strong>3.stand</strong></p>
+<p>这个词，我们最常见的解释是“站立”。但在报告中，可能就没法儿用这个释义解释了。</p>
+<blockquote>
+<p>城镇新增就业1269万人，城镇调查失业率平均为5.1%。A total of 12.69 million urban jobs were added, and the average surveyed unemployment rate <strong>stood</strong> at 5.1 percent.</p>
+</blockquote>
+<p>可能不少小学上课就开始的“stand up, good morning teacher~”让人难忘终生。但这个词，其实还有很多含义。这里先再学其中之一。照例打开牛津。</p>
+<blockquote>
+<p><strong>be at height/level 高度；水平</strong></p>
+</blockquote>
+<blockquote>
+<p>[I] + noun (not used in the progressive tenses 不用于进行时) to be a particular height <strong>高度为；高达</strong><br>
+The tower stands 30 metres high. 塔高 30 米。</p>
+</blockquote>
+<blockquote>
+<p>[I] ~ at sth to be at a particular level, amount, height, etc.<strong>达特定水平（或数量、高度等）</strong><br>
+Interest rates stand at 3%. 利率为 3%。<br>
+The world record then stood at 6.59 metres. 当时的世界纪录是 6.59 米。</p>
+</blockquote>
+<p>其他意思还有很多，例如</p>
+<blockquote>
+<p>The train standing at platform 3 is for London, Victoria. 停在第 3 站台的火车开往伦敦维多利亚站。</p>
+</blockquote>
+<blockquote>
+<p>The world record stood for 20 years. 那项世界纪录 20 年未被打破。</p>
+</blockquote>
+<blockquote>
+<p>I can't stand people interrupting all the time. 我不能容忍老有人打岔。</p>
+</blockquote>
+<blockquote>
+<p>She was kind enough to stand us a meal. 她真好，请我们吃了饭。</p>
+</blockquote>
+<p>...</p>
+<p>更多的表达，不如随手打开本词典，刷着玩儿玩儿？</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trados Q&A 4]]></title>
+        <id>https://airmedtrans.com/trados-qanda-4</id>
+        <link href="https://airmedtrans.com/trados-qanda-4"/>
+        <updated>2022-01-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我的A客户的WO1项目中，为什么有非A客户的记忆库和术语库？是直接遵循么？
+
+由于该客户没有语言资产积累（WO1，即客户的第一个订单），为了提升译文质量，项目经理会基于项目实际情况，寻找并放置部分既往相关术语库、记忆库供语言人员参考。
+术语...]]></summary>
+        <content type="html"><![CDATA[<p>我的A客户的WO1项目中，为什么有非A客户的记忆库和术语库？是直接遵循么？</p>
+<ol>
+<li>由于该客户没有语言资产积累（WO1，即客户的第一个订单），为了提升译文质量，项目经理会基于项目实际情况，寻找并放置部分既往相关术语库、记忆库供语言人员参考。</li>
+<li>术语库、记忆库本身，大体都是人工录入、审核，故不排除录入错误；同时，由于术语库、记忆库的内容，均基于提交术语、完成术语当时语境。故，不一定完全适用于任意翻译内容。</li>
+<li>一般而言，同一客户的一个项目内，应至少包含1个项目术语库以及1个项目记忆库。同时，上述术语库与记忆库的名称均包含该客户简称。如果在加载文件包后，未见上述内容，应及时与相关项目经理联系确认。</li>
+<li>不论是记忆库还是术语库，优先遵循客户确认的内容（实际是否绝对遵循，取决于语境以及语言质量），其次遵循针对客户的内部统一内容，再次遵循行业内其他内容。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trados Q&A 3]]></title>
+        <id>https://airmedtrans.com/trados-qanda</id>
+        <link href="https://airmedtrans.com/trados-qanda"/>
+        <updated>2021-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[回答：Trados默认更正两个首字母大写，可按下图修改设置。
+
+
+不打勾，则不替换。
+...]]></summary>
+        <content type="html"><![CDATA[<p>回答：Trados默认更正两个首字母大写，可按下图修改设置。<br>
+<img src="https://static.gridea.dev/314859563171971650/Bf-uLG3Xw.png" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/JnBoN3-5N.png" alt="" loading="lazy"><br>
+不打勾，则不替换。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trados Q&A 1]]></title>
+        <id>https://airmedtrans.com/trados-qanda-1</id>
+        <link href="https://airmedtrans.com/trados-qanda-1"/>
+        <updated>2021-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[回答：每个Trados版本都需要单独设置，如下图：
+
+
+
+
+
+
+将最后一个图的Curtis（或空白、或其他名称）改为你自己的名字即可。
+...]]></summary>
+        <content type="html"><![CDATA[<p>回答：每个Trados版本都需要单独设置，如下图：<br>
+<img src="https://static.gridea.dev/314859563171971650/obEo3qalg.png" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/fCn_WOYyD.png" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/AEUlstymJ.jpg" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/VdPlXaWCW.png" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/N124dGUYn.jpg" alt="" loading="lazy"><br>
+<img src="https://static.gridea.dev/314859563171971650/NfiW_Hteo.png" alt="" loading="lazy"></p>
+<p>将最后一个图的Curtis（或空白、或其他名称）改为你自己的名字即可。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国女王气候峰会演讲学习]]></title>
+        <id>https://airmedtrans.com/queen's speech 1</id>
+        <link href="https://airmedtrans.com/queen's speech 1"/>
+        <updated>2021-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thank you, Prime Minister Holness, for your kind words of introduction.
+I am delighted to welcome you all to the 26th Un...]]></summary>
+        <content type="html"><![CDATA[<p>Thank you, Prime Minister Holness, for your kind words of introduction.</p>
+<p>I am delighted to welcome you all to the 26th United Nations Climate Change Conference; and it is perhaps fitting that you have come together in Glasgow, <strong>once a heartland</strong> of the industrial revolution, but now a place to address climate change.</p>
+<p>This is a duty I am especially happy to <strong>discharge</strong>, as the impact of the environment on human progress was <strong>a subject close to the heart of</strong> my dear late husband, Prince Philip, The Duke of Edinburgh.</p>
+<p>I remember well that in 1969, he told an academic gathering:</p>
+<p>&quot;If the world pollution situation is not critical at the moment, it is as certain as anything can be, that the situation will become increasingly intolerable within a very short time … If we fail to cope with this challenge, all the other problems will <strong>pale</strong> into insignificance.&quot;</p>
+<p>It is a source of great pride to me that the leading role my husband played in encouraging people to protect our fragile planet, lives on through the work of our eldest son Charles and his eldest son William. I could not be more proud of them.</p>
+<p>Indeed, I have drawn great comfort and inspiration from the relentless enthusiasm of people of all ages – especially the young – in calling for everyone to <strong>play their part</strong>.</p>
+<p>In the <strong>coming</strong> days, the world has the chance to join in the shared objective of creating a safer, stabler future for our people and for the planet on which we depend.</p>
+<p>None of us underestimates the challenges ahead: but history has shown that when nations come together in common cause, there is always room for hope. Working side by side, we have the ability to solve the most <strong>insurmountable</strong> problems and to <strong>triumph over</strong> the greatest of adversities.</p>
+<p>For more than seventy years, I have been lucky to meet and to know many of the world's great leaders. And I have perhaps come to understand a little about what made them special.</p>
+<p>It has sometimes been observed that what leaders do for their people today is government and politics. But what they do for the people of tomorrow — that is statesmanship.</p>
+<p>I, for one, hope that this conference will be one of those rare occasions where everyone will have the chance to rise above the politics of the moment, and achieve true statesmanship.</p>
+<p>It is the hope of many that the legacy of this summit – <strong>written in history books yet to be printed</strong> – will describe you as the leaders who did not <strong>pass up</strong> the opportunity; and that you answered the call of those future generations. That you left this conference as a community of nations with <strong>a determination, a desire, and a plan</strong>, to address the impact of climate change; and to recognise that the time for words has now moved to the time for action.</p>
+<p>Of course, the benefits of such actions will not be there to enjoy for all of us here today: we none of us will live forever. But we are doing this not for ourselves but for our children and our children's children, and those who will follow in their footsteps.</p>
+<p>And so, I wish you every good fortune in this significant endeavour.</p>
+<pre><code class="language-text">heartland    
+  1. the central part of a country or an area （国家或地区的）腹地，中心区域
+  2. an area that is important for a particular activity or political party （活动或政党的）重要场所，核心区域
+
+</code></pre>
+<pre><code class="language-text">duty职责
+5.[T] ~sth to do everything that is necessary to perform and complete a particular duty尽(职) ； 完成；履行
+·to discharge your duties/responsibilities/obligations履行职责/责任/义务
+·to discharge a debt(=to pay it) 清偿债务
+</code></pre>
+<pre><code class="language-text">gathering noun
+1.[C] a meeting of people for a particular purpose
+聚集；聚会；集会
+*a social/family gathering社交/家庭聚会
+a gathering of religious leaders宗教领袖的集会
+</code></pre>
+<pre><code class="language-text">'pale beside/next to sth**|**'pale in/by comparison(with/to sth) **|**'**pale into insignificance** 
+to seemless important when compared with sth else相形见绌； 显得逊色
+·Last yea's riots pale in comparison with this latest outburst of violence.去年的骚乱与最近这次暴乱相比，可说是小巫见大巫。
+</code></pre>
+<pre><code class="language-text">**play one's part** perform an assigned or expected function (in).
+</code></pre>
+<pre><code class="language-text">**coming **adjective [only before noun]
+happening soon； next即将发生的；；下一个的
+·in the **coming** months在随后的几个月里
+·This **coming** Sunday is her birthday.下个星期天是她的生日。
+</code></pre>
+<pre><code class="language-text">close to one's heart 含义是 “为…… 所重视 / 关注”，要表达 “某人对某话题 / 事件很重视”，我们可以借鉴句子中的表达 XX is a subject close to the heart of somebody，比如：
+The government has introduced a number of stringent laws to curb pollution, as environmental protection is **a subject close to the heart of** the public. 
+</code></pre>
+<pre><code class="language-text">I, for one,… 是一个固定句式，意思相当于 “就我个人而言……”
+</code></pre>
+<pre><code class="language-text">&quot;the time for words has now moved to the time for action&quot; 可以理解为 “光有承诺的时代已经过去了，现在要开始行动起来”，这一表达可以应用到话题写作中
+比如：The time for words has now moved to the time for action, and we should play our part to protect the planet. 
+</code></pre>
+<p>部分摘自微信公众号</p>
+<p><a href="https://mp.weixin.qq.com/s/rzXD8Fy5N9EENkpWDMzRZQ">https://mp.weixin.qq.com/s/rzXD8Fy5N9EENkpWDMzRZQ</a></p>
+]]></content>
+    </entry>
+</feed>

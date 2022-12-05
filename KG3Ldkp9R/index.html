@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" style="--theme-color: #262626; --link-color: #262626;">
+<head>
+  <meta charset="UTF-8">
+  <title>Python 的第一次成功应用 - 王楠鑫|Curtis_一个医学译者的前后左右</title>
+
+  <link rel="icon" href="">
+<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+<link rel="alternate" type="application/atom+xml" title="王楠鑫|Curtis_一个医学译者的前后左右 - Atom Feed" href="https://airmedtrans.com/atom.xml">
+
+  
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCRR8Q57W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script> -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-182385326-1');
+    ga('set', 'dimension1', 'site/cbS9tMKNT');
+    ga('set', 'dimension2', 'post/IhKQmC2xG');
+    ga('send', 'pageview');
+    // gtag('set', {
+    //   'custom_map': {
+    //     'dimension1': 'siteId',
+    //     'dimension2': 'postId',
+    //   }
+    // })
+
+    // gtag('config', 'G-NFCRR8Q57W', {
+    //   'siteId': 'site/cbS9tMKNT',
+    //   'postId': 'post/IhKQmC2xG',
+    // });
+  </script>
+
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Python 的第一次成功应用
+
+生活远远不止是翻译。因为对技术的无限制崇拜，自己也研究了些许编程语言。接触 Python 大约是一年前，不过也仅仅是学了学基础的概念，做了些课堂即可完成的小项目（比如设定一个 random 参数，然后自娱自...">
+
+  <meta property="og:title" content="Python 的第一次成功应用 - 王楠鑫|Curtis_一个医学译者的前后左右">
+  <meta property="og:description" content="Python 的第一次成功应用
+
+生活远远不止是翻译。因为对技术的无限制崇拜，自己也研究了些许编程语言。接触 Python 大约是一年前，不过也仅仅是学了学基础的概念，做了些课堂即可完成的小项目（比如设定一个 random 参数，然后自娱自...">
+  
+  <meta property="og:url" content="https://airmedtrans.com/KG3Ldkp9R/">
+  <meta property="og:site_name" content="王楠鑫|Curtis_一个医学译者的前后左右">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="Python 的第一次成功应用">
+
+  <meta name="gridea:post_id" content="IhKQmC2xG">
+
+  <link rel="canonical" href="https://airmedtrans.com/KG3Ldkp9R">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/a11y-light.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/css/main.css">
+
+</head>
+<body>
+  
+    
+  
+  <div id="page">
+    <div class="mb-16 sticky top-0 z-20 bg-white">
+  <header class="py-4 flex items-baseline justify-between max-w-2xl mx-auto px-2">
+    <h1 class="text-lg text-center font-medium px-4 md:px-0 flex items-center">
+      <div class="site-logo-text font-normal">王</div>
+      <a href="/">王楠鑫|Curtis_一个医学译者的前后左右</a>
+    </h1>
+    <div class="hidden sm:flex justify-center">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+        
+          <span class="text-gray-200">/</span>
+        
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+        
+      
+    </div>
+    <div class="flex sm:hidden py-2 px-4 text-center cursor-pointer" @click="openMenu = true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+    </div>
+  </header>
+
+  <div class="fixed top-0 right-0 bottom-0 left-0 bg-white hidden" :style="{
+    display: openMenu ? 'block !important' : 'none',
+  }" v-if="openMenu">
+    <div class="py-4 px-2 flex justify-end" @click="openMenu = false">
+      <div class="flex py-2 px-4 text-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+      </div>
+    </div>
+    <div class="flex flex-col p-4">
+      
+        
+        <a
+          href="https://airmedtrans.com/aboutme"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >关于我</a>
+      
+        
+        <a
+          href="https://airmedtrans.com/contact me"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          target="_blank"
+        >联系我</a>
+      
+    </div>
+  </div>
+</div>
+    <div class="border-b border-gray-200">
+      <div class="max-w-2xl mx-auto px-6 md:px-2">
+        <div class="my-24 text-center">
+          <h1 class="text-2xl font-bold">Python 的第一次成功应用</h1>
+          <div class="post-title-bar mx-auto rounded mt-4"></div>
+          <div class="text-gray-400 mt-4">2020.10.15</div>
+          <div class="flex justify-center mt-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-bar" class="w-full sticky top-0 z-10 bg-white" style="height: 64px;"></div>
+    <div class="p-4 md:p-16 bg-white">
+      <div class="max-w-2xl mx-auto px-4 flex relative">
+        <section class="post-content flex-1 default-post-content max-w-2xl">
+          <div v-pre>
+            <p>Python 的第一次成功应用</p>
+<!--more-->
+<p>生活远远不止是翻译。因为对技术的无限制崇拜，自己也研究了些许编程语言。接触 Python 大约是一年前，不过也仅仅是学了学基础的概念，做了些课堂即可完成的小项目（比如设定一个 random 参数，然后自娱自乐之类的）。之后，或许是学业上的压力（主要是指论文），或许是觉得性价比不高（目的性太弱），自己对于 Python 其实一直没有太过于重视，其地位大约就相当于一个伪足球爱好者眼中的欧冠一样——虽然我知道这东西很牛，但是要让我凌晨三点起床看球，难度不小（09 年之前的我，或许凭借热情，还可以做到）。至于 Python 的自动化办公处理以及爬虫等等，只远观，未实操。</p>
+<p>不过转念一想，似乎通过对 Python 的学习，自己对于计算机的理解却在逐渐加深。</p>
+<p>大约是第二次实习的时候，迫于实习要求，需要每天下载 500 篇文献，交给上级...（这个实习单位的弯弯肠子，嗯，不提也罢）</p>
+<p>第一天我老老实实地复制名字、下载，保存和重命名....大约用了 6 个小时；同期实习的另一位小伙伴大概比我时间久些。</p>
+<p>第二天，大概下载了 100 篇之后，我觉得我的生命正在被这种毫无价值（于我而言）的事情蹉跎。即便我熟练度再高，也不过是节约个把小时，我不甘心。</p>
+<p>然后我就没有下载了，转身去找别人的代码，然后自己改改，尝试自动化处理。</p>
+<p>当然了，由于自己没有太多的代码基础，最后，大约也只是实现了 1-2 分钟下载一篇的功能（不得不说，论文下载网站，比如 CxxI，他们对我这级别的小打小闹，毫不在意）...由于每天工作 8 小时，每次自动化下载，按最快速度，也就是 480 篇。最终 Python 并没有完全帮到我——当然了，也减轻了我的负担——比如我在吃饭的时候，还是可以跑一跑的...）</p>
+<p>之后，就忙着写论文，做翻译实践，似乎 Python 再次离我远去了...</p>
+<p>今天，似乎又有了些许转机。花花的大姐因为工作需要，不得不下载主流视频网站的视频。然而因为视频商的各种保护措施，都很难实现视频的完全下载（即完整视频、通用格式）。</p>
+<p>一开始，我尝试了所谓的缓存法（F12-审查元素），发现非程序员但不惧怕看代码的我，都嫌弃其步骤的琐碎。后来又跟着官方教程，下载视频程序，却发现下载的视频，是别人的独有格式，无法实现通用播放。</p>
+<p>是时候展现真正的技术了！</p>
+<p><strong>搜索能力先行</strong></p>
+<p>首先，我测试了脚本法（油猴和 Chrome 自带的应用），全军覆没。</p>
+<p>然后，我找到了 http://www.downfi.com/video/ ，一个小视频下载网站。暂时可以解决问题。不过，经测试，有些视频查不到，且无法下载长视频。</p>
+<p>我的心中，突然出现一句话：“<strong>要不，试试 Python 吧</strong>，毕竟爬虫界的 No.1。”</p>
+<p>搜索之后，发现有一个 you-get 的工具，似乎符合我的要求。</p>
+<p>立马打开我的 Visual Studio Code，pip3 install you-get，然后按照教程，you-get (url)。</p>
+<p>我的天啊！</p>
+<p><img src="C:%5CUsers%5Csteve%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1560915451697.png" alt="1560915451697" loading="lazy"></p>
+<p>连自动合并都帮我处理好了。我的 Python 之旅，似乎才刚刚开始。</p>
+<p>作者简介：</p>
+<p><strong>英语专业八级</strong></p>
+<p><strong>人事部三级、二级英语笔译资格证书持证</strong></p>
+<p><strong>人事部三级英语口译资格证书持证</strong></p>
+<p>四川外国语大学成都学院翻译系英语（翻译方向）专业</p>
+<p>重庆医科大学外国语学院英语笔译专业</p>
+<p>文思海辉技术有限公司    QQ音乐歌词翻译（全职，2014年年度优秀新人）</p>
+<p>重庆润泽医药有限公司    医学翻译实习生（翻译、数据整理）</p>
+<p>成都创思立信信息技术有限公司 医学翻译实习生（翻译、校对）；<strong>医学翻译、校对、导师、项目经理</strong></p>
+<p>曾多次为凤凰科技，解放军某高校，成都某化妆品公司提供翻译服务</p>
+<p>工作邮箱：wnxcn@foxmail.com</p>
+
+          </div>
+          <div class="py-4 text-gray-600 flex items-center justify-between">
+            <div class="">
+              <div class="text-sm text-gray-300">最后更新于: </div>
+              <div class="text-base font-medium">2020.10.15</div>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <i class="ri-eye-line"></i> <span class="ml-2">{{ views }}</span>
+            </div> -->
+          </div>
+          <div>
+            <div id="disqus_thread"></div>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+    <div class="py-8 text-gray-300 text-center border-t border-gray-200">
+  Powered by Gridea
+</div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+    <script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://airmedtrans-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+  
+  
+    
+  
+</body>
+</html>
